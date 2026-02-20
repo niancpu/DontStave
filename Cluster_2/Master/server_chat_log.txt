@@ -1,0 +1,6 @@
+[00:01:15]: [Join Announcement] nian
+[00:02:11]: [Join Announcement] 恰一点柠檬
+[00:29:58]: [Death Announcement] 恰一点柠檬 死于： 水獭掠夺者。他变成了可怕的鬼魂！
+[00:32:37]: [Resurrect Announcement] 恰一点柠檬 复活自： 绚丽之门.
+[00:34:03]: [Leave Announcement] nian
+[00:34:04]: [Leave Announcement] 恰一点柠檬

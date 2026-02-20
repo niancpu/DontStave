@@ -1,0 +1,473 @@
+[00:00:00]: 
+System Memory:
+	Memory Load: 81%
+	Available Physical Memory: 2925m/16087m
+	Available Page File: 40565m/65239m
+	Available Virtual Memory: 134213475m/134217727m
+	Available Extended Virtual Memory: 0m
+[00:00:00]: 
+Process Memory:
+	Peak Working Set Size: 34m
+	Working Set Size: 34m
+	Quota Peak Page Pool Usage: 226k
+	Quota Page Pool Usage: 223k
+	Quota Peak Non Paged Pool Usage:17k
+	Quota Non Paged Pool Usage: 14k
+	Page File Usage: 5m
+	Peak Page File Usage: 5m
+[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogether/1668949407/Cluster_2/Caves/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 713564
+[00:00:00]: Current time: Fri Feb 20 21:10:01 2026
+
+[00:00:00]: Don't Starve Together: 713564 WIN32
+[00:00:00]: Build Date: 3947
+[00:00:00]: Mode: 64-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -monitor_parent_process 5232 -persistent_storage_root APP:Klei/ -conf_dir DoNotStarveTogether -cluster Cluster_2 -ownernetid 76561199629215135 -ownerdir 1668949407 -clouddir 1668949407 -backup_log_count 25 -backup_log_period 0 -shard Caves -secondary_log_prefix caves -sigprefix DST_Secondary -token *********************************************************************************** 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: Initializing Minidump handler
+[00:00:00]: ....Done
+[00:00:00]: ....Done
+[00:00:00]: Fixing DPI
+[00:00:00]: ...Done
+[00:00:00]: THREAD - started 'GAClient' (27752)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: ProfileIndex:0.45
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: [Steam] SteamGameServer_Init(10998, 27017)
+[00:00:01]: [Steam] SteamGameServer_Init success
+[00:00:01]: [Connect] PendingConnection::Reset(true)
+[00:00:01]: Platform: 1
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: Authorized application D:\steam\steamapps\common\Don't Starve Together\bin64\dontstarve_dedicated_server_nullrenderer_x64.exe is enabled in the firewall.
+[00:00:01]: WindowsFirewall - Application already authorized
+[00:00:01]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/1668949407/client_save/blocklist.txt (Failure)
+[00:00:01]: THREAD - started 'StreamInput' (3500)
+[00:00:01]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/1668949407/client_save/adminlist.txt (Failure)
+[00:00:01]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/1668949407/client_save/whitelist.txt (Failure)
+[00:00:01]: Offline user ID: OU_76561199629215135
+[00:00:01]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 11 专业版
+    version                   10.0.26100
+    platformSpecific          SP 0.0
+    architecture              64 位
+  CPU                       
+    clockSpeed                2200
+    name                      Intel(R) Core(TM) i7-14650HX
+    manufacturer              GenuineIntel
+    numCores                  16
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+  RAM                       
+    megsOfRam                 16384
+  GPU                       
+    megsOfRam                 2047
+    videoModeDescription      2560 x 1600 x 4294967296 种颜色
+    name                      Intel(R) UHD Graphics
+    driverVersion             32.0.101.7040
+    driverDate                20250919000000.000000-000
+    refreshRate               240
+
+[00:00:01]: cGame::InitializeOnMainThread
+[00:00:01]: Renderer initialize: Okay
+[00:00:01]: AnimManager initialize: Okay
+[00:00:01]: Buffers initialize: Okay
+[00:00:01]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:01]: GameSpecific initialize: Okay
+[00:00:01]: cGame::StartPlaying
+[00:00:01]: AppVersion::GetArchitecture() x64
+[00:00:01]: LOADING LUA
+[00:00:01]: DoLuaFile scripts/main.lua
+[00:00:01]: DoLuaFile loading buffer scripts/main.lua
+[00:00:01]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:00:02]:   taskgrouplist:	default	联机版	
+[00:00:02]:   taskgrouplist:	classic	经典	
+[00:00:02]:   taskgrouplist:	cave_default	地下	
+[00:00:02]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:02]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:02]: Running main.lua
+	
+[00:00:02]: loaded modindex	
+[00:00:02]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:02]: SUCCESS: Loaded modoverrides.lua	
+[00:00:02]: Registering Mods:
+[00:00:02]: No mods registered
+[00:00:02]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:03]: LOADING LUA SUCCESS
+[00:00:03]: PlayerDeaths could not load morgue	
+[00:00:03]: PlayerHistory could not load player_history	
+[00:00:03]: ServerPreferences could not load server_preferences	
+[00:00:03]: ConsoleScreenSettings could not load consolescreen	
+[00:00:03]: bloom_enabled	true	
+[00:00:03]: OnFilesLoaded()	
+[00:00:03]: OnUpdatePurchaseStateComplete	
+[00:00:03]: Klump load on boot started.	
+[00:00:03]: Klump files loaded: 	0	
+[00:00:05]: 	Load FE	
+[00:00:05]: 	Load FE: done	
+[00:00:05]: THREAD - started 'FilesExistAsyncThread' (26848)
+[00:00:05]: FilesExistAsyncThread started (0 files)...
+[00:00:05]: ... FilesExistAsyncThread complete
+[00:00:05]: Check for write access: TRUE
+[00:00:05]: Check for read access: TRUE
+[00:00:05]: Available disk space for save files: 58062 MB
+[00:00:05]: ModIndex: Load sequence finished successfully.	
+[00:00:05]: Reset() returning
+[00:00:05]: [IPC] Signal 'DST_Secondary_Kill' opened  #0000000000000984
+[00:00:05]: [IPC] Registering handler for signal #0000000000000984
+[00:00:05]: [IPC] Handle #0000000000000984 added to the Eventhandles
+[00:00:05]: [IPC] Signal 'DST_Secondary_ShutdownNoSave' opened  #00000000000009A4
+[00:00:05]: [IPC] Registering handler for signal #00000000000009A4
+[00:00:05]: [IPC] Handle #00000000000009A4 added to the Eventhandles
+[00:00:05]: [IPC] Signal 'DST_Secondary_Starting' opened  #00000000000009A8
+[00:00:05]: [IPC] Sending signal... #00000000000009A8
+[00:00:07]: [200] Account Communication Success (6)
+[00:00:07]: Cached userid (null) saved to APP:Klei//DoNotStarveTogether/1668949407/Cluster_2/Caves/save/cached_userid
+[00:00:07]: Received (KU_BgG4ffIp) from TokenPurpose
+[00:00:07]: Starting Dedicated Server Game	
+[00:00:07]: Network tick rate: U=15(2), D=0
+[00:00:07]: About to start a server with the following settings:
+[00:00:07]:   Dedicated: true
+[00:00:07]:   Online: true
+[00:00:07]:   Passworded: true
+[00:00:07]:   ServerPort: 10998
+[00:00:07]:   SteamAuthPort: 8767
+[00:00:07]:   SteamMasterServerPort: 27017
+[00:00:07]:   ClanID: false
+[00:00:07]:   ClanOnly: false
+[00:00:07]:   ClanAdmin: false
+[00:00:07]:   LanOnly: false
+[00:00:07]:   FriendsOnly: false
+[00:00:07]:   EnableAutosaver: true
+[00:00:07]:   EncodeUserPath: true
+[00:00:07]:   PVP: false
+[00:00:07]:   MaxPlayers: 6
+[00:00:07]:   GameMode: survival
+[00:00:07]:   OverridenDNS: 
+[00:00:07]:   PauseWhenEmpty: true
+[00:00:07]:   IdleTimeout: 1800s
+[00:00:07]:   VoteEnabled: false
+[00:00:07]:   InternetBroadcasting: true
+[00:00:07]: [Warning] Could not confirm port 10998 is open in the firewall. 
+[00:00:07]: Online Server Started on port: 10998
+[00:00:07]: SUCCESS: Loaded modoverrides.lua	
+[00:00:07]: Found a level data override file with these contents:	
+[00:00:07]: 	K: 	background_node_range	 V: 	table: 000000001BE030D0	
+[00:00:07]: 		K: 	1	 V: 	0	
+[00:00:07]: 		K: 	2	 V: 	1	
+[00:00:07]: 	K: 	desc	 V: 	探查洞穴…… 一起！	
+[00:00:07]: 	K: 	hideminimap	 V: 	false	
+[00:00:07]: 	K: 	id	 V: 	DST_CAVE	
+[00:00:07]: 	K: 	location	 V: 	cave	
+[00:00:07]: 	K: 	max_playlist_position	 V: 	999	
+[00:00:07]: 	K: 	min_playlist_position	 V: 	0	
+[00:00:07]: 	K: 	name	 V: 	洞穴	
+[00:00:07]: 	K: 	numrandom_set_pieces	 V: 	0	
+[00:00:07]: 	K: 	override_level_string	 V: 	false	
+[00:00:07]: 	K: 	overrides	 V: 	table: 000000001BE02A40	
+[00:00:07]: 		K: 	acidrain_enabled	 V: 	always	
+[00:00:07]: 		K: 	atriumgate	 V: 	default	
+[00:00:07]: 		K: 	banana	 V: 	default	
+[00:00:07]: 		K: 	basicresource_regrowth	 V: 	always	
+[00:00:07]: 		K: 	bats	 V: 	default	
+[00:00:07]: 		K: 	bats_setting	 V: 	default	
+[00:00:07]: 		K: 	beefaloheat	 V: 	default	
+[00:00:07]: 		K: 	berrybush	 V: 	default	
+[00:00:07]: 		K: 	boons	 V: 	default	
+[00:00:07]: 		K: 	branching	 V: 	default	
+[00:00:07]: 		K: 	brightmarecreatures	 V: 	default	
+[00:00:07]: 		K: 	bunnymen	 V: 	default	
+[00:00:07]: 		K: 	bunnymen_setting	 V: 	default	
+[00:00:07]: 		K: 	cave_ponds	 V: 	default	
+[00:00:07]: 		K: 	cave_spiders	 V: 	default	
+[00:00:07]: 		K: 	cavelight	 V: 	default	
+[00:00:07]: 		K: 	chess	 V: 	default	
+[00:00:07]: 		K: 	chest_mimics	 V: 	default	
+[00:00:07]: 		K: 	crow_carnival	 V: 	default	
+[00:00:07]: 		K: 	darkness	 V: 	default	
+[00:00:07]: 		K: 	day	 V: 	default	
+[00:00:07]: 		K: 	daywalker	 V: 	default	
+[00:00:07]: 		K: 	dropeverythingondespawn	 V: 	default	
+[00:00:07]: 		K: 	dustmoths	 V: 	default	
+[00:00:07]: 		K: 	earthquakes	 V: 	default	
+[00:00:07]: 		K: 	evergreen_regrowth	 V: 	default	
+[00:00:07]: 		K: 	extrastartingitems	 V: 	default	
+[00:00:07]: 		K: 	fern	 V: 	default	
+[00:00:07]: 		K: 	fissure	 V: 	default	
+[00:00:07]: 		K: 	flint	 V: 	default	
+[00:00:07]: 		K: 	flower_cave	 V: 	default	
+[00:00:07]: 		K: 	flower_cave_regrowth	 V: 	default	
+[00:00:07]: 		K: 	fruitfly	 V: 	default	
+[00:00:07]: 		K: 	ghostenabled	 V: 	always	
+[00:00:07]: 		K: 	ghostsanitydrain	 V: 	none	
+[00:00:07]: 		K: 	grass	 V: 	default	
+[00:00:07]: 		K: 	grassgekkos	 V: 	default	
+[00:00:07]: 		K: 	hallowed_nights	 V: 	default	
+[00:00:07]: 		K: 	healthpenalty	 V: 	always	
+[00:00:07]: 		K: 	hunger	 V: 	default	
+[00:00:07]: 		K: 	itemmimics	 V: 	default	
+[00:00:07]: 		K: 	krampus	 V: 	default	
+[00:00:07]: 		K: 	layout_mode	 V: 	RestrictNodesByKey	
+[00:00:07]: 		K: 	lessdamagetaken	 V: 	none	
+[00:00:07]: 		K: 	lichen	 V: 	default	
+[00:00:07]: 		K: 	liefs	 V: 	default	
+[00:00:07]: 		K: 	lightflier_flower_regrowth	 V: 	default	
+[00:00:07]: 		K: 	lightfliers	 V: 	default	
+[00:00:07]: 		K: 	loop	 V: 	default	
+[00:00:07]: 		K: 	marshbush	 V: 	default	
+[00:00:07]: 		K: 	merms	 V: 	default	
+[00:00:07]: 		K: 	molebats	 V: 	default	
+[00:00:07]: 		K: 	moles_setting	 V: 	default	
+[00:00:07]: 		K: 	monkey	 V: 	default	
+[00:00:07]: 		K: 	monkey_setting	 V: 	default	
+[00:00:07]: 		K: 	moon_spider	 V: 	default	
+[00:00:07]: 		K: 	mushgnome	 V: 	default	
+[00:00:07]: 		K: 	mushroom	 V: 	default	
+[00:00:07]: 		K: 	mushtree	 V: 	default	
+[00:00:07]: 		K: 	mushtree_moon_regrowth	 V: 	default	
+[00:00:07]: 		K: 	mushtree_regrowth	 V: 	default	
+[00:00:07]: 		K: 	mutated_birds	 V: 	default	
+[00:00:07]: 		K: 	mutated_merm	 V: 	default	
+[00:00:07]: 		K: 	mutated_spiderqueen	 V: 	default	
+[00:00:07]: 		K: 	nightmarecreatures	 V: 	default	
+[00:00:07]: 		K: 	pigs_setting	 V: 	default	
+[00:00:07]: 		K: 	portalresurection	 V: 	always	
+[00:00:07]: 		K: 	prefabswaps_start	 V: 	default	
+[00:00:07]: 		K: 	reeds	 V: 	default	
+[00:00:07]: 		K: 	reeds_regrowth	 V: 	default	
+[00:00:07]: 		K: 	regrowth	 V: 	default	
+[00:00:07]: 		K: 	resettime	 V: 	none	
+[00:00:07]: 		K: 	rifts_enabled_cave	 V: 	default	
+[00:00:07]: 		K: 	rifts_frequency_cave	 V: 	default	
+[00:00:07]: 		K: 	roads	 V: 	never	
+[00:00:07]: 		K: 	rock	 V: 	default	
+[00:00:07]: 		K: 	rocky	 V: 	default	
+[00:00:07]: 		K: 	rocky_setting	 V: 	default	
+[00:00:07]: 		K: 	sapling	 V: 	default	
+[00:00:07]: 		K: 	season_start	 V: 	default	
+[00:00:07]: 		K: 	seasonalstartingitems	 V: 	default	
+[00:00:07]: 		K: 	shadowcreatures	 V: 	default	
+[00:00:07]: 		K: 	slurper	 V: 	default	
+[00:00:07]: 		K: 	slurtles	 V: 	default	
+[00:00:07]: 		K: 	slurtles_setting	 V: 	default	
+[00:00:07]: 		K: 	snurtles	 V: 	default	
+[00:00:07]: 		K: 	spawnmode	 V: 	fixed	
+[00:00:07]: 		K: 	spawnprotection	 V: 	default	
+[00:00:07]: 		K: 	specialevent	 V: 	default	
+[00:00:07]: 		K: 	spider_dropper	 V: 	default	
+[00:00:07]: 		K: 	spider_hider	 V: 	default	
+[00:00:07]: 		K: 	spider_spitter	 V: 	default	
+[00:00:07]: 		K: 	spider_warriors	 V: 	default	
+[00:00:07]: 		K: 	spiderqueen	 V: 	default	
+[00:00:07]: 		K: 	spiders	 V: 	default	
+[00:00:07]: 		K: 	spiders_setting	 V: 	default	
+[00:00:07]: 		K: 	start_location	 V: 	caves	
+[00:00:07]: 		K: 	task_set	 V: 	cave_default	
+[00:00:07]: 		K: 	temperaturedamage	 V: 	default	
+[00:00:07]: 		K: 	tentacles	 V: 	default	
+[00:00:07]: 		K: 	toadstool	 V: 	default	
+[00:00:07]: 		K: 	touchstone	 V: 	default	
+[00:00:07]: 		K: 	tree_rock	 V: 	default	
+[00:00:07]: 		K: 	tree_rock_regrowth	 V: 	default	
+[00:00:07]: 		K: 	trees	 V: 	default	
+[00:00:07]: 		K: 	twiggytrees_regrowth	 V: 	default	
+[00:00:07]: 		K: 	weather	 V: 	default	
+[00:00:07]: 		K: 	winters_feast	 V: 	default	
+[00:00:07]: 		K: 	world_size	 V: 	default	
+[00:00:07]: 		K: 	wormattacks	 V: 	default	
+[00:00:07]: 		K: 	wormattacks_boss	 V: 	default	
+[00:00:07]: 		K: 	wormhole_prefab	 V: 	tentacle_pillar	
+[00:00:07]: 		K: 	wormlights	 V: 	default	
+[00:00:07]: 		K: 	worms	 V: 	default	
+[00:00:07]: 		K: 	year_of_the_beefalo	 V: 	default	
+[00:00:07]: 		K: 	year_of_the_bunnyman	 V: 	default	
+[00:00:07]: 		K: 	year_of_the_carrat	 V: 	default	
+[00:00:07]: 		K: 	year_of_the_catcoon	 V: 	default	
+[00:00:07]: 		K: 	year_of_the_dragonfly	 V: 	default	
+[00:00:07]: 		K: 	year_of_the_gobbler	 V: 	default	
+[00:00:07]: 		K: 	year_of_the_knight	 V: 	default	
+[00:00:07]: 		K: 	year_of_the_pig	 V: 	default	
+[00:00:07]: 		K: 	year_of_the_snake	 V: 	default	
+[00:00:07]: 		K: 	year_of_the_varg	 V: 	default	
+[00:00:07]: 	K: 	required_prefabs	 V: 	table: 000000001BE02FE0	
+[00:00:07]: 		K: 	1	 V: 	multiplayer_portal	
+[00:00:07]: 	K: 	settings_desc	 V: 	探查洞穴…… 一起！	
+[00:00:07]: 	K: 	settings_id	 V: 	DST_CAVE	
+[00:00:07]: 	K: 	settings_name	 V: 	洞穴	
+[00:00:07]: 	K: 	substitutes	 V: 	table: 000000001BE02C20	
+[00:00:07]: 	K: 	version	 V: 	4	
+[00:00:07]: 	K: 	worldgen_desc	 V: 	探查洞穴…… 一起！	
+[00:00:07]: 	K: 	worldgen_id	 V: 	DST_CAVE	
+[00:00:07]: 	K: 	worldgen_name	 V: 	洞穴	
+[00:00:07]: Loaded and applied level data override from ../leveldataoverride.lua	
+[00:00:07]: Overwriting savedata with level data file.	
+[00:00:07]: Not applying world gen overrides.	
+[00:00:07]: Collecting garbage...
+[00:00:07]: lua_gc took 0.08 seconds
+[00:00:07]: ~ShardLuaProxy()
+[00:00:07]: ~cEventLeaderboardProxy()
+[00:00:07]: ~ItemServerLuaProxy()
+[00:00:07]: ~InventoryLuaProxy()
+[00:00:07]: ~NetworkLuaProxy()
+[00:00:07]: ~SimLuaProxy()
+[00:00:07]: lua_close took 0.06 seconds
+[00:00:07]: ReleaseAll
+[00:00:07]: ReleaseAll Finished
+[00:00:07]: cGame::StartPlaying
+[00:00:07]: AppVersion::GetArchitecture() x64
+[00:00:07]: LOADING LUA
+[00:00:07]: DoLuaFile scripts/main.lua
+[00:00:07]: DoLuaFile loading buffer scripts/main.lua
+[00:00:07]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:00:09]:   taskgrouplist:	default	联机版	
+[00:00:09]:   taskgrouplist:	classic	经典	
+[00:00:09]:   taskgrouplist:	cave_default	地下	
+[00:00:09]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:09]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:09]: Running main.lua
+	
+[00:00:10]: loaded modindex	
+[00:00:10]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:10]: SUCCESS: Loaded modoverrides.lua	
+[00:00:10]: Registering Mods:
+[00:00:10]: No mods registered
+[00:00:10]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:10]: LOADING LUA SUCCESS
+[00:00:10]: PlayerDeaths could not load morgue	
+[00:00:10]: PlayerHistory could not load player_history	
+[00:00:10]: ServerPreferences could not load server_preferences	
+[00:00:10]: ConsoleScreenSettings could not load consolescreen	
+[00:00:10]: bloom_enabled	true	
+[00:00:10]: OnFilesLoaded()	
+[00:00:10]: OnUpdatePurchaseStateComplete	
+[00:00:10]: Loading world: session/51EC6BCC67DBBC2F/0000000003	
+[00:00:10]: Save file is at version 5.22	
+[00:00:10]: Klump load on boot started.	
+[00:00:10]: Klump files loaded: 	0	
+[00:00:11]: 	Unload FE	
+[00:00:11]: 	Unload FE done	
+[00:00:13]: 	LOAD BE	
+[00:00:27]: 	LOAD BE: done	
+[00:00:27]: Begin Session: 51EC6BCC67DBBC2F
+[00:00:27]: saving to server_temp/server_save	
+[00:00:28]: OVERRIDE: setting	healthpenalty	to	always	
+[00:00:28]: OVERRIDE: setting	acidrain_enabled	to	always	
+[00:00:28]: OVERRIDE: setting	lessdamagetaken	to	none	
+[00:00:28]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
+[00:00:28]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
+[00:00:28]: Loading 19 new character(s)	
+[00:00:29]: Total 19 character(s) loaded	
+[00:00:34]: Loading Nav Grid	
+[00:00:34]: World generated on build 713564 with save version: 5.22, using seed: 1063887645	
+[00:00:34]: setting 	summerlength	15	
+[00:00:34]: setting 	cavemoonphase	new	
+[00:00:34]: setting 	iscavefullmoon	false	
+[00:00:34]: setting 	isnightmaredawn	false	
+[00:00:34]: setting 	elapseddaysinseason	0	
+[00:00:34]: setting 	isfullmoon	false	
+[00:00:34]: setting 	moisture	32.874782562256	
+[00:00:34]: setting 	springlength	20	
+[00:00:34]: setting 	islunarhailing	false	
+[00:00:34]: setting 	isnightmarewild	false	
+[00:00:34]: setting 	nightmaretimeinphase	0.36522356669108	
+[00:00:34]: setting 	precipitationrate	0	
+[00:00:34]: setting 	israining	false	
+[00:00:34]: setting 	iswet	false	
+[00:00:34]: setting 	isnewmoon	false	
+[00:00:34]: setting 	iscavewaxingmoon	true	
+[00:00:34]: setting 	iswinter	false	
+[00:00:34]: setting 	isnightmarewarn	false	
+[00:00:34]: setting 	cavephase	day	
+[00:00:34]: setting 	temperature	22.160224029462	
+[00:00:34]: setting 	isacidraining	false	
+[00:00:34]: setting 	lunarhailrate	0	
+[00:00:34]: setting 	season	autumn	
+[00:00:34]: setting 	wetness	0	
+[00:00:34]: setting 	timeinphase	0.53384863535563	
+[00:00:34]: setting 	iscaveday	true	
+[00:00:34]: setting 	moistureceil	539.08331298828	
+[00:00:34]: setting 	isday	false	
+[00:00:34]: setting 	winterlength	15	
+[00:00:34]: setting 	remainingdaysinseason	20	
+[00:00:34]: setting 	issnowcovered	false	
+[00:00:34]: setting 	isalterawake	false	
+[00:00:34]: setting 	isnightmarecalm	true	
+[00:00:34]: setting 	isnight	true	
+[00:00:34]: setting 	isdusk	false	
+[00:00:34]: setting 	isspring	false	
+[00:00:34]: setting 	isautumn	true	
+[00:00:34]: setting 	issnowing	false	
+[00:00:34]: setting 	lunarhaillevel	0	
+[00:00:34]: setting 	pop	0.060982749363957	
+[00:00:34]: setting 	snowlevel	0	
+[00:00:34]: setting 	iswaxingmoon	true	
+[00:00:34]: setting 	autumnlength	20	
+[00:00:34]: setting 	phase	night	
+[00:00:34]: setting 	nightmaretime	131.48048400879	
+[00:00:34]: setting 	iscavedusk	false	
+[00:00:34]: setting 	cycles	0	
+[00:00:34]: setting 	nightmarephase	calm	
+[00:00:34]: setting 	seasonprogress	0.5	
+[00:00:34]: setting 	moonphase	new	
+[00:00:34]: setting 	iscavenight	false	
+[00:00:34]: setting 	iscavenewmoon	false	
+[00:00:34]: setting 	issummer	false	
+[00:00:34]: setting 	precipitation	none	
+[00:00:34]: setting 	time	0.26692431767782	
+[00:00:34]: [Shard] Secondary shard is waiting for LUA...
+[00:00:34]: OVERRIDE: setting	ghostenabled	to	always	
+[00:00:34]: OVERRIDE: setting	resettime	to	none	
+[00:00:34]: OVERRIDE: setting	basicresource_regrowth	to	always	
+[00:00:34]: OVERRIDE: setting	portalresurection	to	always	
+[00:00:34]: OVERRIDE: setting	spawnmode	to	fixed	
+[00:00:34]: OVERRIDE: setting	ghostsanitydrain	to	none	
+[00:00:35]: Reconstructing topology	
+[00:00:35]: 	...Sorting points	
+[00:00:36]: 	...Sorting edges	
+[00:00:36]: 	...Connecting nodes	
+[00:00:36]: 	...Validating connections	
+[00:00:36]: 	...Housekeeping	
+[00:00:36]: 	...Done!	
+[00:00:36]: 1 uploads added to server. From server_temp
+[00:00:36]: About to start a shard with these settings:
+[00:00:36]:   ShardName: Caves
+[00:00:36]:   ShardID: 3591121910
+[00:00:36]:   ShardRole: SECONDARY
+[00:00:36]:   MasterHost: 127.0.0.1
+[00:00:36]:   MasterBind: (null)
+[00:00:36]:   MasterPort: 10888
+[00:00:36]: [Shard] Connecting to master...
+[00:00:36]: Telling Client our new session identifier: 51EC6BCC67DBBC2F
+[00:00:36]: Check for write access: TRUE
+[00:00:36]: Check for read access: TRUE
+[00:00:36]: Available disk space for save files: 57805 MB
+[00:00:36]: ModIndex: Load sequence finished successfully.	
+[00:00:36]: Reset() returning
+[00:00:36]: [IPC] Received shutdown signal.
+[00:00:36]: Available disk space for save files: 57805 MB
+[00:00:36]: Serializing world: session/51EC6BCC67DBBC2F/0000000004
+[00:00:36]: [Shard] Stopping shard mode
+[00:00:36]: [Steam] SendUserDisconnect for ''
+[00:00:37]: Collecting garbage...
+[00:00:38]: lua_gc took 0.56 seconds
+[00:00:38]: ~ShardLuaProxy()
+[00:00:38]: ~cEventLeaderboardProxy()
+[00:00:38]: ~ItemServerLuaProxy()
+[00:00:38]: ~InventoryLuaProxy()
+[00:00:38]: ~NetworkLuaProxy()
+[00:00:38]: ~SimLuaProxy()
+[00:00:38]: Cancelling LuaQueryCallback handle [2]
+[00:00:38]: lua_close took 0.42 seconds
+[00:00:38]: CurlRequestManager::ClientThread::Main() complete
+[00:00:38]: HttpClient2 discarded 0 callbacks.
+[00:00:38]: Shutting down

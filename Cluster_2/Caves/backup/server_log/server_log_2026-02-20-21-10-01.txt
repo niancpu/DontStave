@@ -1,0 +1,1579 @@
+[00:00:00]: 
+System Memory:
+	Memory Load: 74%
+	Available Physical Memory: 4104m/16087m
+	Available Page File: 40530m/65239m
+	Available Virtual Memory: 134213475m/134217727m
+	Available Extended Virtual Memory: 0m
+[00:00:00]: 
+Process Memory:
+	Peak Working Set Size: 34m
+	Working Set Size: 34m
+	Quota Peak Page Pool Usage: 226k
+	Quota Page Pool Usage: 223k
+	Quota Peak Non Paged Pool Usage:17k
+	Quota Non Paged Pool Usage: 14k
+	Page File Usage: 5m
+	Peak Page File Usage: 5m
+[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogether/1668949407/Cluster_2/Caves/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 713564
+[00:00:00]: Current time: Fri Feb 20 21:03:12 2026
+
+[00:00:00]: Don't Starve Together: 713564 WIN32
+[00:00:00]: Build Date: 3947
+[00:00:00]: Mode: 64-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -monitor_parent_process 28260 -persistent_storage_root APP:Klei/ -conf_dir DoNotStarveTogether -cluster Cluster_2 -ownernetid 76561199629215135 -ownerdir 1668949407 -clouddir 1668949407 -backup_log_count 25 -backup_log_period 0 -shard Caves -secondary_log_prefix caves -sigprefix DST_Secondary -token *********************************************************************************** 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: Initializing Minidump handler
+[00:00:00]: ....Done
+[00:00:00]: ....Done
+[00:00:00]: Fixing DPI
+[00:00:00]: ...Done
+[00:00:00]: ProfileIndex:0.45
+[00:00:00]: THREAD - started 'GAClient' (11448)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: [Steam] SteamGameServer_Init(10998, 27017)
+[00:00:00]: [Steam] SteamGameServer_Init success
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: Platform: 1
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: Authorized application D:\steam\steamapps\common\Don't Starve Together\bin64\dontstarve_dedicated_server_nullrenderer_x64.exe is disabled in the firewall.
+[00:00:01]: Authorized application D:\steam\steamapps\common\Don't Starve Together\bin64\dontstarve_dedicated_server_nullrenderer_x64.exe is now enabled in the firewall.
+[00:00:01]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/1668949407/client_save/blocklist.txt (Failure)
+[00:00:01]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/1668949407/client_save/adminlist.txt (Failure)
+[00:00:01]: THREAD - started 'StreamInput' (11528)
+[00:00:01]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/1668949407/client_save/whitelist.txt (Failure)
+[00:00:01]: Offline user ID: OU_76561199629215135
+[00:00:01]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 11 专业版
+    version                   10.0.26100
+    platformSpecific          SP 0.0
+    architecture              64 位
+  CPU                       
+    clockSpeed                2200
+    name                      Intel(R) Core(TM) i7-14650HX
+    manufacturer              GenuineIntel
+    numCores                  16
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+  RAM                       
+    megsOfRam                 16384
+  GPU                       
+    megsOfRam                 2047
+    videoModeDescription      2560 x 1600 x 4294967296 种颜色
+    name                      Intel(R) UHD Graphics
+    driverVersion             32.0.101.7040
+    driverDate                20250919000000.000000-000
+    refreshRate               240
+
+[00:00:01]: cGame::InitializeOnMainThread
+[00:00:01]: Renderer initialize: Okay
+[00:00:01]: AnimManager initialize: Okay
+[00:00:01]: Buffers initialize: Okay
+[00:00:01]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:01]: GameSpecific initialize: Okay
+[00:00:01]: cGame::StartPlaying
+[00:00:01]: AppVersion::GetArchitecture() x64
+[00:00:01]: LOADING LUA
+[00:00:01]: DoLuaFile scripts/main.lua
+[00:00:01]: DoLuaFile loading buffer scripts/main.lua
+[00:00:01]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:00:02]:   taskgrouplist:	default	联机版	
+[00:00:02]:   taskgrouplist:	classic	经典	
+[00:00:02]:   taskgrouplist:	cave_default	地下	
+[00:00:02]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:02]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:02]: Running main.lua
+	
+[00:00:02]: Could not load modindex	
+[00:00:02]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:02]: SUCCESS: Loaded modoverrides.lua	
+[00:00:02]: Registering Mods:
+[00:00:02]: No mods registered
+[00:00:02]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:03]: LOADING LUA SUCCESS
+[00:00:04]: PlayerDeaths could not load morgue	
+[00:00:04]: PlayerHistory could not load player_history	
+[00:00:04]: ServerPreferences could not load server_preferences	
+[00:00:04]: ConsoleScreenSettings could not load consolescreen	
+[00:00:04]: bloom_enabled	true	
+[00:00:04]: OnFilesLoaded()	
+[00:00:04]: OnUpdatePurchaseStateComplete	
+[00:00:04]: Klump load on boot started.	
+[00:00:04]: Klump files loaded: 	0	
+[00:00:05]: 	Load FE	
+[00:00:06]: 	Load FE: done	
+[00:00:06]: THREAD - started 'FilesExistAsyncThread' (25936)
+[00:00:06]: FilesExistAsyncThread started (0 files)...
+[00:00:06]: ... FilesExistAsyncThread complete
+[00:00:06]: Check for write access: TRUE
+[00:00:06]: Check for read access: TRUE
+[00:00:06]: Available disk space for save files: 58080 MB
+[00:00:06]: ModIndex: Load sequence finished successfully.	
+[00:00:06]: Reset() returning
+[00:00:06]: [IPC] Signal 'DST_Secondary_Kill' opened  #0000000000000968
+[00:00:06]: [IPC] Registering handler for signal #0000000000000968
+[00:00:06]: [IPC] Handle #0000000000000968 added to the Eventhandles
+[00:00:06]: [IPC] Signal 'DST_Secondary_ShutdownNoSave' opened  #0000000000000A10
+[00:00:06]: [IPC] Registering handler for signal #0000000000000A10
+[00:00:06]: [IPC] Handle #0000000000000A10 added to the Eventhandles
+[00:00:06]: [IPC] Signal 'DST_Secondary_Starting' opened  #00000000000009EC
+[00:00:06]: [IPC] Sending signal... #00000000000009EC
+[00:00:09]: [200] Account Communication Success (6)
+[00:00:09]: Cached userid (null) saved to APP:Klei//DoNotStarveTogether/1668949407/Cluster_2/Caves/save/cached_userid
+[00:00:09]: Received (KU_BgG4ffIp) from TokenPurpose
+[00:00:09]: Starting Dedicated Server Game	
+[00:00:09]: Network tick rate: U=15(2), D=0
+[00:00:09]: About to start a server with the following settings:
+[00:00:09]:   Dedicated: true
+[00:00:09]:   Online: true
+[00:00:09]:   Passworded: true
+[00:00:09]:   ServerPort: 10998
+[00:00:09]:   SteamAuthPort: 8767
+[00:00:09]:   SteamMasterServerPort: 27017
+[00:00:09]:   ClanID: false
+[00:00:09]:   ClanOnly: false
+[00:00:09]:   ClanAdmin: false
+[00:00:09]:   LanOnly: false
+[00:00:09]:   FriendsOnly: false
+[00:00:09]:   EnableAutosaver: true
+[00:00:09]:   EncodeUserPath: true
+[00:00:09]:   PVP: false
+[00:00:09]:   MaxPlayers: 6
+[00:00:09]:   GameMode: survival
+[00:00:09]:   OverridenDNS: 
+[00:00:09]:   PauseWhenEmpty: true
+[00:00:09]:   IdleTimeout: 1800s
+[00:00:09]:   VoteEnabled: false
+[00:00:09]:   InternetBroadcasting: true
+[00:00:09]: [Warning] Could not confirm port 10998 is open in the firewall. 
+[00:00:09]: [Shard] No shard id specified, generating a random one...
+[00:00:09]: Online Server Started on port: 10998
+[00:00:09]: SUCCESS: Loaded modoverrides.lua	
+[00:00:09]: Found a level data override file with these contents:	
+[00:00:09]: 	K: 	background_node_range	 V: 	table: 000000000CB0DA80	
+[00:00:09]: 		K: 	1	 V: 	0	
+[00:00:09]: 		K: 	2	 V: 	1	
+[00:00:09]: 	K: 	desc	 V: 	探查洞穴…… 一起！	
+[00:00:09]: 	K: 	hideminimap	 V: 	false	
+[00:00:09]: 	K: 	id	 V: 	DST_CAVE	
+[00:00:09]: 	K: 	location	 V: 	cave	
+[00:00:09]: 	K: 	max_playlist_position	 V: 	999	
+[00:00:09]: 	K: 	min_playlist_position	 V: 	0	
+[00:00:09]: 	K: 	name	 V: 	洞穴	
+[00:00:09]: 	K: 	numrandom_set_pieces	 V: 	0	
+[00:00:09]: 	K: 	override_level_string	 V: 	false	
+[00:00:09]: 	K: 	overrides	 V: 	table: 000000000CB0DB20	
+[00:00:09]: 		K: 	acidrain_enabled	 V: 	always	
+[00:00:09]: 		K: 	atriumgate	 V: 	default	
+[00:00:09]: 		K: 	banana	 V: 	default	
+[00:00:09]: 		K: 	basicresource_regrowth	 V: 	always	
+[00:00:09]: 		K: 	bats	 V: 	default	
+[00:00:09]: 		K: 	bats_setting	 V: 	default	
+[00:00:09]: 		K: 	beefaloheat	 V: 	default	
+[00:00:09]: 		K: 	berrybush	 V: 	default	
+[00:00:09]: 		K: 	boons	 V: 	default	
+[00:00:09]: 		K: 	branching	 V: 	default	
+[00:00:09]: 		K: 	brightmarecreatures	 V: 	default	
+[00:00:09]: 		K: 	bunnymen	 V: 	default	
+[00:00:09]: 		K: 	bunnymen_setting	 V: 	default	
+[00:00:09]: 		K: 	cave_ponds	 V: 	default	
+[00:00:09]: 		K: 	cave_spiders	 V: 	default	
+[00:00:09]: 		K: 	cavelight	 V: 	default	
+[00:00:09]: 		K: 	chess	 V: 	default	
+[00:00:09]: 		K: 	chest_mimics	 V: 	default	
+[00:00:09]: 		K: 	crow_carnival	 V: 	default	
+[00:00:09]: 		K: 	darkness	 V: 	default	
+[00:00:09]: 		K: 	day	 V: 	default	
+[00:00:09]: 		K: 	daywalker	 V: 	default	
+[00:00:09]: 		K: 	dropeverythingondespawn	 V: 	default	
+[00:00:09]: 		K: 	dustmoths	 V: 	default	
+[00:00:09]: 		K: 	earthquakes	 V: 	default	
+[00:00:09]: 		K: 	evergreen_regrowth	 V: 	default	
+[00:00:09]: 		K: 	extrastartingitems	 V: 	default	
+[00:00:09]: 		K: 	fern	 V: 	default	
+[00:00:09]: 		K: 	fissure	 V: 	default	
+[00:00:09]: 		K: 	flint	 V: 	default	
+[00:00:09]: 		K: 	flower_cave	 V: 	default	
+[00:00:09]: 		K: 	flower_cave_regrowth	 V: 	default	
+[00:00:09]: 		K: 	fruitfly	 V: 	default	
+[00:00:09]: 		K: 	ghostenabled	 V: 	always	
+[00:00:09]: 		K: 	ghostsanitydrain	 V: 	none	
+[00:00:09]: 		K: 	grass	 V: 	default	
+[00:00:09]: 		K: 	grassgekkos	 V: 	default	
+[00:00:09]: 		K: 	hallowed_nights	 V: 	default	
+[00:00:09]: 		K: 	healthpenalty	 V: 	always	
+[00:00:09]: 		K: 	hunger	 V: 	default	
+[00:00:09]: 		K: 	itemmimics	 V: 	default	
+[00:00:09]: 		K: 	krampus	 V: 	default	
+[00:00:09]: 		K: 	layout_mode	 V: 	RestrictNodesByKey	
+[00:00:09]: 		K: 	lessdamagetaken	 V: 	none	
+[00:00:09]: 		K: 	lichen	 V: 	default	
+[00:00:09]: 		K: 	liefs	 V: 	default	
+[00:00:09]: 		K: 	lightflier_flower_regrowth	 V: 	default	
+[00:00:09]: 		K: 	lightfliers	 V: 	default	
+[00:00:09]: 		K: 	loop	 V: 	default	
+[00:00:09]: 		K: 	marshbush	 V: 	default	
+[00:00:09]: 		K: 	merms	 V: 	default	
+[00:00:09]: 		K: 	molebats	 V: 	default	
+[00:00:09]: 		K: 	moles_setting	 V: 	default	
+[00:00:09]: 		K: 	monkey	 V: 	default	
+[00:00:09]: 		K: 	monkey_setting	 V: 	default	
+[00:00:09]: 		K: 	moon_spider	 V: 	default	
+[00:00:09]: 		K: 	mushgnome	 V: 	default	
+[00:00:09]: 		K: 	mushroom	 V: 	default	
+[00:00:09]: 		K: 	mushtree	 V: 	default	
+[00:00:09]: 		K: 	mushtree_moon_regrowth	 V: 	default	
+[00:00:09]: 		K: 	mushtree_regrowth	 V: 	default	
+[00:00:09]: 		K: 	mutated_birds	 V: 	default	
+[00:00:09]: 		K: 	mutated_merm	 V: 	default	
+[00:00:09]: 		K: 	mutated_spiderqueen	 V: 	default	
+[00:00:09]: 		K: 	nightmarecreatures	 V: 	default	
+[00:00:09]: 		K: 	pigs_setting	 V: 	default	
+[00:00:09]: 		K: 	portalresurection	 V: 	always	
+[00:00:09]: 		K: 	prefabswaps_start	 V: 	default	
+[00:00:09]: 		K: 	reeds	 V: 	default	
+[00:00:09]: 		K: 	reeds_regrowth	 V: 	default	
+[00:00:09]: 		K: 	regrowth	 V: 	default	
+[00:00:09]: 		K: 	resettime	 V: 	none	
+[00:00:09]: 		K: 	rifts_enabled_cave	 V: 	default	
+[00:00:09]: 		K: 	rifts_frequency_cave	 V: 	default	
+[00:00:09]: 		K: 	roads	 V: 	never	
+[00:00:09]: 		K: 	rock	 V: 	default	
+[00:00:09]: 		K: 	rocky	 V: 	default	
+[00:00:09]: 		K: 	rocky_setting	 V: 	default	
+[00:00:09]: 		K: 	sapling	 V: 	default	
+[00:00:09]: 		K: 	season_start	 V: 	default	
+[00:00:09]: 		K: 	seasonalstartingitems	 V: 	default	
+[00:00:09]: 		K: 	shadowcreatures	 V: 	default	
+[00:00:09]: 		K: 	slurper	 V: 	default	
+[00:00:09]: 		K: 	slurtles	 V: 	default	
+[00:00:09]: 		K: 	slurtles_setting	 V: 	default	
+[00:00:09]: 		K: 	snurtles	 V: 	default	
+[00:00:09]: 		K: 	spawnmode	 V: 	fixed	
+[00:00:09]: 		K: 	spawnprotection	 V: 	default	
+[00:00:09]: 		K: 	specialevent	 V: 	default	
+[00:00:09]: 		K: 	spider_dropper	 V: 	default	
+[00:00:09]: 		K: 	spider_hider	 V: 	default	
+[00:00:09]: 		K: 	spider_spitter	 V: 	default	
+[00:00:09]: 		K: 	spider_warriors	 V: 	default	
+[00:00:09]: 		K: 	spiderqueen	 V: 	default	
+[00:00:09]: 		K: 	spiders	 V: 	default	
+[00:00:09]: 		K: 	spiders_setting	 V: 	default	
+[00:00:09]: 		K: 	start_location	 V: 	caves	
+[00:00:09]: 		K: 	task_set	 V: 	cave_default	
+[00:00:09]: 		K: 	temperaturedamage	 V: 	default	
+[00:00:09]: 		K: 	tentacles	 V: 	default	
+[00:00:09]: 		K: 	toadstool	 V: 	default	
+[00:00:09]: 		K: 	touchstone	 V: 	default	
+[00:00:09]: 		K: 	tree_rock	 V: 	default	
+[00:00:09]: 		K: 	tree_rock_regrowth	 V: 	default	
+[00:00:09]: 		K: 	trees	 V: 	default	
+[00:00:09]: 		K: 	twiggytrees_regrowth	 V: 	default	
+[00:00:09]: 		K: 	weather	 V: 	default	
+[00:00:09]: 		K: 	winters_feast	 V: 	default	
+[00:00:09]: 		K: 	world_size	 V: 	default	
+[00:00:09]: 		K: 	wormattacks	 V: 	default	
+[00:00:09]: 		K: 	wormattacks_boss	 V: 	default	
+[00:00:09]: 		K: 	wormhole_prefab	 V: 	tentacle_pillar	
+[00:00:09]: 		K: 	wormlights	 V: 	default	
+[00:00:09]: 		K: 	worms	 V: 	default	
+[00:00:09]: 		K: 	year_of_the_beefalo	 V: 	default	
+[00:00:09]: 		K: 	year_of_the_bunnyman	 V: 	default	
+[00:00:09]: 		K: 	year_of_the_carrat	 V: 	default	
+[00:00:09]: 		K: 	year_of_the_catcoon	 V: 	default	
+[00:00:09]: 		K: 	year_of_the_dragonfly	 V: 	default	
+[00:00:09]: 		K: 	year_of_the_gobbler	 V: 	default	
+[00:00:09]: 		K: 	year_of_the_knight	 V: 	default	
+[00:00:09]: 		K: 	year_of_the_pig	 V: 	default	
+[00:00:09]: 		K: 	year_of_the_snake	 V: 	default	
+[00:00:09]: 		K: 	year_of_the_varg	 V: 	default	
+[00:00:09]: 	K: 	required_prefabs	 V: 	table: 000000000CB0DB70	
+[00:00:09]: 		K: 	1	 V: 	multiplayer_portal	
+[00:00:09]: 	K: 	settings_desc	 V: 	探查洞穴…… 一起！	
+[00:00:09]: 	K: 	settings_id	 V: 	DST_CAVE	
+[00:00:09]: 	K: 	settings_name	 V: 	洞穴	
+[00:00:09]: 	K: 	substitutes	 V: 	table: 000000000CB0D6C0	
+[00:00:09]: 	K: 	version	 V: 	4	
+[00:00:09]: 	K: 	worldgen_desc	 V: 	探查洞穴…… 一起！	
+[00:00:09]: 	K: 	worldgen_id	 V: 	DST_CAVE	
+[00:00:09]: 	K: 	worldgen_name	 V: 	洞穴	
+[00:00:09]: Loaded and applied level data override from ../leveldataoverride.lua	
+[00:00:09]: Overwriting savedata with level data file.	
+[00:00:09]: Not applying world gen overrides.	
+[00:00:09]: Collecting garbage...
+[00:00:09]: lua_gc took 0.08 seconds
+[00:00:09]: ~ShardLuaProxy()
+[00:00:09]: ~cEventLeaderboardProxy()
+[00:00:09]: ~ItemServerLuaProxy()
+[00:00:09]: ~InventoryLuaProxy()
+[00:00:09]: ~NetworkLuaProxy()
+[00:00:09]: ~SimLuaProxy()
+[00:00:09]: lua_close took 0.07 seconds
+[00:00:09]: ReleaseAll
+[00:00:09]: ReleaseAll Finished
+[00:00:09]: cGame::StartPlaying
+[00:00:09]: AppVersion::GetArchitecture() x64
+[00:00:09]: LOADING LUA
+[00:00:09]: DoLuaFile scripts/main.lua
+[00:00:09]: DoLuaFile loading buffer scripts/main.lua
+[00:00:09]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:00:11]:   taskgrouplist:	default	联机版	
+[00:00:11]:   taskgrouplist:	classic	经典	
+[00:00:11]:   taskgrouplist:	cave_default	地下	
+[00:00:11]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:11]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:11]: Running main.lua
+	
+[00:00:11]: loaded modindex	
+[00:00:11]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:11]: SUCCESS: Loaded modoverrides.lua	
+[00:00:11]: Registering Mods:
+[00:00:11]: No mods registered
+[00:00:11]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:11]: LOADING LUA SUCCESS
+[00:00:11]: PlayerDeaths could not load morgue	
+[00:00:11]: PlayerHistory could not load player_history	
+[00:00:11]: ServerPreferences could not load server_preferences	
+[00:00:11]: ConsoleScreenSettings could not load consolescreen	
+[00:00:11]: bloom_enabled	true	
+[00:00:11]: OnFilesLoaded()	
+[00:00:11]: OnUpdatePurchaseStateComplete	
+[00:00:11]: SUCCESS: Loaded modoverrides.lua	
+[00:00:11]: Found a level data override file with these contents:	
+[00:00:11]: 	K: 	background_node_range	 V: 	table: 0000000011D52410	
+[00:00:11]: 		K: 	1	 V: 	0	
+[00:00:11]: 		K: 	2	 V: 	1	
+[00:00:11]: 	K: 	desc	 V: 	探查洞穴…… 一起！	
+[00:00:11]: 	K: 	hideminimap	 V: 	false	
+[00:00:11]: 	K: 	id	 V: 	DST_CAVE	
+[00:00:11]: 	K: 	location	 V: 	cave	
+[00:00:11]: 	K: 	max_playlist_position	 V: 	999	
+[00:00:11]: 	K: 	min_playlist_position	 V: 	0	
+[00:00:11]: 	K: 	name	 V: 	洞穴	
+[00:00:11]: 	K: 	numrandom_set_pieces	 V: 	0	
+[00:00:11]: 	K: 	override_level_string	 V: 	false	
+[00:00:11]: 	K: 	overrides	 V: 	table: 0000000011D52460	
+[00:00:11]: 		K: 	acidrain_enabled	 V: 	always	
+[00:00:11]: 		K: 	atriumgate	 V: 	default	
+[00:00:11]: 		K: 	banana	 V: 	default	
+[00:00:11]: 		K: 	basicresource_regrowth	 V: 	always	
+[00:00:11]: 		K: 	bats	 V: 	default	
+[00:00:11]: 		K: 	bats_setting	 V: 	default	
+[00:00:11]: 		K: 	beefaloheat	 V: 	default	
+[00:00:11]: 		K: 	berrybush	 V: 	default	
+[00:00:11]: 		K: 	boons	 V: 	default	
+[00:00:11]: 		K: 	branching	 V: 	default	
+[00:00:11]: 		K: 	brightmarecreatures	 V: 	default	
+[00:00:11]: 		K: 	bunnymen	 V: 	default	
+[00:00:11]: 		K: 	bunnymen_setting	 V: 	default	
+[00:00:11]: 		K: 	cave_ponds	 V: 	default	
+[00:00:11]: 		K: 	cave_spiders	 V: 	default	
+[00:00:11]: 		K: 	cavelight	 V: 	default	
+[00:00:11]: 		K: 	chess	 V: 	default	
+[00:00:11]: 		K: 	chest_mimics	 V: 	default	
+[00:00:11]: 		K: 	crow_carnival	 V: 	default	
+[00:00:11]: 		K: 	darkness	 V: 	default	
+[00:00:11]: 		K: 	day	 V: 	default	
+[00:00:11]: 		K: 	daywalker	 V: 	default	
+[00:00:11]: 		K: 	dropeverythingondespawn	 V: 	default	
+[00:00:11]: 		K: 	dustmoths	 V: 	default	
+[00:00:11]: 		K: 	earthquakes	 V: 	default	
+[00:00:11]: 		K: 	evergreen_regrowth	 V: 	default	
+[00:00:11]: 		K: 	extrastartingitems	 V: 	default	
+[00:00:11]: 		K: 	fern	 V: 	default	
+[00:00:11]: 		K: 	fissure	 V: 	default	
+[00:00:11]: 		K: 	flint	 V: 	default	
+[00:00:11]: 		K: 	flower_cave	 V: 	default	
+[00:00:11]: 		K: 	flower_cave_regrowth	 V: 	default	
+[00:00:11]: 		K: 	fruitfly	 V: 	default	
+[00:00:11]: 		K: 	ghostenabled	 V: 	always	
+[00:00:11]: 		K: 	ghostsanitydrain	 V: 	none	
+[00:00:11]: 		K: 	grass	 V: 	default	
+[00:00:11]: 		K: 	grassgekkos	 V: 	default	
+[00:00:11]: 		K: 	hallowed_nights	 V: 	default	
+[00:00:11]: 		K: 	healthpenalty	 V: 	always	
+[00:00:11]: 		K: 	hunger	 V: 	default	
+[00:00:11]: 		K: 	itemmimics	 V: 	default	
+[00:00:11]: 		K: 	krampus	 V: 	default	
+[00:00:11]: 		K: 	layout_mode	 V: 	RestrictNodesByKey	
+[00:00:11]: 		K: 	lessdamagetaken	 V: 	none	
+[00:00:11]: 		K: 	lichen	 V: 	default	
+[00:00:11]: 		K: 	liefs	 V: 	default	
+[00:00:11]: 		K: 	lightflier_flower_regrowth	 V: 	default	
+[00:00:11]: 		K: 	lightfliers	 V: 	default	
+[00:00:11]: 		K: 	loop	 V: 	default	
+[00:00:11]: 		K: 	marshbush	 V: 	default	
+[00:00:11]: 		K: 	merms	 V: 	default	
+[00:00:11]: 		K: 	molebats	 V: 	default	
+[00:00:11]: 		K: 	moles_setting	 V: 	default	
+[00:00:11]: 		K: 	monkey	 V: 	default	
+[00:00:11]: 		K: 	monkey_setting	 V: 	default	
+[00:00:11]: 		K: 	moon_spider	 V: 	default	
+[00:00:11]: 		K: 	mushgnome	 V: 	default	
+[00:00:11]: 		K: 	mushroom	 V: 	default	
+[00:00:11]: 		K: 	mushtree	 V: 	default	
+[00:00:11]: 		K: 	mushtree_moon_regrowth	 V: 	default	
+[00:00:11]: 		K: 	mushtree_regrowth	 V: 	default	
+[00:00:11]: 		K: 	mutated_birds	 V: 	default	
+[00:00:11]: 		K: 	mutated_merm	 V: 	default	
+[00:00:11]: 		K: 	mutated_spiderqueen	 V: 	default	
+[00:00:11]: 		K: 	nightmarecreatures	 V: 	default	
+[00:00:11]: 		K: 	pigs_setting	 V: 	default	
+[00:00:11]: 		K: 	portalresurection	 V: 	always	
+[00:00:11]: 		K: 	prefabswaps_start	 V: 	default	
+[00:00:11]: 		K: 	reeds	 V: 	default	
+[00:00:11]: 		K: 	reeds_regrowth	 V: 	default	
+[00:00:11]: 		K: 	regrowth	 V: 	default	
+[00:00:11]: 		K: 	resettime	 V: 	none	
+[00:00:11]: 		K: 	rifts_enabled_cave	 V: 	default	
+[00:00:11]: 		K: 	rifts_frequency_cave	 V: 	default	
+[00:00:11]: 		K: 	roads	 V: 	never	
+[00:00:11]: 		K: 	rock	 V: 	default	
+[00:00:11]: 		K: 	rocky	 V: 	default	
+[00:00:11]: 		K: 	rocky_setting	 V: 	default	
+[00:00:11]: 		K: 	sapling	 V: 	default	
+[00:00:11]: 		K: 	season_start	 V: 	default	
+[00:00:11]: 		K: 	seasonalstartingitems	 V: 	default	
+[00:00:11]: 		K: 	shadowcreatures	 V: 	default	
+[00:00:11]: 		K: 	slurper	 V: 	default	
+[00:00:11]: 		K: 	slurtles	 V: 	default	
+[00:00:11]: 		K: 	slurtles_setting	 V: 	default	
+[00:00:11]: 		K: 	snurtles	 V: 	default	
+[00:00:11]: 		K: 	spawnmode	 V: 	fixed	
+[00:00:11]: 		K: 	spawnprotection	 V: 	default	
+[00:00:11]: 		K: 	specialevent	 V: 	default	
+[00:00:11]: 		K: 	spider_dropper	 V: 	default	
+[00:00:11]: 		K: 	spider_hider	 V: 	default	
+[00:00:11]: 		K: 	spider_spitter	 V: 	default	
+[00:00:11]: 		K: 	spider_warriors	 V: 	default	
+[00:00:11]: 		K: 	spiderqueen	 V: 	default	
+[00:00:11]: 		K: 	spiders	 V: 	default	
+[00:00:11]: 		K: 	spiders_setting	 V: 	default	
+[00:00:11]: 		K: 	start_location	 V: 	caves	
+[00:00:11]: 		K: 	task_set	 V: 	cave_default	
+[00:00:11]: 		K: 	temperaturedamage	 V: 	default	
+[00:00:11]: 		K: 	tentacles	 V: 	default	
+[00:00:11]: 		K: 	toadstool	 V: 	default	
+[00:00:11]: 		K: 	touchstone	 V: 	default	
+[00:00:11]: 		K: 	tree_rock	 V: 	default	
+[00:00:11]: 		K: 	tree_rock_regrowth	 V: 	default	
+[00:00:11]: 		K: 	trees	 V: 	default	
+[00:00:11]: 		K: 	twiggytrees_regrowth	 V: 	default	
+[00:00:11]: 		K: 	weather	 V: 	default	
+[00:00:11]: 		K: 	winters_feast	 V: 	default	
+[00:00:11]: 		K: 	world_size	 V: 	default	
+[00:00:11]: 		K: 	wormattacks	 V: 	default	
+[00:00:11]: 		K: 	wormattacks_boss	 V: 	default	
+[00:00:11]: 		K: 	wormhole_prefab	 V: 	tentacle_pillar	
+[00:00:11]: 		K: 	wormlights	 V: 	default	
+[00:00:11]: 		K: 	worms	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_beefalo	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_bunnyman	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_carrat	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_catcoon	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_dragonfly	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_gobbler	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_knight	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_pig	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_snake	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_varg	 V: 	default	
+[00:00:11]: 	K: 	required_prefabs	 V: 	table: 0000000011D520F0	
+[00:00:11]: 		K: 	1	 V: 	multiplayer_portal	
+[00:00:11]: 	K: 	settings_desc	 V: 	探查洞穴…… 一起！	
+[00:00:11]: 	K: 	settings_id	 V: 	DST_CAVE	
+[00:00:11]: 	K: 	settings_name	 V: 	洞穴	
+[00:00:11]: 	K: 	substitutes	 V: 	table: 0000000011D52140	
+[00:00:11]: 	K: 	version	 V: 	4	
+[00:00:11]: 	K: 	worldgen_desc	 V: 	探查洞穴…… 一起！	
+[00:00:11]: 	K: 	worldgen_id	 V: 	DST_CAVE	
+[00:00:11]: 	K: 	worldgen_name	 V: 	洞穴	
+[00:00:11]: Loaded and applied level data override from ../leveldataoverride.lua	
+[00:00:11]: Overwriting savedata with level data file.	
+[00:00:11]: Not applying world gen overrides.	
+[00:00:11]: [IPC] Signal 'DST_Secondary_WorldGen' opened  #0000000000000AE8
+[00:00:11]: [IPC] Sending signal... #0000000000000AE8
+[00:00:11]: WorldSim::SimThread::SimThread()
+[00:00:11]: ABOUT TO INSTALL STACKTRACE
+[00:00:11]: DoLuaFile scripts/stacktrace.lua
+[00:00:11]: DoLuaFile loading buffer scripts/stacktrace.lua
+[00:00:11]: INSTALLED STACKTRACE
+[00:00:11]: Engine Seed: (1771592603 + 1439778690) & 0x7FFFFFFF = 1063887645
+[00:00:11]: WorldSim::SimThread::SimThread() complete
+[00:00:11]: THREAD - started 'WorldSim' (25696)
+[00:00:11]: WorldSim::SimThread::Main()
+[00:00:11]: DoLuaFile scripts/worldgen_main.lua
+[00:00:11]: DoLuaFile loading buffer scripts/worldgen_main.lua
+[00:00:11]: Check for write access: TRUE
+[00:00:11]: Check for read access: TRUE
+[00:00:11]: Available disk space for save files: 58080 MB
+[00:00:11]: ModIndex: Load sequence finished successfully.	
+[00:00:11]: Reset() returning
+[00:00:11]: DLC enabled : 	false	
+[00:00:11]:   taskgrouplist:	default	Together	
+[00:00:11]:   taskgrouplist:	classic	Classic	
+[00:00:11]:   taskgrouplist:	cave_default	Underground	
+[00:00:11]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:11]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:11]: running worldgen_main.lua
+	
+[00:00:11]: SEED = 	1063887645	
+[00:00:11]: Generating world with these parameters:	
+[00:00:11]: level_type	SURVIVAL	
+[00:00:11]: level_data:	
+[00:00:11]: 	K: 	background_node_range	 V: 	table: 000000000EB3ED20	
+[00:00:11]: 		K: 	1	 V: 	0	
+[00:00:11]: 		K: 	2	 V: 	1	
+[00:00:11]: 	K: 	desc	 V: 	探查洞穴…… 一起！	
+[00:00:11]: 	K: 	hideminimap	 V: 	false	
+[00:00:11]: 	K: 	id	 V: 	DST_CAVE	
+[00:00:11]: 	K: 	location	 V: 	cave	
+[00:00:11]: 	K: 	max_playlist_position	 V: 	999	
+[00:00:11]: 	K: 	min_playlist_position	 V: 	0	
+[00:00:11]: 	K: 	name	 V: 	洞穴	
+[00:00:11]: 	K: 	numrandom_set_pieces	 V: 	0	
+[00:00:11]: 	K: 	override_level_string	 V: 	false	
+[00:00:11]: 	K: 	overrides	 V: 	table: 000000000EB3FB80	
+[00:00:11]: 		K: 	acidrain_enabled	 V: 	always	
+[00:00:11]: 		K: 	atriumgate	 V: 	default	
+[00:00:11]: 		K: 	banana	 V: 	default	
+[00:00:11]: 		K: 	basicresource_regrowth	 V: 	always	
+[00:00:11]: 		K: 	bats	 V: 	default	
+[00:00:11]: 		K: 	bats_setting	 V: 	default	
+[00:00:11]: 		K: 	beefaloheat	 V: 	default	
+[00:00:11]: 		K: 	berrybush	 V: 	default	
+[00:00:11]: 		K: 	boons	 V: 	default	
+[00:00:11]: 		K: 	branching	 V: 	default	
+[00:00:11]: 		K: 	brightmarecreatures	 V: 	default	
+[00:00:11]: 		K: 	bunnymen	 V: 	default	
+[00:00:11]: 		K: 	bunnymen_setting	 V: 	default	
+[00:00:11]: 		K: 	cave_ponds	 V: 	default	
+[00:00:11]: 		K: 	cave_spiders	 V: 	default	
+[00:00:11]: 		K: 	cavelight	 V: 	default	
+[00:00:11]: 		K: 	chess	 V: 	default	
+[00:00:11]: 		K: 	chest_mimics	 V: 	default	
+[00:00:11]: 		K: 	crow_carnival	 V: 	default	
+[00:00:11]: 		K: 	darkness	 V: 	default	
+[00:00:11]: 		K: 	day	 V: 	default	
+[00:00:11]: 		K: 	daywalker	 V: 	default	
+[00:00:11]: 		K: 	dropeverythingondespawn	 V: 	default	
+[00:00:11]: 		K: 	dustmoths	 V: 	default	
+[00:00:11]: 		K: 	earthquakes	 V: 	default	
+[00:00:11]: 		K: 	evergreen_regrowth	 V: 	default	
+[00:00:11]: 		K: 	extrastartingitems	 V: 	default	
+[00:00:11]: 		K: 	fern	 V: 	default	
+[00:00:11]: 		K: 	fissure	 V: 	default	
+[00:00:11]: 		K: 	flint	 V: 	default	
+[00:00:11]: 		K: 	flower_cave	 V: 	default	
+[00:00:11]: 		K: 	flower_cave_regrowth	 V: 	default	
+[00:00:11]: 		K: 	fruitfly	 V: 	default	
+[00:00:11]: 		K: 	ghostenabled	 V: 	always	
+[00:00:11]: 		K: 	ghostsanitydrain	 V: 	none	
+[00:00:11]: 		K: 	grass	 V: 	default	
+[00:00:11]: 		K: 	grassgekkos	 V: 	default	
+[00:00:11]: 		K: 	hallowed_nights	 V: 	default	
+[00:00:11]: 		K: 	healthpenalty	 V: 	always	
+[00:00:11]: 		K: 	hunger	 V: 	default	
+[00:00:11]: 		K: 	itemmimics	 V: 	default	
+[00:00:11]: 		K: 	krampus	 V: 	default	
+[00:00:11]: 		K: 	layout_mode	 V: 	RestrictNodesByKey	
+[00:00:11]: 		K: 	lessdamagetaken	 V: 	none	
+[00:00:11]: 		K: 	lichen	 V: 	default	
+[00:00:11]: 		K: 	liefs	 V: 	default	
+[00:00:11]: 		K: 	lightflier_flower_regrowth	 V: 	default	
+[00:00:11]: 		K: 	lightfliers	 V: 	default	
+[00:00:11]: 		K: 	loop	 V: 	default	
+[00:00:11]: 		K: 	marshbush	 V: 	default	
+[00:00:11]: 		K: 	merms	 V: 	default	
+[00:00:11]: 		K: 	molebats	 V: 	default	
+[00:00:11]: 		K: 	moles_setting	 V: 	default	
+[00:00:11]: 		K: 	monkey	 V: 	default	
+[00:00:11]: 		K: 	monkey_setting	 V: 	default	
+[00:00:11]: 		K: 	moon_spider	 V: 	default	
+[00:00:11]: 		K: 	mushgnome	 V: 	default	
+[00:00:11]: 		K: 	mushroom	 V: 	default	
+[00:00:11]: 		K: 	mushtree	 V: 	default	
+[00:00:11]: 		K: 	mushtree_moon_regrowth	 V: 	default	
+[00:00:11]: 		K: 	mushtree_regrowth	 V: 	default	
+[00:00:11]: 		K: 	mutated_birds	 V: 	default	
+[00:00:11]: 		K: 	mutated_merm	 V: 	default	
+[00:00:11]: 		K: 	mutated_spiderqueen	 V: 	default	
+[00:00:11]: 		K: 	nightmarecreatures	 V: 	default	
+[00:00:11]: 		K: 	pigs_setting	 V: 	default	
+[00:00:11]: 		K: 	portalresurection	 V: 	always	
+[00:00:11]: 		K: 	prefabswaps_start	 V: 	default	
+[00:00:11]: 		K: 	reeds	 V: 	default	
+[00:00:11]: 		K: 	reeds_regrowth	 V: 	default	
+[00:00:11]: 		K: 	regrowth	 V: 	default	
+[00:00:11]: 		K: 	resettime	 V: 	none	
+[00:00:11]: 		K: 	rifts_enabled_cave	 V: 	default	
+[00:00:11]: 		K: 	rifts_frequency_cave	 V: 	default	
+[00:00:11]: 		K: 	roads	 V: 	never	
+[00:00:11]: 		K: 	rock	 V: 	default	
+[00:00:11]: 		K: 	rocky	 V: 	default	
+[00:00:11]: 		K: 	rocky_setting	 V: 	default	
+[00:00:11]: 		K: 	sapling	 V: 	default	
+[00:00:11]: 		K: 	season_start	 V: 	default	
+[00:00:11]: 		K: 	seasonalstartingitems	 V: 	default	
+[00:00:11]: 		K: 	shadowcreatures	 V: 	default	
+[00:00:11]: 		K: 	slurper	 V: 	default	
+[00:00:11]: 		K: 	slurtles	 V: 	default	
+[00:00:11]: 		K: 	slurtles_setting	 V: 	default	
+[00:00:11]: 		K: 	snurtles	 V: 	default	
+[00:00:11]: 		K: 	spawnmode	 V: 	fixed	
+[00:00:11]: 		K: 	spawnprotection	 V: 	default	
+[00:00:11]: 		K: 	specialevent	 V: 	default	
+[00:00:11]: 		K: 	spider_dropper	 V: 	default	
+[00:00:11]: 		K: 	spider_hider	 V: 	default	
+[00:00:11]: 		K: 	spider_spitter	 V: 	default	
+[00:00:11]: 		K: 	spider_warriors	 V: 	default	
+[00:00:11]: 		K: 	spiderqueen	 V: 	default	
+[00:00:11]: 		K: 	spiders	 V: 	default	
+[00:00:11]: 		K: 	spiders_setting	 V: 	default	
+[00:00:11]: 		K: 	start_location	 V: 	caves	
+[00:00:11]: 		K: 	task_set	 V: 	cave_default	
+[00:00:11]: 		K: 	temperaturedamage	 V: 	default	
+[00:00:11]: 		K: 	tentacles	 V: 	default	
+[00:00:11]: 		K: 	toadstool	 V: 	default	
+[00:00:11]: 		K: 	touchstone	 V: 	default	
+[00:00:11]: 		K: 	tree_rock	 V: 	default	
+[00:00:11]: 		K: 	tree_rock_regrowth	 V: 	default	
+[00:00:11]: 		K: 	trees	 V: 	default	
+[00:00:11]: 		K: 	twiggytrees_regrowth	 V: 	default	
+[00:00:11]: 		K: 	weather	 V: 	default	
+[00:00:11]: 		K: 	winters_feast	 V: 	default	
+[00:00:11]: 		K: 	world_size	 V: 	default	
+[00:00:11]: 		K: 	wormattacks	 V: 	default	
+[00:00:11]: 		K: 	wormattacks_boss	 V: 	default	
+[00:00:11]: 		K: 	wormhole_prefab	 V: 	tentacle_pillar	
+[00:00:11]: 		K: 	wormlights	 V: 	default	
+[00:00:11]: 		K: 	worms	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_beefalo	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_bunnyman	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_carrat	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_catcoon	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_dragonfly	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_gobbler	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_knight	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_pig	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_snake	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_varg	 V: 	default	
+[00:00:11]: 	K: 	required_prefabs	 V: 	table: 000000000EB403F0	
+[00:00:11]: 		K: 	1	 V: 	multiplayer_portal	
+[00:00:11]: 	K: 	settings_desc	 V: 	探查洞穴…… 一起！	
+[00:00:11]: 	K: 	settings_id	 V: 	DST_CAVE	
+[00:00:11]: 	K: 	settings_name	 V: 	洞穴	
+[00:00:11]: 	K: 	substitutes	 V: 	table: 000000000EB3F630	
+[00:00:11]: 	K: 	version	 V: 	4	
+[00:00:11]: 	K: 	worldgen_desc	 V: 	探查洞穴…… 一起！	
+[00:00:11]: 	K: 	worldgen_id	 V: 	DST_CAVE	
+[00:00:11]: 	K: 	worldgen_name	 V: 	洞穴	
+[00:00:11]: 
+#######
+#
+# Generating SURVIVAL Mode Level
+#
+#######
+	
+[00:00:11]: Prefab Swap Selection: regular grass	
+[00:00:11]: Prefab Swap Selection: regular twigs	
+[00:00:11]: Prefab Swap Selection: juicy berries	
+[00:00:11]: New size:	425	default	
+[00:00:11]: Creating story...	
+[00:00:11]: [Story Gen] Generate nodes. Starting at: 'MudWorld'	
+[00:00:11]: [Story Gen] RestrictNodesByKey	
+[00:00:11]: Finding valid start task...	
+[00:00:11]:    ...picked 	CaveExitTask4	
+[00:00:11]: Has start node	SinkholeOasis	
+[00:00:11]: Adding Background Nodes	
+[00:00:11]: [Story Gen] Adding Cove Nodes	
+[00:00:11]: [WorldSimActual::WorldGen_InitializeNodePoints]
+[00:00:11]: [WorldSimActual::WorldGen_VoronoiPass]
+[00:00:11]: GenerateVoronoiMap [100]:
+[00:00:13]: ...Done.
+[00:00:13]: ... story created	
+[00:00:13]: Baking map...	425	
+[00:00:13]: [WorldSimActual::WorldGen_Commit] worldgen success.
+[00:00:13]: [WorldSimActual::ConvertToTileMap]
+[00:00:13]: [ConvertToTileMap]
+[00:00:13]: [WorldSimActual::ConvertToTileMap] complete
+[00:00:13]: [WorldSimActual::SeparateIslands]
+[00:00:13]: [SeparateIslands]
+[00:00:13]: [WorldSimActual::SeparateIslands] complete
+[00:00:13]: Map Baked!	
+[00:00:13]: [WorldSimActual::ForceConnectivity]
+[00:00:13]: [GenerateLandmasses]
+[00:00:13]: [GenerateLandmasses] islands: 10
+[00:00:13]: [MergeConnectedLandmasses] true
+[00:00:13]: [WorldSimActual::ForceConnectivity] complete
+[00:00:13]: Encoding...	
+[00:00:13]: [WorldSimActual::CreateNodeIdTileMap]
+[00:00:13]: Encoding... DONE	
+[00:00:13]: Checking Tags	
+[00:00:13]: Tag: Labyrinth	
+[00:00:13]: Tag: Maze	
+[00:00:13]: Couldn't generate any points for maze. Aborting.
+[00:00:13]: Populating voronoi...	
+[00:00:13]: Warning! Could not find a spot for StraightWall2 in node Residential3:2:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential3:2:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential3:2:Vacant	
+[00:00:13]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
+[00:00:13]: Warning! Could not find a spot for StraightWall in node Residential3:0:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall2 in node Residential3:0:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall2 in node Residential3:0:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential3:0:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential3:0:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential3:0:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall in node Residential3:3:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall2 in node Residential3:3:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall2 in node Residential3:3:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall2 in node Residential3:3:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential3:3:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential3:3:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential3:3:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall2 in node Residential2:3:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall2 in node Residential2:3:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential2:3:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential2:3:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential2:3:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential3:1:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall2 in node Residential:2:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall2 in node Residential:2:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:13]: Warning! Could not find a spot for EvergreenSinkhole in node UndergroundForest:0:SinkholeCopses	
+[00:00:13]: Warning! Could not find a spot for EvergreenSinkhole in node UndergroundForest:0:SinkholeCopses	
+[00:00:13]: Warning! Could not find a spot for EvergreenSinkhole in node UndergroundForest:0:SinkholeCopses	
+[00:00:13]: [ReplaceSingleNonLandTiles] Validating...
+[00:00:13]: [ReplaceSingleNonLandTiles] Replaced 45 tiles.
+[00:00:13]: DetectDisconnect	
+[00:00:13]: disconnected tiles...	1705	
+[00:00:14]: MilitaryPits:0:Barracks Cant process points	
+[00:00:14]: MilitaryPits:2:Barracks Cant process points	
+[00:00:14]: MilitaryPits:1:Barracks Cant process points	
+[00:00:14]: Removing entity on IMPASSABLE	nightmarelight	202.765	373.2325	-38.94, 0, 642.93	
+[00:00:14]: Removing entity on IMPASSABLE	nightmarelight	200.25	375.7175	-49, 0, 652.87	
+[00:00:14]: Removing entity on IMPASSABLE	nightmarelight	202.6875	375.7175	-39.25, 0, 652.87	
+[00:00:14]: Removing entity on IMPASSABLE	nightmarelight	200.295	373.295	-48.82, 0, 643.18	
+[00:00:14]: Removing entity on IMPASSABLE	skeleton	230.5525	364.5	72.21, 0, 608	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	200.25	379.5	-49, 0, 668	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	203.5	379.5	-36, 0, 668	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	206.5	376.75	-24, 0, 657	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	224.515	359.8125	48.06, 0, 589.25	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	230.5	356.9825	72, 0, 577.93	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	230.5	356.7325	72, 0, 576.93	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	230.5	356.4825	72, 0, 575.93	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	230.5	356.2325	72, 0, 574.93	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	228.53	355.4825	64.12, 0, 571.93	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	228.78	355.4825	65.12, 0, 571.93	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	229.8125	369.515	69.25, 0, 628.06	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	226.9825	375.5	57.93, 0, 652	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	226.7325	375.5	56.93, 0, 652	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	226.4825	375.5	55.93, 0, 652	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	226.2325	375.5	54.93, 0, 652	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	225.4825	373.53	51.93, 0, 644.12	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	225.4825	373.78	51.93, 0, 645.12	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	223.8125	358.515	45.25, 0, 584.06	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	220.9825	364.5	33.93, 0, 608	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	220.7325	364.5	32.93, 0, 608	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	220.4825	364.5	31.93, 0, 608	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	220.2325	364.5	30.93, 0, 608	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	219.4825	362.53	27.93, 0, 600.12	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	219.4825	362.78	27.93, 0, 601.12	
+[00:00:14]: Removing entity on IMPASSABLE	pandoraschest	385.5	324.5	692, 0, 448	
+[00:00:14]: Removing entity on IMPASSABLE	pandoraschest	387.5	408.5	700, 0, 784	
+[00:00:14]: Removing entity on IMPASSABLE	pillar_ruins	203.5	372.53	-36, 0, 640.12	
+[00:00:14]: Removing entity on IMPASSABLE	pillar_ruins	199.4825	372.515	-52.07, 0, 640.06	
+[00:00:14]: Removing entity on IMPASSABLE	pillar_ruins	199.4825	376.515	-52.07, 0, 656.06	
+[00:00:14]: Removing entity on IMPASSABLE	pillar_ruins	203.5	376.515	-36, 0, 656.06	
+[00:00:14]: Removing entity on IMPASSABLE	pillar_ruins	206.515	379.515	-23.94, 0, 668.06	
+[00:00:14]: Removing entity on IMPASSABLE	pillar_ruins	206.5	369.4825	-24, 0, 627.93	
+[00:00:14]: Removing entity on IMPASSABLE	pillar_ruins	196.5	369.515	-64, 0, 628.06	
+[00:00:14]: Removing entity on IMPASSABLE	pillar_ruins	196.515	379.515	-63.94, 0, 668.06	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	368.265	315.5	623.06, 0, 412	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	200.75	379.5	-47, 0, 668	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	201	379.5	-46, 0, 668	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	200.5	379.5	-48, 0, 668	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	204.25	379.5	-33, 0, 668	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	204	379.5	-34, 0, 668	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	203.75	379.5	-35, 0, 668	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	206.5	377	-24, 0, 658	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	206.5	377.25	-24, 0, 659	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	206.5	378.25	-24, 0, 663	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	229.515	361.4525	68.06, 0, 595.81	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	229.765	361.4525	69.06, 0, 595.81	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	230.015	361.4525	70.06, 0, 595.81	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	225.53	361.4675	52.12, 0, 595.87	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	225.78	361.4675	53.12, 0, 595.87	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	226.03	361.4675	54.12, 0, 595.87	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	231.4525	374.515	75.81, 0, 648.06	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	231.4525	374.765	75.81, 0, 649.06	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	231.4525	375.015	75.81, 0, 650.06	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	231.4675	370.53	75.87, 0, 632.12	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	231.4675	370.78	75.87, 0, 633.12	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	231.4675	371.03	75.87, 0, 634.12	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	225.4525	363.515	51.81, 0, 604.06	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	225.4525	363.765	51.81, 0, 605.06	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	225.4525	364.015	51.81, 0, 606.06	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	225.4675	359.53	51.87, 0, 588.12	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	225.4675	359.78	51.87, 0, 589.12	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	225.4675	360.03	51.87, 0, 590.12	
+[00:00:14]: Removing entity on IMPASSABLE	boards	231.1625	364.8075	74.65, 0, 609.23	
+[00:00:14]: Removing entity on IMPASSABLE	boards	230.52	365.28	72.08, 0, 611.12	
+[00:00:14]: Removing entity on IMPASSABLE	boards	231.1775	365.445	74.71, 0, 611.78	
+[00:00:14]: Removing entity on IMPASSABLE	boards	231.13	365.4025	74.52, 0, 611.61	
+[00:00:14]: Removing entity on IMPASSABLE	armorwood	230.3225	363.595	71.29, 0, 604.38	
+[00:00:14]: Removing entity on IMPASSABLE	bishop_nightmare_spawner	200.75	375.015	-47, 0, 650.06	
+[00:00:14]: Removing entity on IMPASSABLE	bishop_nightmare_spawner	202.3275	374.045	-40.69, 0, 646.18	
+[00:00:14]: Removing entity on IMPASSABLE	bishop_nightmare_spawner	229.75	360.25	69, 0, 591	
+[00:00:14]: Removing entity on IMPASSABLE	bishop_nightmare_spawner	230.25	374.75	71, 0, 649	
+[00:00:14]: Removing entity on IMPASSABLE	bishop_nightmare_spawner	224.25	363.75	47, 0, 605	
+[00:00:14]: Removing entity on IMPASSABLE	chessjunk_spawner	204.64	371.4825	-31.44, 0, 635.93	
+[00:00:14]: Removing entity on IMPASSABLE	chessjunk_spawner	198.765	377.515	-54.94, 0, 660.06	
+[00:00:14]: Removing entity on IMPASSABLE	chessjunk_spawner	225	357.75	50, 0, 581	
+[00:00:14]: Removing entity on IMPASSABLE	chessjunk_spawner	228	359	62, 0, 586	
+[00:00:14]: Removing entity on IMPASSABLE	chessjunk_spawner	226.5	359.5	56, 0, 588	
+[00:00:14]: Removing entity on IMPASSABLE	chessjunk_spawner	226	356	54, 0, 574	
+[00:00:14]: Removing entity on IMPASSABLE	chessjunk_spawner	226.25	358	55, 0, 582	
+[00:00:14]: Removing entity on IMPASSABLE	chessjunk_spawner	229.5	357.5	68, 0, 580	
+[00:00:14]: Removing entity on IMPASSABLE	chessjunk_spawner	227.75	370	61, 0, 630	
+[00:00:14]: Removing entity on IMPASSABLE	chessjunk_spawner	229	373	66, 0, 642	
+[00:00:14]: Removing entity on IMPASSABLE	chessjunk_spawner	229.5	371.5	68, 0, 636	
+[00:00:14]: Removing entity on IMPASSABLE	chessjunk_spawner	226	371	54, 0, 634	
+[00:00:14]: Removing entity on IMPASSABLE	chessjunk_spawner	228	371.25	62, 0, 635	
+[00:00:14]: Removing entity on IMPASSABLE	chessjunk_spawner	227.5	374.5	60, 0, 648	
+[00:00:14]: Removing entity on IMPASSABLE	chessjunk_spawner	221.75	359	37, 0, 586	
+[00:00:14]: Removing entity on IMPASSABLE	chessjunk_spawner	223	362	42, 0, 598	
+[00:00:14]: Removing entity on IMPASSABLE	chessjunk_spawner	223.5	360.5	44, 0, 592	
+[00:00:14]: Removing entity on IMPASSABLE	chessjunk_spawner	220	360	30, 0, 590	
+[00:00:14]: Removing entity on IMPASSABLE	chessjunk_spawner	222	360.25	38, 0, 591	
+[00:00:14]: Removing entity on IMPASSABLE	chessjunk_spawner	221.5	363.5	36, 0, 604	
+[00:00:14]: Removing entity on IMPASSABLE	ancient_altar_spawner	201.5	374.4825	-44, 0, 647.93	
+[00:00:14]: Removing entity on IMPASSABLE	rook_nightmare_spawner	226.75	361	57, 0, 594	
+[00:00:14]: Removing entity on IMPASSABLE	rook_nightmare_spawner	227.75	356.75	61, 0, 577	
+[00:00:14]: Removing entity on IMPASSABLE	rook_nightmare_spawner	231	371.75	74, 0, 637	
+[00:00:14]: Removing entity on IMPASSABLE	rook_nightmare_spawner	226.75	372.75	57, 0, 641	
+[00:00:14]: Removing entity on IMPASSABLE	rook_nightmare_spawner	225	360.75	50, 0, 593	
+[00:00:14]: Removing entity on IMPASSABLE	rook_nightmare_spawner	220.75	361.75	33, 0, 597	
+[00:00:14]: Removing entity on IMPASSABLE	wall_stone_2	88.625	180.1075	-495.5, 0, -129.57	
+[00:00:14]: Removing entity on IMPASSABLE	wall_stone_2	77.375	173.6075	-540.5, 0, -155.57	
+[00:00:14]: Removing entity on IMPASSABLE	sacred_chest	201.5	376.25	-44, 0, 655	
+[00:00:14]: Checking Required Prefab atrium_gate has at least 1 instances (1 found).	
+[00:00:14]: Checking Required Prefab minotaur_spawner has at least 1 instances (1 found).	
+[00:00:14]: Checking Required Prefab sacred_chest has at least 1 instances (0 found).	
+[00:00:14]: PANIC: missing required prefab [sacred_chest]! Expected 1, got 0	
+[00:00:14]: An error occured during world gen we will retry! [was 	1	 of 	5	]	
+[00:00:14]: New size:	425	default	
+[00:00:14]: Creating story...	
+[00:00:14]: [Story Gen] Generate nodes. Starting at: 'MudWorld'	
+[00:00:14]: [Story Gen] RestrictNodesByKey	
+[00:00:14]: Finding valid start task...	
+[00:00:14]:    ...picked 	CaveExitTask2	
+[00:00:14]: Has start node	GreenMushSinkhole	
+[00:00:14]: Adding Background Nodes	
+[00:00:14]: [Story Gen] Adding Cove Nodes	
+[00:00:14]: [WorldSimActual::WorldGen_InitializeNodePoints]
+[00:00:14]: [WorldSimActual::WorldGen_VoronoiPass]
+[00:00:14]: GenerateVoronoiMap [100]:
+[00:00:15]: ...Done.
+[00:00:15]: [TheLabyrinth:0:RuinedGuarden] poly.size() == 0
+[00:00:15]: [!]	 edge == NULL
+[00:00:15]: ... story created	
+[00:00:15]: Baking map...	425	
+[00:00:15]: [WorldSimActual::WorldGen_Commit] worldgen success.
+[00:00:15]: [WorldSimActual::ConvertToTileMap]
+[00:00:15]: [ConvertToTileMap]
+[00:00:15]: [WorldSimActual::ConvertToTileMap] complete
+[00:00:15]: [WorldSimActual::SeparateIslands]
+[00:00:15]: [SeparateIslands]
+[00:00:15]: [WorldSimActual::SeparateIslands] complete
+[00:00:15]: Map Baked!	
+[00:00:15]: [WorldSimActual::ForceConnectivity]
+[00:00:15]: [GenerateLandmasses]
+[00:00:15]: [GenerateLandmasses] islands: 18
+[00:00:15]: [MergeConnectedLandmasses] true
+[00:00:15]: [WorldSimActual::ForceConnectivity] complete
+[00:00:15]: Encoding...	
+[00:00:15]: [WorldSimActual::CreateNodeIdTileMap]
+[00:00:15]: Encoding... DONE	
+[00:00:15]: Checking Tags	
+[00:00:15]: Tag: Labyrinth	
+[00:00:15]: Tag: Maze	
+[00:00:15]: Couldn't generate any points for maze. Aborting.
+[00:00:15]: Populating voronoi...	
+[00:00:15]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
+[00:00:15]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
+[00:00:15]: Warning! Could not find a spot for StraightWall in node Residential3:0:Vacant	
+[00:00:15]: Warning! Could not find a spot for StraightWall in node Residential3:0:Vacant	
+[00:00:15]: Warning! Could not find a spot for StraightWall in node Residential3:0:Vacant	
+[00:00:15]: Warning! Could not find a spot for StraightWall2 in node Residential3:0:Vacant	
+[00:00:15]: Warning! Could not find a spot for StraightWall2 in node Residential3:0:Vacant	
+[00:00:15]: Warning! Could not find a spot for CornerWall2 in node Residential3:0:Vacant	
+[00:00:15]: Warning! Could not find a spot for CornerWall2 in node Residential3:0:Vacant	
+[00:00:15]: Warning! Could not find a spot for StraightWall in node Residential2:3:Vacant	
+[00:00:15]: Warning! Could not find a spot for StraightWall2 in node Residential2:3:Vacant	
+[00:00:15]: Warning! Could not find a spot for StraightWall2 in node Residential2:3:Vacant	
+[00:00:15]: Warning! Could not find a spot for StraightWall2 in node Residential2:3:Vacant	
+[00:00:15]: Warning! Could not find a spot for CornerWall2 in node Residential2:3:Vacant	
+[00:00:15]: Warning! Could not find a spot for CornerWall2 in node Residential2:3:Vacant	
+[00:00:15]: Warning! Could not find a spot for CornerWall2 in node Residential2:3:Vacant	
+[00:00:16]: Warning! Could not find a spot for RabbitTown in node CaveExitTask10:1:GreenMushRabbits	
+[00:00:16]: Warning! Could not find a spot for Mudlights in node CaveSwamp:0:TentacleMud	
+[00:00:16]: Warning! Could not find a spot for Mudlights in node CaveSwamp:0:TentacleMud	
+[00:00:16]: Warning! Could not find a spot for Mudlights in node CaveSwamp:0:TentacleMud	
+[00:00:16]: Warning! Could not find a spot for CornerWall in node Residential:2:Vacant	
+[00:00:16]: Warning! Could not find a spot for StraightWall in node Residential:2:Vacant	
+[00:00:16]: Warning! Could not find a spot for StraightWall in node Residential:2:Vacant	
+[00:00:16]: Warning! Could not find a spot for StraightWall in node Residential:2:Vacant	
+[00:00:16]: Warning! Could not find a spot for StraightWall2 in node Residential:2:Vacant	
+[00:00:16]: Warning! Could not find a spot for StraightWall2 in node Residential:2:Vacant	
+[00:00:16]: Warning! Could not find a spot for StraightWall2 in node Residential:2:Vacant	
+[00:00:16]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:16]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:16]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:16]: Warning! Could not find a spot for StraightWall in node Residential3:1:Vacant	
+[00:00:16]: Warning! Could not find a spot for StraightWall in node Residential3:1:Vacant	
+[00:00:16]: Warning! Could not find a spot for StraightWall2 in node Residential3:1:Vacant	
+[00:00:16]: Warning! Could not find a spot for StraightWall2 in node Residential3:1:Vacant	
+[00:00:16]: Warning! Could not find a spot for CornerWall2 in node Residential3:1:Vacant	
+[00:00:16]: Warning! Could not find a spot for CornerWall2 in node Residential3:1:Vacant	
+[00:00:16]: Warning! Could not find a spot for CornerWall2 in node Residential3:1:Vacant	
+[00:00:16]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:16]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:16]: Warning! Could not find a spot for CornerWall in node Residential3:2:Vacant	
+[00:00:16]: Warning! Could not find a spot for StraightWall in node Residential3:2:Vacant	
+[00:00:16]: Warning! Could not find a spot for StraightWall in node Residential3:2:Vacant	
+[00:00:16]: Warning! Could not find a spot for StraightWall in node Residential3:2:Vacant	
+[00:00:16]: Warning! Could not find a spot for StraightWall2 in node Residential3:2:Vacant	
+[00:00:16]: Warning! Could not find a spot for StraightWall2 in node Residential3:2:Vacant	
+[00:00:16]: Warning! Could not find a spot for StraightWall2 in node Residential3:2:Vacant	
+[00:00:16]: Warning! Could not find a spot for CornerWall2 in node Residential3:2:Vacant	
+[00:00:16]: Warning! Could not find a spot for CornerWall2 in node Residential3:2:Vacant	
+[00:00:16]: Warning! Could not find a spot for CornerWall2 in node Residential3:2:Vacant	
+[00:00:16]: Warning! Could not find a spot for GrassySinkhole in node PleasantSinkhole:3:GrasslandSinkhole	
+[00:00:16]: Warning! Could not find a spot for CornerWall in node Residential:3:Vacant	
+[00:00:16]: Warning! Could not find a spot for StraightWall in node Residential:3:Vacant	
+[00:00:16]: Warning! Could not find a spot for StraightWall in node Residential:3:Vacant	
+[00:00:16]: Warning! Could not find a spot for StraightWall in node Residential:3:Vacant	
+[00:00:16]: Warning! Could not find a spot for StraightWall2 in node Residential:3:Vacant	
+[00:00:16]: Warning! Could not find a spot for StraightWall2 in node Residential:3:Vacant	
+[00:00:16]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:16]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:16]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:16]: Warning! Could not find a spot for GrassySinkhole in node PleasantSinkhole:5:GrasslandSinkhole	
+[00:00:16]: Warning! Could not find a spot for EvergreenSinkhole in node UndergroundForest:0:SinkholeCopses	
+[00:00:16]: Warning! Could not find a spot for EvergreenSinkhole in node UndergroundForest:0:SinkholeCopses	
+[00:00:16]: [ReplaceSingleNonLandTiles] Validating...
+[00:00:16]: [ReplaceSingleNonLandTiles] Replaced 46 tiles.
+[00:00:16]: DetectDisconnect	
+[00:00:16]: disconnected tiles...	2081	
+[00:00:16]: MilitaryPits:0:Barracks Cant process points	
+[00:00:16]: MilitaryPits:2:Barracks Cant process points	
+[00:00:16]: MilitaryPits:1:Barracks Cant process points	
+[00:00:16]: Removing entity on IMPASSABLE	axe	255.0375	355.155	116.15, 0, 516.62	
+[00:00:16]: Removing entity on IMPASSABLE	nightmarelight	275.765	381.765	199.06, 0, 623.06	
+[00:00:16]: Removing entity on IMPASSABLE	nightmarelight	273.25	379.28	189, 0, 613.12	
+[00:00:16]: Removing entity on IMPASSABLE	nightmarelight	275.6875	379.28	198.75, 0, 613.12	
+[00:00:16]: Removing entity on IMPASSABLE	nightmarelight	273.295	381.7025	189.18, 0, 622.81	
+[00:00:16]: Removing entity on IMPASSABLE	skeleton	255.5	355.445	118, 0, 517.78	
+[00:00:16]: Removing entity on IMPASSABLE	brokenwall_ruins	253.515	364.8125	110.06, 0, 555.25	
+[00:00:16]: Removing entity on IMPASSABLE	brokenwall_ruins	259.5	361.9825	134, 0, 543.93	
+[00:00:16]: Removing entity on IMPASSABLE	brokenwall_ruins	259.5	361.7325	134, 0, 542.93	
+[00:00:16]: Removing entity on IMPASSABLE	brokenwall_ruins	259.5	361.4825	134, 0, 541.93	
+[00:00:16]: Removing entity on IMPASSABLE	brokenwall_ruins	259.5	361.2325	134, 0, 540.93	
+[00:00:16]: Removing entity on IMPASSABLE	brokenwall_ruins	257.53	360.4825	126.12, 0, 537.93	
+[00:00:16]: Removing entity on IMPASSABLE	brokenwall_ruins	257.78	360.4825	127.12, 0, 537.93	
+[00:00:16]: Removing entity on IMPASSABLE	brokenwall_ruins	274.75	385.5	195, 0, 638	
+[00:00:16]: Removing entity on IMPASSABLE	brokenwall_ruins	279.5	378.25	214, 0, 609	
+[00:00:16]: Removing entity on IMPASSABLE	brokenwall_ruins	247.9375	356.4825	87.75, 0, 521.93	
+[00:00:16]: Removing entity on IMPASSABLE	brokenwall_ruins	247.4375	356.4825	85.75, 0, 521.93	
+[00:00:16]: Removing entity on IMPASSABLE	brokenwall_ruins	247.6875	356.4825	86.75, 0, 521.93	
+[00:00:16]: Removing entity on IMPASSABLE	brokenwall_ruins	248.1875	356.4825	88.75, 0, 521.93	
+[00:00:16]: Removing entity on IMPASSABLE	brokenwall_ruins	251.4675	356.4825	101.87, 0, 521.93	
+[00:00:16]: Removing entity on IMPASSABLE	brokenwall_ruins	251.7175	356.4825	102.87, 0, 521.93	
+[00:00:16]: Removing entity on IMPASSABLE	brokenwall_ruins	252.515	352.4675	106.06, 0, 505.87	
+[00:00:16]: Removing entity on IMPASSABLE	brokenwall_ruins	252.515	352.2175	106.06, 0, 504.87	
+[00:00:16]: Removing entity on IMPASSABLE	brokenwall_ruins	252.515	351.9675	106.06, 0, 503.87	
+[00:00:16]: Removing entity on IMPASSABLE	brokenwall_ruins	252.515	351.7175	106.06, 0, 502.87	
+[00:00:16]: Removing entity on IMPASSABLE	brokenwall_ruins	257.4825	347.0625	125.93, 0, 484.25	
+[00:00:16]: Removing entity on IMPASSABLE	brokenwall_ruins	257.4825	347.5625	125.93, 0, 486.25	
+[00:00:16]: Removing entity on IMPASSABLE	brokenwall_ruins	257.4825	347.3125	125.93, 0, 485.25	
+[00:00:16]: Removing entity on IMPASSABLE	brokenwall_ruins	257.4825	346.8125	125.93, 0, 483.25	
+[00:00:16]: Removing entity on IMPASSABLE	brokenwall_ruins	257.4825	343.53	125.93, 0, 470.12	
+[00:00:16]: Removing entity on IMPASSABLE	brokenwall_ruins	257.4825	343.28	125.93, 0, 469.12	
+[00:00:16]: Removing entity on IMPASSABLE	pandoraschest	128.5	430.5	-390, 0, 818	
+[00:00:16]: Removing entity on IMPASSABLE	pillar_ruins	276.5	382.4675	202, 0, 625.87	
+[00:00:16]: Removing entity on IMPASSABLE	pillar_ruins	272.4825	382.4825	185.93, 0, 625.93	
+[00:00:16]: Removing entity on IMPASSABLE	pillar_ruins	272.4825	378.4825	185.93, 0, 609.93	
+[00:00:16]: Removing entity on IMPASSABLE	pillar_ruins	276.5	378.4825	202, 0, 609.93	
+[00:00:16]: Removing entity on IMPASSABLE	pillar_ruins	279.515	375.4825	214.06, 0, 597.93	
+[00:00:16]: Removing entity on IMPASSABLE	pillar_ruins	279.5	385.515	214, 0, 638.06	
+[00:00:16]: Removing entity on IMPASSABLE	pillar_ruins	269.5	385.4825	174, 0, 637.93	
+[00:00:16]: Removing entity on IMPASSABLE	pillar_ruins	269.515	375.4825	174.06, 0, 597.93	
+[00:00:16]: Removing entity on IMPASSABLE	pillar_ruins	177	389	-196, 0, 652	
+[00:00:16]: Removing entity on IMPASSABLE	wall_ruins	258.515	366.4525	130.06, 0, 561.81	
+[00:00:16]: Removing entity on IMPASSABLE	wall_ruins	258.765	366.4525	131.06, 0, 561.81	
+[00:00:16]: Removing entity on IMPASSABLE	wall_ruins	259.015	366.4525	132.06, 0, 561.81	
+[00:00:16]: Removing entity on IMPASSABLE	wall_ruins	254.53	366.4675	114.12, 0, 561.87	
+[00:00:16]: Removing entity on IMPASSABLE	wall_ruins	254.78	366.4675	115.12, 0, 561.87	
+[00:00:16]: Removing entity on IMPASSABLE	wall_ruins	255.03	366.4675	116.12, 0, 561.87	
+[00:00:16]: Removing entity on IMPASSABLE	wall_ruins	275.25	385.5	197, 0, 638	
+[00:00:16]: Removing entity on IMPASSABLE	wall_ruins	275.5	385.5	198, 0, 638	
+[00:00:16]: Removing entity on IMPASSABLE	wall_ruins	275	385.5	196, 0, 638	
+[00:00:16]: Removing entity on IMPASSABLE	wall_ruins	279.5	378	214, 0, 608	
+[00:00:16]: Removing entity on IMPASSABLE	wall_ruins	279.5	377.75	214, 0, 607	
+[00:00:16]: Removing entity on IMPASSABLE	wall_ruins	279.5	376.75	214, 0, 603	
+[00:00:16]: Removing entity on IMPASSABLE	wall_ruins	252.2175	356.4825	104.87, 0, 521.93	
+[00:00:16]: Removing entity on IMPASSABLE	wall_ruins	251.9675	356.4825	103.87, 0, 521.93	
+[00:00:16]: Removing entity on IMPASSABLE	wall_ruins	246.53	354.9675	82.12, 0, 515.87	
+[00:00:16]: Removing entity on IMPASSABLE	wall_ruins	257.4825	343.03	125.93, 0, 468.12	
+[00:00:16]: Removing entity on IMPASSABLE	wall_ruins	252.4825	348.4525	105.93, 0, 489.81	
+[00:00:16]: Removing entity on IMPASSABLE	wall_ruins	252.2325	348.4525	104.93, 0, 489.81	
+[00:00:16]: Removing entity on IMPASSABLE	wall_ruins	256.4675	348.4675	121.87, 0, 489.87	
+[00:00:16]: Removing entity on IMPASSABLE	wall_ruins	256.2175	348.4675	120.87, 0, 489.87	
+[00:00:16]: Removing entity on IMPASSABLE	wall_ruins	255.9675	348.4675	119.87, 0, 489.87	
+[00:00:16]: Removing entity on IMPASSABLE	bishop_nightmare_spawner	258.75	365.25	131, 0, 557	
+[00:00:16]: Removing entity on IMPASSABLE	bishop_nightmare_spawner	273.75	379.9825	191, 0, 615.93	
+[00:00:16]: Removing entity on IMPASSABLE	bishop_nightmare_spawner	275.3275	380.9525	197.31, 0, 619.81	
+[00:00:16]: Removing entity on IMPASSABLE	bishop_nightmare_spawner	247.75	351.25	87, 0, 501	
+[00:00:16]: Removing entity on IMPASSABLE	bishop_nightmare_spawner	252.25	347.25	105, 0, 485	
+[00:00:16]: Removing entity on IMPASSABLE	boards	255.81	354.7725	119.24, 0, 515.09	
+[00:00:16]: Removing entity on IMPASSABLE	boards	256.3725	354.7375	121.49, 0, 514.95	
+[00:00:16]: Removing entity on IMPASSABLE	boards	256.3425	354.7275	121.37, 0, 514.91	
+[00:00:16]: Removing entity on IMPASSABLE	boards	255.895	355.015	119.58, 0, 516.06	
+[00:00:16]: Removing entity on IMPASSABLE	boards	256.2075	355.5675	120.83, 0, 518.27	
+[00:00:16]: Removing entity on IMPASSABLE	ancient_altar_spawner	274.5	380.515	194, 0, 618.06	
+[00:00:16]: Removing entity on IMPASSABLE	chessjunk_spawner	254	362.75	112, 0, 547	
+[00:00:16]: Removing entity on IMPASSABLE	chessjunk_spawner	257	364	124, 0, 552	
+[00:00:16]: Removing entity on IMPASSABLE	chessjunk_spawner	255.5	364.5	118, 0, 554	
+[00:00:16]: Removing entity on IMPASSABLE	chessjunk_spawner	255	361	116, 0, 540	
+[00:00:16]: Removing entity on IMPASSABLE	chessjunk_spawner	255.25	363	117, 0, 548	
+[00:00:16]: Removing entity on IMPASSABLE	chessjunk_spawner	258.5	362.5	130, 0, 546	
+[00:00:16]: Removing entity on IMPASSABLE	chessjunk_spawner	277.64	383.515	206.56, 0, 630.06	
+[00:00:16]: Removing entity on IMPASSABLE	chessjunk_spawner	271.765	377.4825	183.06, 0, 605.93	
+[00:00:16]: Removing entity on IMPASSABLE	chessjunk_spawner	250.25	356	97, 0, 520	
+[00:00:16]: Removing entity on IMPASSABLE	chessjunk_spawner	249	353	92, 0, 508	
+[00:00:16]: Removing entity on IMPASSABLE	chessjunk_spawner	248.5	354.5	90, 0, 514	
+[00:00:16]: Removing entity on IMPASSABLE	chessjunk_spawner	252	355	104, 0, 516	
+[00:00:16]: Removing entity on IMPASSABLE	chessjunk_spawner	250	354.75	96, 0, 515	
+[00:00:16]: Removing entity on IMPASSABLE	chessjunk_spawner	250.5	351.5	98, 0, 502	
+[00:00:16]: Removing entity on IMPASSABLE	chessjunk_spawner	257	344.75	124, 0, 475	
+[00:00:16]: Removing entity on IMPASSABLE	chessjunk_spawner	254	346	112, 0, 480	
+[00:00:16]: Removing entity on IMPASSABLE	chessjunk_spawner	255.5	346.5	118, 0, 482	
+[00:00:16]: Removing entity on IMPASSABLE	chessjunk_spawner	256	343	120, 0, 468	
+[00:00:16]: Removing entity on IMPASSABLE	chessjunk_spawner	255.75	345	119, 0, 476	
+[00:00:16]: Removing entity on IMPASSABLE	chessjunk_spawner	252.5	344.5	106, 0, 474	
+[00:00:16]: Removing entity on IMPASSABLE	rook_nightmare_spawner	255.75	366	119, 0, 560	
+[00:00:16]: Removing entity on IMPASSABLE	rook_nightmare_spawner	256.75	361.75	123, 0, 543	
+[00:00:16]: Removing entity on IMPASSABLE	rook_nightmare_spawner	247	354.25	84, 0, 513	
+[00:00:16]: Removing entity on IMPASSABLE	rook_nightmare_spawner	251.25	353.25	101, 0, 509	
+[00:00:16]: Removing entity on IMPASSABLE	rook_nightmare_spawner	255.25	348	117, 0, 488	
+[00:00:16]: Removing entity on IMPASSABLE	rook_nightmare_spawner	254.25	343.75	113, 0, 471	
+[00:00:16]: Removing entity on IMPASSABLE	wall_stone_2	253.125	39.5925	108.5, 0, -745.63	
+[00:00:16]: Removing entity on IMPASSABLE	sacred_chest	274.5	378.75	194, 0, 611	
+[00:00:16]: Removing entity on IMPASSABLE	sanityrock	152.5	320	-294, 0, 376	
+[00:00:16]: Checking Required Prefab atrium_gate has at least 1 instances (1 found).	
+[00:00:16]: Checking Required Prefab minotaur_spawner has at least 1 instances (1 found).	
+[00:00:16]: Checking Required Prefab sacred_chest has at least 1 instances (0 found).	
+[00:00:16]: PANIC: missing required prefab [sacred_chest]! Expected 1, got 0	
+[00:00:16]: An error occured during world gen we will retry! [was 	2	 of 	5	]	
+[00:00:16]: New size:	425	default	
+[00:00:16]: Creating story...	
+[00:00:16]: [Story Gen] Generate nodes. Starting at: 'MudWorld'	
+[00:00:16]: [Story Gen] RestrictNodesByKey	
+[00:00:16]: Finding valid start task...	
+[00:00:16]:    ...picked 	CaveExitTask5	
+[00:00:16]: Has start node	GreenMushSinkhole	
+[00:00:16]: Adding Background Nodes	
+[00:00:16]: [Story Gen] Adding Cove Nodes	
+[00:00:16]: [WorldSimActual::WorldGen_InitializeNodePoints]
+[00:00:16]: [WorldSimActual::WorldGen_VoronoiPass]
+[00:00:16]: GenerateVoronoiMap [100]:
+[00:00:18]: ...Done.
+[00:00:18]: ... story created	
+[00:00:18]: Baking map...	425	
+[00:00:18]: [WorldSimActual::WorldGen_Commit] worldgen success.
+[00:00:18]: [WorldSimActual::ConvertToTileMap]
+[00:00:18]: [ConvertToTileMap]
+[00:00:18]: [WorldSimActual::ConvertToTileMap] complete
+[00:00:18]: [WorldSimActual::SeparateIslands]
+[00:00:18]: [SeparateIslands]
+[00:00:18]: [WorldSimActual::SeparateIslands] complete
+[00:00:18]: Map Baked!	
+[00:00:18]: [WorldSimActual::ForceConnectivity]
+[00:00:18]: [GenerateLandmasses]
+[00:00:18]: [GenerateLandmasses] islands: 10
+[00:00:18]: [MergeConnectedLandmasses] true
+[00:00:18]: [WorldSimActual::ForceConnectivity] complete
+[00:00:18]: Encoding...	
+[00:00:18]: [WorldSimActual::CreateNodeIdTileMap]
+[00:00:18]: Encoding... DONE	
+[00:00:18]: Checking Tags	
+[00:00:18]: Tag: Labyrinth	
+[00:00:18]: Tag: Maze	
+[00:00:18]: Couldn't generate any points for maze. Aborting.
+[00:00:18]: Populating voronoi...	
+[00:00:18]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
+[00:00:18]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
+[00:00:18]: Warning! Could not find a spot for StraightWall in node Residential3:0:Vacant	
+[00:00:18]: Warning! Could not find a spot for StraightWall in node Residential3:0:Vacant	
+[00:00:18]: Warning! Could not find a spot for StraightWall2 in node Residential3:0:Vacant	
+[00:00:18]: Warning! Could not find a spot for StraightWall2 in node Residential3:0:Vacant	
+[00:00:18]: Warning! Could not find a spot for StraightWall2 in node Residential3:0:Vacant	
+[00:00:18]: Warning! Could not find a spot for CornerWall2 in node Residential3:0:Vacant	
+[00:00:18]: Warning! Could not find a spot for CornerWall2 in node Residential3:0:Vacant	
+[00:00:18]: Warning! Could not find a spot for CornerWall2 in node Residential3:0:Vacant	
+[00:00:18]: Warning! Could not find a spot for CornerWall2 in node Residential2:3:Vacant	
+[00:00:18]: Warning! Could not find a spot for CornerWall2 in node Residential2:3:Vacant	
+[00:00:18]: Warning! Could not find a spot for CornerWall2 in node Residential2:3:Vacant	
+[00:00:18]: Warning! Could not find a spot for StraightWall2 in node Residential:4:Vacant	
+[00:00:18]: Warning! Could not find a spot for StraightWall2 in node Residential:4:Vacant	
+[00:00:18]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:18]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:18]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:18]: Warning! Could not find a spot for Mudlights in node CaveSwamp:0:TentacleMud	
+[00:00:18]: Warning! Could not find a spot for Mudlights in node CaveSwamp:0:TentacleMud	
+[00:00:18]: Warning! Could not find a spot for Mudlights in node CaveSwamp:0:TentacleMud	
+[00:00:18]: Warning! Could not find a spot for Mudlights in node CaveSwamp:0:TentacleMud	
+[00:00:18]: Warning! Could not find a spot for GrassySinkhole in node CaveExitTask8:0:GrasslandSinkhole	
+[00:00:18]: Warning! Could not find a spot for StraightWall in node Residential:2:Vacant	
+[00:00:18]: Warning! Could not find a spot for StraightWall in node Residential:2:Vacant	
+[00:00:18]: Warning! Could not find a spot for StraightWall2 in node Residential:2:Vacant	
+[00:00:18]: Warning! Could not find a spot for StraightWall2 in node Residential:2:Vacant	
+[00:00:18]: Warning! Could not find a spot for StraightWall2 in node Residential:2:Vacant	
+[00:00:18]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:18]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:18]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:18]: Warning! Could not find a spot for StraightWall2 in node Residential3:1:Vacant	
+[00:00:18]: Warning! Could not find a spot for StraightWall2 in node Residential3:1:Vacant	
+[00:00:18]: Warning! Could not find a spot for StraightWall2 in node Residential3:1:Vacant	
+[00:00:18]: Warning! Could not find a spot for CornerWall2 in node Residential3:1:Vacant	
+[00:00:18]: Warning! Could not find a spot for CornerWall2 in node Residential3:1:Vacant	
+[00:00:18]: Warning! Could not find a spot for CornerWall2 in node Residential3:1:Vacant	
+[00:00:18]: Warning! Could not find a spot for GrassySinkhole in node PleasantSinkhole:5:GrasslandSinkhole	
+[00:00:18]: Warning! Could not find a spot for CornerWall2 in node Residential3:2:Vacant	
+[00:00:18]: Warning! Could not find a spot for CornerWall2 in node Residential3:2:Vacant	
+[00:00:18]: Warning! Could not find a spot for CornerWall2 in node Residential3:2:Vacant	
+[00:00:18]: Warning! Could not find a spot for CornerWall in node Residential:3:Vacant	
+[00:00:18]: Warning! Could not find a spot for StraightWall in node Residential:3:Vacant	
+[00:00:18]: Warning! Could not find a spot for StraightWall in node Residential:3:Vacant	
+[00:00:18]: Warning! Could not find a spot for StraightWall2 in node Residential:3:Vacant	
+[00:00:18]: Warning! Could not find a spot for StraightWall2 in node Residential:3:Vacant	
+[00:00:18]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:18]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:18]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:18]: Warning! Could not find a spot for EvergreenSinkhole in node UndergroundForest:0:SinkholeCopses	
+[00:00:18]: Warning! Could not find a spot for EvergreenSinkhole in node UndergroundForest:0:SinkholeCopses	
+[00:00:18]: Warning! Could not find a spot for EvergreenSinkhole in node UndergroundForest:0:SinkholeCopses	
+[00:00:18]: Warning! Could not find a spot for PondSinkhole in node PleasantSinkhole:0:SinkholeOasis	
+[00:00:18]: [ReplaceSingleNonLandTiles] Validating...
+[00:00:18]: [ReplaceSingleNonLandTiles] Replaced 39 tiles.
+[00:00:18]: DetectDisconnect	
+[00:00:18]: disconnected tiles...	2219	
+[00:00:18]: MilitaryPits:2:Barracks Cant process points	
+[00:00:18]: MilitaryPits:0:Barracks Cant process points	
+[00:00:18]: MilitaryPits:1:Barracks Cant process points	
+[00:00:18]: TheLabyrinth:0:RuinedGuarden Didnt get enough points for all prefabs, got 13 need 22	
+[00:00:18]: Removing entity on IMPASSABLE	nightmarelight	155.765	377.765	-226.94, 0, 661.06	
+[00:00:18]: Removing entity on IMPASSABLE	nightmarelight	153.25	375.28	-237, 0, 651.12	
+[00:00:18]: Removing entity on IMPASSABLE	nightmarelight	155.6875	375.28	-227.25, 0, 651.12	
+[00:00:18]: Removing entity on IMPASSABLE	nightmarelight	153.295	377.7025	-236.82, 0, 660.81	
+[00:00:18]: Removing entity on IMPASSABLE	nightmarelight	142.5	312.5	-280, 0, 400	
+[00:00:18]: Removing entity on IMPASSABLE	nightmarelight	138.5	312.5	-296, 0, 400	
+[00:00:18]: Removing entity on IMPASSABLE	skeleton	157.5	339.445	-220, 0, 507.78	
+[00:00:18]: Removing entity on IMPASSABLE	brokenwall_ruins	155.5	352.015	-228, 0, 558.06	
+[00:00:18]: Removing entity on IMPASSABLE	brokenwall_ruins	155.5	352.265	-228, 0, 559.06	
+[00:00:18]: Removing entity on IMPASSABLE	brokenwall_ruins	155.5	352.515	-228, 0, 560.06	
+[00:00:18]: Removing entity on IMPASSABLE	brokenwall_ruins	155.5	352.765	-228, 0, 561.06	
+[00:00:18]: Removing entity on IMPASSABLE	brokenwall_ruins	153.53	353.515	-235.88, 0, 564.06	
+[00:00:18]: Removing entity on IMPASSABLE	brokenwall_ruins	153.78	353.515	-234.88, 0, 564.06	
+[00:00:18]: Removing entity on IMPASSABLE	brokenwall_ruins	154.03	353.515	-233.88, 0, 564.06	
+[00:00:18]: Removing entity on IMPASSABLE	brokenwall_ruins	154.28	353.515	-232.88, 0, 564.06	
+[00:00:18]: Removing entity on IMPASSABLE	brokenwall_ruins	154.75	381.5	-231, 0, 676	
+[00:00:18]: Removing entity on IMPASSABLE	brokenwall_ruins	149.5	380	-252, 0, 670	
+[00:00:18]: Removing entity on IMPASSABLE	brokenwall_ruins	156.5	371.5	-224, 0, 636	
+[00:00:18]: Removing entity on IMPASSABLE	brokenwall_ruins	159.5	374.25	-212, 0, 647	
+[00:00:18]: Removing entity on IMPASSABLE	brokenwall_ruins	154.4825	339.0625	-232.07, 0, 506.25	
+[00:00:18]: Removing entity on IMPASSABLE	brokenwall_ruins	154.4825	339.5625	-232.07, 0, 508.25	
+[00:00:18]: Removing entity on IMPASSABLE	brokenwall_ruins	154.4825	339.3125	-232.07, 0, 507.25	
+[00:00:18]: Removing entity on IMPASSABLE	brokenwall_ruins	154.4825	338.8125	-232.07, 0, 505.25	
+[00:00:18]: Removing entity on IMPASSABLE	brokenwall_ruins	154.4825	335.53	-232.07, 0, 492.12	
+[00:00:18]: Removing entity on IMPASSABLE	brokenwall_ruins	154.4825	335.28	-232.07, 0, 491.12	
+[00:00:18]: Removing entity on IMPASSABLE	brokenwall_ruins	145.515	325.8125	-267.94, 0, 453.25	
+[00:00:18]: Removing entity on IMPASSABLE	brokenwall_ruins	151.5	322.9825	-244, 0, 441.93	
+[00:00:18]: Removing entity on IMPASSABLE	brokenwall_ruins	151.5	322.7325	-244, 0, 440.93	
+[00:00:18]: Removing entity on IMPASSABLE	brokenwall_ruins	151.5	322.4825	-244, 0, 439.93	
+[00:00:18]: Removing entity on IMPASSABLE	brokenwall_ruins	151.5	322.2325	-244, 0, 438.93	
+[00:00:18]: Removing entity on IMPASSABLE	brokenwall_ruins	149.53	321.4825	-251.88, 0, 435.93	
+[00:00:18]: Removing entity on IMPASSABLE	brokenwall_ruins	149.78	321.4825	-250.88, 0, 435.93	
+[00:00:18]: Removing entity on IMPASSABLE	insanityrock	91.75	236.5	-483, 0, 96	
+[00:00:18]: Removing entity on IMPASSABLE	pandoraschest	81.5	333.5	-524, 0, 484	
+[00:00:18]: Removing entity on IMPASSABLE	pandoraschest	65.5	333.5	-588, 0, 484	
+[00:00:18]: Removing entity on IMPASSABLE	pandoraschest	61.5	333.5	-604, 0, 484	
+[00:00:18]: Removing entity on IMPASSABLE	pandoraschest	87.5	405.5	-500, 0, 772	
+[00:00:18]: Removing entity on IMPASSABLE	pandoraschest	79.5	405.5	-532, 0, 772	
+[00:00:18]: Removing entity on IMPASSABLE	pandoraschest	73.5	405.5	-556, 0, 772	
+[00:00:18]: Removing entity on IMPASSABLE	pillar_ruins	156.5	378.4675	-224, 0, 663.87	
+[00:00:18]: Removing entity on IMPASSABLE	pillar_ruins	152.4825	378.4825	-240.07, 0, 663.93	
+[00:00:18]: Removing entity on IMPASSABLE	pillar_ruins	152.4825	374.4825	-240.07, 0, 647.93	
+[00:00:18]: Removing entity on IMPASSABLE	pillar_ruins	156.5	374.4825	-224, 0, 647.93	
+[00:00:18]: Removing entity on IMPASSABLE	pillar_ruins	159.515	371.4825	-211.94, 0, 635.93	
+[00:00:18]: Removing entity on IMPASSABLE	pillar_ruins	159.5	381.515	-212, 0, 676.06	
+[00:00:18]: Removing entity on IMPASSABLE	pillar_ruins	149.5	381.4825	-252, 0, 675.93	
+[00:00:18]: Removing entity on IMPASSABLE	pillar_ruins	149.515	371.4825	-251.94, 0, 635.93	
+[00:00:18]: Removing entity on IMPASSABLE	wall_ruins	155.5	353.015	-228, 0, 562.06	
+[00:00:18]: Removing entity on IMPASSABLE	wall_ruins	155.5	353.265	-228, 0, 563.06	
+[00:00:18]: Removing entity on IMPASSABLE	wall_ruins	155.5	353.515	-228, 0, 564.06	
+[00:00:18]: Removing entity on IMPASSABLE	wall_ruins	155.25	381.5	-229, 0, 676	
+[00:00:18]: Removing entity on IMPASSABLE	wall_ruins	155.5	381.5	-228, 0, 676	
+[00:00:18]: Removing entity on IMPASSABLE	wall_ruins	155	381.5	-230, 0, 676	
+[00:00:18]: Removing entity on IMPASSABLE	wall_ruins	154	371.5	-234, 0, 636	
+[00:00:18]: Removing entity on IMPASSABLE	wall_ruins	156.75	371.5	-223, 0, 636	
+[00:00:18]: Removing entity on IMPASSABLE	wall_ruins	159.5	374	-212, 0, 646	
+[00:00:18]: Removing entity on IMPASSABLE	wall_ruins	159.5	373.75	-212, 0, 645	
+[00:00:18]: Removing entity on IMPASSABLE	wall_ruins	159.5	372.75	-212, 0, 641	
+[00:00:18]: Removing entity on IMPASSABLE	wall_ruins	154.4825	335.03	-232.07, 0, 490.12	
+[00:00:18]: Removing entity on IMPASSABLE	wall_ruins	149.4825	340.4525	-252.07, 0, 511.81	
+[00:00:18]: Removing entity on IMPASSABLE	wall_ruins	149.2325	340.4525	-253.07, 0, 511.81	
+[00:00:18]: Removing entity on IMPASSABLE	wall_ruins	153.4675	340.4675	-236.13, 0, 511.87	
+[00:00:18]: Removing entity on IMPASSABLE	wall_ruins	153.2175	340.4675	-237.13, 0, 511.87	
+[00:00:18]: Removing entity on IMPASSABLE	wall_ruins	152.9675	340.4675	-238.13, 0, 511.87	
+[00:00:18]: Removing entity on IMPASSABLE	wall_ruins	150.515	327.4525	-247.94, 0, 459.81	
+[00:00:18]: Removing entity on IMPASSABLE	wall_ruins	150.765	327.4525	-246.94, 0, 459.81	
+[00:00:18]: Removing entity on IMPASSABLE	wall_ruins	151.015	327.4525	-245.94, 0, 459.81	
+[00:00:18]: Removing entity on IMPASSABLE	wall_ruins	146.53	327.4675	-263.88, 0, 459.87	
+[00:00:18]: Removing entity on IMPASSABLE	wall_ruins	146.78	327.4675	-262.88, 0, 459.87	
+[00:00:18]: Removing entity on IMPASSABLE	wall_ruins	147.03	327.4675	-261.88, 0, 459.87	
+[00:00:18]: Removing entity on IMPASSABLE	wall_ruins	61.5	313.265	-604, 0, 403.06	
+[00:00:18]: Removing entity on IMPASSABLE	ruins_statue_mage_spawner	157.75	315	-219, 0, 410	
+[00:00:18]: Removing entity on IMPASSABLE	ruins_statue_mage_spawner	149.5	303.5	-252, 0, 364	
+[00:00:18]: Removing entity on IMPASSABLE	boards	157.9	338.6	-218.4, 0, 504.4	
+[00:00:18]: Removing entity on IMPASSABLE	boards	157.8175	339.2825	-218.73, 0, 507.13	
+[00:00:18]: Removing entity on IMPASSABLE	boards	158.265	340.19	-216.94, 0, 510.76	
+[00:00:18]: Removing entity on IMPASSABLE	boards	157.8875	338.76	-218.45, 0, 505.04	
+[00:00:18]: Removing entity on IMPASSABLE	boards	158.2175	339.515	-217.13, 0, 508.06	
+[00:00:18]: Removing entity on IMPASSABLE	ruins_statue_head_nogem_spawner	155.03	314.9825	-229.88, 0, 409.93	
+[00:00:18]: Removing entity on IMPASSABLE	ruins_statue_head_spawner	165.25	313.25	-189, 0, 403	
+[00:00:18]: Removing entity on IMPASSABLE	ruins_statue_head_spawner	156.5	305.75	-224, 0, 373	
+[00:00:18]: Removing entity on IMPASSABLE	bishop_nightmare_spawner	154.75	348.75	-231, 0, 545	
+[00:00:18]: Removing entity on IMPASSABLE	bishop_nightmare_spawner	153.75	375.9825	-235, 0, 653.93	
+[00:00:18]: Removing entity on IMPASSABLE	bishop_nightmare_spawner	155.3275	376.9525	-228.69, 0, 657.81	
+[00:00:18]: Removing entity on IMPASSABLE	bishop_nightmare_spawner	149.25	339.25	-253, 0, 507	
+[00:00:18]: Removing entity on IMPASSABLE	bishop_nightmare_spawner	150.75	326.25	-247, 0, 455	
+[00:00:18]: Removing entity on IMPASSABLE	bishop_nightmare_spawner	154.7175	310.4825	-231.13, 0, 391.93	
+[00:00:18]: Removing entity on IMPASSABLE	bishop_nightmare_spawner	147.25	305.25	-261, 0, 371	
+[00:00:18]: Removing entity on IMPASSABLE	bishop_nightmare_spawner	156.7325	304.0775	-223.07, 0, 366.31	
+[00:00:18]: Removing entity on IMPASSABLE	knight_nightmare_spawner	158.3575	310.515	-216.57, 0, 392.06	
+[00:00:18]: Removing entity on IMPASSABLE	knight_nightmare_spawner	164.75	312	-191, 0, 398	
+[00:00:18]: Removing entity on IMPASSABLE	knight_nightmare_spawner	164	296	-194, 0, 334	
+[00:00:18]: Removing entity on IMPASSABLE	knight_nightmare_spawner	149	313	-254, 0, 402	
+[00:00:18]: Removing entity on IMPASSABLE	knight_nightmare_spawner	163.5	306	-196, 0, 374	
+[00:00:18]: Removing entity on IMPASSABLE	knight_nightmare_spawner	140	305	-290, 0, 370	
+[00:00:18]: Removing entity on IMPASSABLE	armorwood	156.5975	339.295	-223.61, 0, 507.18	
+[00:00:18]: Removing entity on IMPASSABLE	ancient_altar_spawner	154.5	376.515	-232, 0, 656.06	
+[00:00:18]: Removing entity on IMPASSABLE	chessjunk_spawner	150	351.25	-250, 0, 555	
+[00:00:18]: Removing entity on IMPASSABLE	chessjunk_spawner	153	350	-238, 0, 550	
+[00:00:18]: Removing entity on IMPASSABLE	chessjunk_spawner	151.5	349.5	-244, 0, 548	
+[00:00:18]: Removing entity on IMPASSABLE	chessjunk_spawner	151	353	-246, 0, 562	
+[00:00:18]: Removing entity on IMPASSABLE	chessjunk_spawner	151.25	351	-245, 0, 554	
+[00:00:18]: Removing entity on IMPASSABLE	chessjunk_spawner	154.5	351.5	-232, 0, 556	
+[00:00:18]: Removing entity on IMPASSABLE	chessjunk_spawner	157.64	379.515	-219.44, 0, 668.06	
+[00:00:18]: Removing entity on IMPASSABLE	chessjunk_spawner	151.765	373.4825	-242.94, 0, 643.93	
+[00:00:18]: Removing entity on IMPASSABLE	chessjunk_spawner	154	336.75	-234, 0, 497	
+[00:00:18]: Removing entity on IMPASSABLE	chessjunk_spawner	151	338	-246, 0, 502	
+[00:00:18]: Removing entity on IMPASSABLE	chessjunk_spawner	152.5	338.5	-240, 0, 504	
+[00:00:18]: Removing entity on IMPASSABLE	chessjunk_spawner	153	335	-238, 0, 490	
+[00:00:18]: Removing entity on IMPASSABLE	chessjunk_spawner	152.75	337	-239, 0, 498	
+[00:00:18]: Removing entity on IMPASSABLE	chessjunk_spawner	149.5	336.5	-252, 0, 496	
+[00:00:18]: Removing entity on IMPASSABLE	chessjunk_spawner	146	323.75	-266, 0, 445	
+[00:00:18]: Removing entity on IMPASSABLE	chessjunk_spawner	149	325	-254, 0, 450	
+[00:00:18]: Removing entity on IMPASSABLE	chessjunk_spawner	147.5	325.5	-260, 0, 452	
+[00:00:18]: Removing entity on IMPASSABLE	chessjunk_spawner	147	322	-262, 0, 438	
+[00:00:18]: Removing entity on IMPASSABLE	chessjunk_spawner	147.25	324	-261, 0, 446	
+[00:00:18]: Removing entity on IMPASSABLE	chessjunk_spawner	150.5	323.5	-248, 0, 444	
+[00:00:18]: Removing entity on IMPASSABLE	chessjunk_spawner	163.2325	310.8425	-197.07, 0, 393.37	
+[00:00:18]: Removing entity on IMPASSABLE	chessjunk_spawner	166.7175	310.515	-183.13, 0, 392.06	
+[00:00:18]: Removing entity on IMPASSABLE	chessjunk_spawner	146.375	302.8575	-264.5, 0, 361.43	
+[00:00:18]: Removing entity on IMPASSABLE	chessjunk_spawner	141.015	314.17	-285.94, 0, 406.68	
+[00:00:18]: Removing entity on IMPASSABLE	chessjunk_spawner	142.2325	311.7025	-281.07, 0, 396.81	
+[00:00:18]: Removing entity on IMPASSABLE	chessjunk_spawner	157	303	-222, 0, 362	
+[00:00:18]: Removing entity on IMPASSABLE	chessjunk_spawner	155.17	305.3425	-229.32, 0, 371.37	
+[00:00:18]: Removing entity on IMPASSABLE	rook_nightmare_spawner	151.75	348	-243, 0, 542	
+[00:00:18]: Removing entity on IMPASSABLE	rook_nightmare_spawner	152.75	352.25	-239, 0, 559	
+[00:00:18]: Removing entity on IMPASSABLE	rook_nightmare_spawner	152.25	340	-241, 0, 510	
+[00:00:18]: Removing entity on IMPASSABLE	rook_nightmare_spawner	151.25	335.75	-245, 0, 493	
+[00:00:18]: Removing entity on IMPASSABLE	rook_nightmare_spawner	147.75	327	-259, 0, 458	
+[00:00:18]: Removing entity on IMPASSABLE	rook_nightmare_spawner	148.75	322.75	-255, 0, 441	
+[00:00:18]: Removing entity on IMPASSABLE	rook_nightmare_spawner	141.9675	314.7325	-282.13, 0, 408.93	
+[00:00:18]: Removing entity on IMPASSABLE	rook_nightmare_spawner	156.7325	296.7175	-223.07, 0, 336.87	
+[00:00:18]: Removing entity on IMPASSABLE	wall_stone_2	384.92	133.3275	689.68, 0, -316.69	
+[00:00:18]: Removing entity on IMPASSABLE	sacred_chest	154.5	374.75	-232, 0, 649	
+[00:00:18]: Checking Required Prefab atrium_gate has at least 1 instances (1 found).	
+[00:00:18]: Checking Required Prefab minotaur_spawner has at least 1 instances (1 found).	
+[00:00:18]: Checking Required Prefab sacred_chest has at least 1 instances (0 found).	
+[00:00:18]: PANIC: missing required prefab [sacred_chest]! Expected 1, got 0	
+[00:00:18]: An error occured during world gen we will retry! [was 	3	 of 	5	]	
+[00:00:18]: New size:	425	default	
+[00:00:18]: Creating story...	
+[00:00:18]: [Story Gen] Generate nodes. Starting at: 'MudWorld'	
+[00:00:18]: [Story Gen] RestrictNodesByKey	
+[00:00:18]: Finding valid start task...	
+[00:00:18]:    ...picked 	CaveExitTask1	
+[00:00:18]: Has start node	RabbitArea	
+[00:00:18]: Adding Background Nodes	
+[00:00:18]: [Story Gen] Adding Cove Nodes	
+[00:00:18]: [WorldSimActual::WorldGen_InitializeNodePoints]
+[00:00:18]: [WorldSimActual::WorldGen_VoronoiPass]
+[00:00:18]: GenerateVoronoiMap [100]:
+[00:00:20]: ...Done.
+[00:00:20]: ... story created	
+[00:00:20]: Baking map...	425	
+[00:00:20]: [WorldSimActual::WorldGen_Commit] worldgen success.
+[00:00:20]: [WorldSimActual::ConvertToTileMap]
+[00:00:20]: [ConvertToTileMap]
+[00:00:20]: [WorldSimActual::ConvertToTileMap] complete
+[00:00:20]: [WorldSimActual::SeparateIslands]
+[00:00:20]: [SeparateIslands]
+[00:00:20]: [WorldSimActual::SeparateIslands] complete
+[00:00:20]: Map Baked!	
+[00:00:20]: [WorldSimActual::ForceConnectivity]
+[00:00:20]: [GenerateLandmasses]
+[00:00:20]: [GenerateLandmasses] islands: 16
+[00:00:20]: [MergeConnectedLandmasses] true
+[00:00:20]: [WorldSimActual::ForceConnectivity] complete
+[00:00:20]: Encoding...	
+[00:00:20]: [WorldSimActual::CreateNodeIdTileMap]
+[00:00:20]: Encoding... DONE	
+[00:00:20]: Checking Tags	
+[00:00:20]: Tag: Labyrinth	
+[00:00:20]: Tag: Maze	
+[00:00:20]: Couldn't generate any points for maze. Aborting.
+[00:00:20]: Couldn't generate any points for maze. Aborting.
+[00:00:20]: Populating voronoi...	
+[00:00:20]: Warning! Could not find a spot for StraightWall2 in node Residential3:2:Vacant	
+[00:00:20]: Warning! Could not find a spot for StraightWall2 in node Residential3:2:Vacant	
+[00:00:20]: Warning! Could not find a spot for CornerWall2 in node Residential3:2:Vacant	
+[00:00:20]: Warning! Could not find a spot for CornerWall2 in node Residential3:2:Vacant	
+[00:00:20]: Warning! Could not find a spot for CornerWall2 in node Residential3:2:Vacant	
+[00:00:20]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
+[00:00:20]: Warning! Could not find a spot for StraightWall2 in node Residential3:0:Vacant	
+[00:00:20]: Warning! Could not find a spot for StraightWall2 in node Residential3:0:Vacant	
+[00:00:20]: Warning! Could not find a spot for CornerWall2 in node Residential3:0:Vacant	
+[00:00:20]: Warning! Could not find a spot for CornerWall2 in node Residential3:0:Vacant	
+[00:00:20]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask9:1:GreenMushSinkhole	
+[00:00:20]: Warning! Could not find a spot for PondSinkhole in node CaveExitTask7:0:SinkholeOasis	
+[00:00:20]: Warning! Could not find a spot for StraightWall in node Residential2:3:Vacant	
+[00:00:20]: Warning! Could not find a spot for StraightWall2 in node Residential2:3:Vacant	
+[00:00:20]: Warning! Could not find a spot for StraightWall2 in node Residential2:3:Vacant	
+[00:00:20]: Warning! Could not find a spot for CornerWall2 in node Residential2:3:Vacant	
+[00:00:20]: Warning! Could not find a spot for CornerWall2 in node Residential2:3:Vacant	
+[00:00:20]: Warning! Could not find a spot for CornerWall2 in node Residential2:3:Vacant	
+[00:00:20]: Warning! Could not find a spot for StraightWall2 in node Residential3:1:Vacant	
+[00:00:20]: Warning! Could not find a spot for StraightWall2 in node Residential3:1:Vacant	
+[00:00:20]: Warning! Could not find a spot for StraightWall2 in node Residential3:1:Vacant	
+[00:00:20]: Warning! Could not find a spot for CornerWall2 in node Residential3:1:Vacant	
+[00:00:20]: Warning! Could not find a spot for CornerWall2 in node Residential3:1:Vacant	
+[00:00:20]: Warning! Could not find a spot for CornerWall2 in node Residential3:1:Vacant	
+[00:00:20]: Warning! Could not find a spot for CornerWall in node Residential:2:Vacant	
+[00:00:20]: Warning! Could not find a spot for StraightWall in node Residential:2:Vacant	
+[00:00:20]: Warning! Could not find a spot for StraightWall in node Residential:2:Vacant	
+[00:00:20]: Warning! Could not find a spot for StraightWall in node Residential:2:Vacant	
+[00:00:20]: Warning! Could not find a spot for StraightWall2 in node Residential:2:Vacant	
+[00:00:20]: Warning! Could not find a spot for StraightWall2 in node Residential:2:Vacant	
+[00:00:20]: Warning! Could not find a spot for StraightWall2 in node Residential:2:Vacant	
+[00:00:20]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:20]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:20]: Warning! Could not find a spot for StraightWall2 in node Residential:4:Vacant	
+[00:00:20]: Warning! Could not find a spot for StraightWall2 in node Residential:4:Vacant	
+[00:00:20]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:20]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:20]: Warning! Could not find a spot for GrassySinkhole in node PleasantSinkhole:4:GrasslandSinkhole	
+[00:00:20]: Warning! Could not find a spot for GrassySinkhole in node PleasantSinkhole:3:GrasslandSinkhole	
+[00:00:20]: Warning! Could not find a spot for StraightWall in node Residential:3:Vacant	
+[00:00:20]: Warning! Could not find a spot for StraightWall2 in node Residential:3:Vacant	
+[00:00:20]: Warning! Could not find a spot for StraightWall2 in node Residential:3:Vacant	
+[00:00:20]: Warning! Could not find a spot for StraightWall2 in node Residential:3:Vacant	
+[00:00:20]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:20]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:20]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:20]: Warning! Could not find a spot for EvergreenSinkhole in node UndergroundForest:0:SinkholeCopses	
+[00:00:20]: Warning! Could not find a spot for EvergreenSinkhole in node UndergroundForest:0:SinkholeCopses	
+[00:00:20]: Warning! Could not find a spot for PondSinkhole in node PleasantSinkhole:0:SinkholeOasis	
+[00:00:20]: [ReplaceSingleNonLandTiles] Validating...
+[00:00:20]: [ReplaceSingleNonLandTiles] Replaced 30 tiles.
+[00:00:20]: DetectDisconnect	
+[00:00:20]: disconnected tiles...	569	
+[00:00:20]: Removing entity on IMPASSABLE	cavelight	358.3775	327.7425	583.51, 0, 460.97	
+[00:00:20]: Removing entity on IMPASSABLE	brokenwall_ruins	122.5	317.75	-360, 0, 421	
+[00:00:20]: Removing entity on IMPASSABLE	brokenwall_ruins	122.5	317.5	-360, 0, 420	
+[00:00:20]: Removing entity on IMPASSABLE	brokenwall_ruins	122.5	318	-360, 0, 422	
+[00:00:20]: Removing entity on IMPASSABLE	pandoraschest	109.5	407.5	-412, 0, 780	
+[00:00:20]: Removing entity on IMPASSABLE	wall_ruins	222.5	338.265	40, 0, 503.06	
+[00:00:20]: Removing entity on IMPASSABLE	ruins_statue_head_nogem_spawner	121.4675	317.53	-364.13, 0, 420.12	
+[00:00:20]: Removing entity on IMPASSABLE	ruins_statue_head_spawner	115.5	317.515	-388, 0, 420.06	
+[00:00:20]: Checking Required Prefab atrium_gate has at least 1 instances (1 found).	
+[00:00:20]: Checking Required Prefab minotaur_spawner has at least 1 instances (1 found).	
+[00:00:20]: Checking Required Prefab sacred_chest has at least 1 instances (1 found).	
+[00:00:20]: Checking Required Prefab tentacle_pillar_atrium has at least 2 instances (2 found).	
+[00:00:20]: Checking Required Prefab archive_orchestrina_main has at least 1 instances (1 found).	
+[00:00:20]: Checking Required Prefab shadowthrall_centipede_spawner has at least 1 instances (1 found).	
+[00:00:20]: Checking Required Prefab archive_lockbox_dispencer has at least 3 instances (3 found).	
+[00:00:20]: [ReplaceSingleNonLandTiles] Validating...
+[00:00:20]: [ReplaceSingleNonLandTiles] Replaced 0 tiles.
+[00:00:20]: Done cave map gen!	
+[00:00:20]: Checking map...	
+[00:00:20]: Generation complete, injecting world entities.	
+[00:00:20]: Injected world entities.	
+[00:00:20]: WorldSim::SimThread::Main() complete
+[00:00:20]: Serializing world: session/51EC6BCC67DBBC2F/0000000002
+[00:00:20]: Klump load on boot started.	
+[00:00:20]: Klump files loaded: 	0	
+[00:00:20]: 	Unload FE	
+[00:00:20]: 	Unload FE done	
+[00:00:21]: 	LOAD BE	
+[00:00:31]: 	LOAD BE: done	
+[00:00:31]: Begin Session: 51EC6BCC67DBBC2F
+[00:00:31]: saving to server_temp/server_save	
+[00:00:31]: OVERRIDE: setting	healthpenalty	to	always	
+[00:00:31]: OVERRIDE: setting	acidrain_enabled	to	always	
+[00:00:31]: OVERRIDE: setting	lessdamagetaken	to	none	
+[00:00:31]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
+[00:00:31]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
+[00:00:31]: Loading 19 new character(s)	
+[00:00:31]: Total 19 character(s) loaded	
+[00:00:33]: Loading Nav Grid	
+[00:00:33]: World generated on build 713564 with save version: 5.22, using seed: 1063887645	
+[00:00:33]: [Shard] Secondary shard is waiting for LUA...
+[00:00:33]: OVERRIDE: setting	ghostenabled	to	always	
+[00:00:33]: OVERRIDE: setting	resettime	to	none	
+[00:00:33]: OVERRIDE: setting	basicresource_regrowth	to	always	
+[00:00:33]: OVERRIDE: setting	portalresurection	to	always	
+[00:00:33]: OVERRIDE: setting	spawnmode	to	fixed	
+[00:00:33]: OVERRIDE: setting	ghostsanitydrain	to	none	
+[00:00:34]: Reconstructing topology	
+[00:00:34]: 	...Sorting points	
+[00:00:34]: 	...Sorting edges	
+[00:00:34]: 	...Connecting nodes	
+[00:00:34]: 	...Validating connections	
+[00:00:35]: 	...Housekeeping	
+[00:00:35]: 	...Done!	
+[00:00:35]: 1 uploads added to server. From server_temp
+[00:00:35]: About to start a shard with these settings:
+[00:00:35]:   ShardName: Caves
+[00:00:35]:   ShardID: 3591121910
+[00:00:35]:   ShardRole: SECONDARY
+[00:00:35]:   MasterHost: 127.0.0.1
+[00:00:35]:   MasterBind: (null)
+[00:00:35]:   MasterPort: 10888
+[00:00:35]: [Shard] Connecting to master...
+[00:00:35]: Telling Client our new session identifier: 51EC6BCC67DBBC2F
+[00:00:35]: [Shard] Sending secondary shard information to master...
+[00:00:35]: Skipping portal[1] (no available shard [Master] connected)	
+[00:00:35]: Skipping portal[2] (no available shard [Master] connected)	
+[00:00:35]: Skipping portal[3] (no available shard [Master] connected)	
+[00:00:35]: Skipping portal[4] (no available shard [Master] connected)	
+[00:00:35]: Skipping portal[5] (no available shard [Master] connected)	
+[00:00:35]: Skipping portal[oceanwhirlbigportal] (no available shard [Master] connected)	
+[00:00:35]: Skipping portal[6] (no available shard [Master] connected)	
+[00:00:35]: Skipping portal[7] (no available shard [Master] connected)	
+[00:00:35]: Skipping portal[8] (no available shard [Master] connected)	
+[00:00:35]: Skipping portal[9] (no available shard [Master] connected)	
+[00:00:35]: Skipping portal[10] (no available shard [Master] connected)	
+[00:00:35]: Received MasterInfoPacket row KU_BgG4ffIp region eu-central-1
+[00:00:35]: Obtaining secondary shard IP from eu-central-1 lobby
+[00:00:38]: [Shard] secondary shard is now ready!
+[00:00:38]: World 1(Master) is now connected	
+[00:00:38]: Validating portal[1] <-> 1[1] (active)	
+[00:00:38]: Validating portal[2] <-> 1[2] (active)	
+[00:00:38]: Validating portal[3] <-> 1[3] (active)	
+[00:00:38]: Validating portal[4] <-> 1[4] (active)	
+[00:00:38]: Validating portal[5] <-> 1[5] (active)	
+[00:00:38]: Validating portal[oceanwhirlbigportal] <-> 1[oceanwhirlbigportal] (disabled)	
+[00:00:38]: Validating portal[6] <-> 1[6] (active)	
+[00:00:38]: Validating portal[7] <-> 1[7] (active)	
+[00:00:38]: Validating portal[8] <-> 1[8] (active)	
+[00:00:38]: Validating portal[9] <-> 1[9] (active)	
+[00:00:38]: Validating portal[10] <-> 1[10] (active)	
+[00:00:38]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[00:00:38]: [SyncWorldSettings] applying temperaturedamage = default from master shard.	
+[00:00:38]: [SyncWorldSettings] applying spawnmode = fixed from master shard.	
+[00:00:38]: [SyncWorldSettings] applying lessdamagetaken = none from master shard.	
+[00:00:38]: [SyncWorldSettings] applying ghostenabled = always from master shard.	
+[00:00:38]: [SyncWorldSettings] applying shadowcreatures = default from master shard.	
+[00:00:38]: [SyncWorldSettings] applying resettime = none from master shard.	
+[00:00:38]: [SyncWorldSettings] applying krampus = default from master shard.	
+[00:00:38]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[00:00:38]: [SyncWorldSettings] applying healthpenalty = always from master shard.	
+[00:00:38]: [SyncWorldSettings] applying dropeverythingondespawn = default from master shard.	
+[00:00:38]: [SyncWorldSettings] applying darkness = default from master shard.	
+[00:00:38]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[00:00:38]: component hauntable already exists on entity 106612 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[00:00:38]: [SyncWorldSettings] applying brightmarecreatures = default from master shard.	
+[00:00:38]: [SyncWorldSettings] applying hunger = default from master shard.	
+[00:00:38]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[00:00:38]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[00:00:38]: [SyncWorldSettings] applying temperaturedamage = default from master shard.	
+[00:00:38]: [SyncWorldSettings] applying spawnmode = fixed from master shard.	
+[00:00:38]: [SyncWorldSettings] applying lessdamagetaken = none from master shard.	
+[00:00:38]: [SyncWorldSettings] applying ghostenabled = always from master shard.	
+[00:00:38]: [SyncWorldSettings] applying shadowcreatures = default from master shard.	
+[00:00:38]: [SyncWorldSettings] applying resettime = none from master shard.	
+[00:00:38]: [SyncWorldSettings] applying krampus = default from master shard.	
+[00:00:38]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[00:00:38]: [SyncWorldSettings] applying healthpenalty = always from master shard.	
+[00:00:38]: [SyncWorldSettings] applying dropeverythingondespawn = default from master shard.	
+[00:00:38]: [SyncWorldSettings] applying darkness = default from master shard.	
+[00:00:38]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[00:00:38]: component hauntable already exists on entity 106612 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[00:00:38]: [SyncWorldSettings] applying brightmarecreatures = default from master shard.	
+[00:00:38]: [SyncWorldSettings] applying hunger = default from master shard.	
+[00:00:38]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[00:00:39]: [Shard] secondary shard LUA is now ready!
+[00:00:39]: [IPC] Signal 'DST_Secondary_Ready' opened  #0000000000000964
+[00:00:39]: [IPC] Sending signal... #0000000000000964
+[00:00:39]: Sim paused
+[00:02:21]: Sim unpaused
+[00:04:00]: Server Autopaused	
+[00:04:00]: Server Unpaused	
+[00:04:05]: Received MasterInfoPacket row KU_BgG4ffIp region ap-southeast-1
+[00:04:16]: Server Autopaused	
+[00:04:17]: Server Unpaused	
+[00:04:30]: [Shard] We have been disconnected from the master. Waiting to reconnect...
+[00:04:30]: Sim paused
+[00:04:35]: About to start a shard with these settings:
+[00:04:35]:   ShardName: Caves
+[00:04:35]:   ShardID: 3591121910
+[00:04:35]:   ShardRole: SECONDARY
+[00:04:35]:   MasterHost: 127.0.0.1
+[00:04:35]:   MasterBind: (null)
+[00:04:35]:   MasterPort: 10888
+[00:04:35]: [Shard] Connecting to master...
+[00:04:38]: [IPC] Received shutdown signal.
+[00:04:38]: Available disk space for save files: 58063 MB
+[00:04:38]: Serializing world: session/51EC6BCC67DBBC2F/0000000003
+[00:04:38]: [Shard] Stopping shard mode
+[00:04:38]: Collecting garbage...
+[00:04:39]: lua_gc took 0.15 seconds
+[00:04:39]: ~ShardLuaProxy()
+[00:04:39]: ~cEventLeaderboardProxy()
+[00:04:39]: ~ItemServerLuaProxy()
+[00:04:39]: ~InventoryLuaProxy()
+[00:04:39]: ~NetworkLuaProxy()
+[00:04:39]: ~SimLuaProxy()
+[00:04:39]: lua_close took 0.14 seconds
+[00:04:39]: CurlRequestManager::ClientThread::Main() complete
+[00:04:39]: HttpClient2 discarded 0 callbacks.
+[00:04:39]: Shutting down

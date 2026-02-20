@@ -1,0 +1,1254 @@
+[00:00:00]: 
+System Memory:
+	Memory Load: 74%
+	Available Physical Memory: 4104m/16087m
+	Available Page File: 40530m/65239m
+	Available Virtual Memory: 134213474m/134217727m
+	Available Extended Virtual Memory: 0m
+[00:00:00]: 
+Process Memory:
+	Peak Working Set Size: 35m
+	Working Set Size: 35m
+	Quota Peak Page Pool Usage: 228k
+	Quota Page Pool Usage: 224k
+	Quota Peak Non Paged Pool Usage:17k
+	Quota Non Paged Pool Usage: 14k
+	Page File Usage: 5m
+	Peak Page File Usage: 5m
+[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogether/1668949407/Cluster_2/Master/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 713564
+[00:00:00]: Current time: Fri Feb 20 21:03:12 2026
+
+[00:00:00]: Don't Starve Together: 713564 WIN32
+[00:00:00]: Build Date: 3947
+[00:00:00]: Mode: 64-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -monitor_parent_process 28260 -persistent_storage_root APP:Klei/ -conf_dir DoNotStarveTogether -cluster Cluster_2 -ownernetid 76561199629215135 -ownerdir 1668949407 -clouddir 1668949407 -backup_log_count 25 -backup_log_period 0 -shard Master -secondary_log_prefix master -sigprefix DST_Master -token *********************************************************************************** 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: Initializing Minidump handler
+[00:00:00]: ....Done
+[00:00:00]: ....Done
+[00:00:00]: Fixing DPI
+[00:00:00]: ...Done
+[00:00:00]: THREAD - started 'GAClient' (20716)
+[00:00:00]: ProfileIndex:0.45
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: [Steam] SteamGameServer_Init(10999, 27016)
+[00:00:00]: [Steam] SteamGameServer_Init success
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: Platform: 1
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: Authorized application D:\steam\steamapps\common\Don't Starve Together\bin64\dontstarve_dedicated_server_nullrenderer_x64.exe is disabled in the firewall.
+[00:00:01]: Authorized application D:\steam\steamapps\common\Don't Starve Together\bin64\dontstarve_dedicated_server_nullrenderer_x64.exe is now enabled in the firewall.
+[00:00:01]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/1668949407/client_save/blocklist.txt (Failure)
+[00:00:01]: THREAD - started 'StreamInput' (17888)
+[00:00:01]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/1668949407/client_save/adminlist.txt (Failure)
+[00:00:01]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/1668949407/client_save/whitelist.txt (Failure)
+[00:00:01]: Offline user ID: OU_76561199629215135
+[00:00:01]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 11 专业版
+    version                   10.0.26100
+    platformSpecific          SP 0.0
+    architecture              64 位
+  CPU                       
+    clockSpeed                2200
+    name                      Intel(R) Core(TM) i7-14650HX
+    manufacturer              GenuineIntel
+    numCores                  16
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+  RAM                       
+    megsOfRam                 16384
+  GPU                       
+    megsOfRam                 2047
+    videoModeDescription      2560 x 1600 x 4294967296 种颜色
+    name                      Intel(R) UHD Graphics
+    driverVersion             32.0.101.7040
+    driverDate                20250919000000.000000-000
+    refreshRate               240
+
+[00:00:01]: cGame::InitializeOnMainThread
+[00:00:01]: Renderer initialize: Okay
+[00:00:01]: AnimManager initialize: Okay
+[00:00:01]: Buffers initialize: Okay
+[00:00:01]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:01]: GameSpecific initialize: Okay
+[00:00:01]: cGame::StartPlaying
+[00:00:01]: AppVersion::GetArchitecture() x64
+[00:00:01]: LOADING LUA
+[00:00:01]: DoLuaFile scripts/main.lua
+[00:00:01]: DoLuaFile loading buffer scripts/main.lua
+[00:00:01]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:00:02]:   taskgrouplist:	default	联机版	
+[00:00:02]:   taskgrouplist:	classic	经典	
+[00:00:02]:   taskgrouplist:	cave_default	地下	
+[00:00:02]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:02]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:02]: Running main.lua
+	
+[00:00:02]: Could not load modindex	
+[00:00:02]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:02]: SUCCESS: Loaded modoverrides.lua	
+[00:00:02]: Registering Mods:
+[00:00:02]: No mods registered
+[00:00:02]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:03]: LOADING LUA SUCCESS
+[00:00:04]: PlayerDeaths could not load morgue	
+[00:00:04]: PlayerHistory could not load player_history	
+[00:00:04]: ServerPreferences could not load server_preferences	
+[00:00:04]: ConsoleScreenSettings could not load consolescreen	
+[00:00:04]: bloom_enabled	true	
+[00:00:04]: OnFilesLoaded()	
+[00:00:04]: OnUpdatePurchaseStateComplete	
+[00:00:04]: Klump load on boot started.	
+[00:00:04]: Klump files loaded: 	0	
+[00:00:06]: 	Load FE	
+[00:00:06]: 	Load FE: done	
+[00:00:06]: THREAD - started 'FilesExistAsyncThread' (28412)
+[00:00:06]: FilesExistAsyncThread started (0 files)...
+[00:00:06]: ... FilesExistAsyncThread complete
+[00:00:06]: Check for write access: TRUE
+[00:00:06]: Check for read access: TRUE
+[00:00:06]: Available disk space for save files: 58080 MB
+[00:00:06]: ModIndex: Load sequence finished successfully.	
+[00:00:06]: Reset() returning
+[00:00:06]: [IPC] Signal 'DST_Master_Kill' opened  #00000000000009F8
+[00:00:06]: [IPC] Registering handler for signal #00000000000009F8
+[00:00:06]: [IPC] Handle #00000000000009F8 added to the Eventhandles
+[00:00:06]: [IPC] Signal 'DST_Master_ShutdownNoSave' opened  #00000000000009B4
+[00:00:06]: [IPC] Registering handler for signal #00000000000009B4
+[00:00:06]: [IPC] Handle #00000000000009B4 added to the Eventhandles
+[00:00:06]: [IPC] Signal 'DST_Master_Starting' opened  #0000000000000A20
+[00:00:06]: [IPC] Sending signal... #0000000000000A20
+[00:00:09]: [200] Account Communication Success (6)
+[00:00:09]: Cached userid (null) saved to APP:Klei//DoNotStarveTogether/1668949407/Cluster_2/Master/save/cached_userid
+[00:00:09]: Received (KU_BgG4ffIp) from TokenPurpose
+[00:00:09]: Starting Dedicated Server Game	
+[00:00:09]: Network tick rate: U=15(2), D=0
+[00:00:09]: About to start a server with the following settings:
+[00:00:09]:   Dedicated: true
+[00:00:09]:   Online: true
+[00:00:09]:   Passworded: true
+[00:00:09]:   ServerPort: 10999
+[00:00:09]:   SteamAuthPort: 8766
+[00:00:09]:   SteamMasterServerPort: 27016
+[00:00:09]:   ClanID: false
+[00:00:09]:   ClanOnly: false
+[00:00:09]:   ClanAdmin: false
+[00:00:09]:   LanOnly: false
+[00:00:09]:   FriendsOnly: false
+[00:00:09]:   EnableAutosaver: true
+[00:00:09]:   EncodeUserPath: true
+[00:00:09]:   PVP: false
+[00:00:09]:   MaxPlayers: 6
+[00:00:09]:   GameMode: survival
+[00:00:09]:   OverridenDNS: 
+[00:00:09]:   PauseWhenEmpty: true
+[00:00:09]:   IdleTimeout: 1800s
+[00:00:09]:   VoteEnabled: false
+[00:00:09]:   InternetBroadcasting: true
+[00:00:09]: [Warning] Could not confirm port 10999 is open in the firewall. 
+[00:00:09]: Online Server Started on port: 10999
+[00:00:09]: SUCCESS: Loaded modoverrides.lua	
+[00:00:09]: Found a level data override file with these contents:	
+[00:00:09]: 	K: 	desc	 V: 	永不结束的饥荒沙盒模式。
+永远可以在绚丽之门复活。	
+[00:00:09]: 	K: 	hideminimap	 V: 	false	
+[00:00:09]: 	K: 	id	 V: 	ENDLESS	
+[00:00:09]: 	K: 	location	 V: 	forest	
+[00:00:09]: 	K: 	max_playlist_position	 V: 	999	
+[00:00:09]: 	K: 	min_playlist_position	 V: 	0	
+[00:00:09]: 	K: 	name	 V: 	无尽	
+[00:00:09]: 	K: 	numrandom_set_pieces	 V: 	4	
+[00:00:09]: 	K: 	override_level_string	 V: 	false	
+[00:00:09]: 	K: 	overrides	 V: 	table: 0000000019EF5AE0	
+[00:00:09]: 		K: 	alternatehunt	 V: 	default	
+[00:00:09]: 		K: 	angrybees	 V: 	default	
+[00:00:09]: 		K: 	antliontribute	 V: 	default	
+[00:00:09]: 		K: 	autumn	 V: 	default	
+[00:00:09]: 		K: 	balatro	 V: 	default	
+[00:00:09]: 		K: 	bananabush_portalrate	 V: 	default	
+[00:00:09]: 		K: 	basicresource_regrowth	 V: 	always	
+[00:00:09]: 		K: 	bats_setting	 V: 	default	
+[00:00:09]: 		K: 	bearger	 V: 	default	
+[00:00:09]: 		K: 	beefalo	 V: 	often	
+[00:00:09]: 		K: 	beefaloheat	 V: 	default	
+[00:00:09]: 		K: 	beequeen	 V: 	default	
+[00:00:09]: 		K: 	bees	 V: 	default	
+[00:00:09]: 		K: 	bees_setting	 V: 	default	
+[00:00:09]: 		K: 	berrybush	 V: 	default	
+[00:00:09]: 		K: 	birds	 V: 	default	
+[00:00:09]: 		K: 	boons	 V: 	default	
+[00:00:09]: 		K: 	branching	 V: 	default	
+[00:00:09]: 		K: 	brightmarecreatures	 V: 	default	
+[00:00:09]: 		K: 	bunnymen_setting	 V: 	default	
+[00:00:09]: 		K: 	butterfly	 V: 	default	
+[00:00:09]: 		K: 	buzzard	 V: 	default	
+[00:00:09]: 		K: 	cactus	 V: 	default	
+[00:00:09]: 		K: 	cactus_regrowth	 V: 	default	
+[00:00:09]: 		K: 	carrot	 V: 	default	
+[00:00:09]: 		K: 	carrots_regrowth	 V: 	default	
+[00:00:09]: 		K: 	catcoon	 V: 	default	
+[00:00:09]: 		K: 	catcoons	 V: 	default	
+[00:00:09]: 		K: 	chess	 V: 	default	
+[00:00:09]: 		K: 	cookiecutters	 V: 	default	
+[00:00:09]: 		K: 	crabking	 V: 	default	
+[00:00:09]: 		K: 	crow_carnival	 V: 	default	
+[00:00:09]: 		K: 	darkness	 V: 	default	
+[00:00:09]: 		K: 	day	 V: 	default	
+[00:00:09]: 		K: 	daywalker2	 V: 	default	
+[00:00:09]: 		K: 	deciduousmonster	 V: 	default	
+[00:00:09]: 		K: 	deciduoustree_regrowth	 V: 	default	
+[00:00:09]: 		K: 	deerclops	 V: 	often	
+[00:00:09]: 		K: 	dragonfly	 V: 	often	
+[00:00:09]: 		K: 	dropeverythingondespawn	 V: 	default	
+[00:00:09]: 		K: 	evergreen_regrowth	 V: 	default	
+[00:00:09]: 		K: 	extrastartingitems	 V: 	default	
+[00:00:09]: 		K: 	eyeofterror	 V: 	default	
+[00:00:09]: 		K: 	fishschools	 V: 	default	
+[00:00:09]: 		K: 	flint	 V: 	default	
+[00:00:09]: 		K: 	flowers	 V: 	default	
+[00:00:09]: 		K: 	flowers_regrowth	 V: 	default	
+[00:00:09]: 		K: 	frograin	 V: 	default	
+[00:00:09]: 		K: 	frogs	 V: 	default	
+[00:00:09]: 		K: 	fruitfly	 V: 	default	
+[00:00:09]: 		K: 	ghostenabled	 V: 	always	
+[00:00:09]: 		K: 	ghostsanitydrain	 V: 	none	
+[00:00:09]: 		K: 	gnarwail	 V: 	default	
+[00:00:09]: 		K: 	goosemoose	 V: 	default	
+[00:00:09]: 		K: 	grass	 V: 	default	
+[00:00:09]: 		K: 	grassgekkos	 V: 	default	
+[00:00:09]: 		K: 	hallowed_nights	 V: 	default	
+[00:00:09]: 		K: 	has_ocean	 V: 	true	
+[00:00:09]: 		K: 	healthpenalty	 V: 	always	
+[00:00:09]: 		K: 	hound_mounds	 V: 	default	
+[00:00:09]: 		K: 	houndmound	 V: 	default	
+[00:00:09]: 		K: 	hounds	 V: 	default	
+[00:00:09]: 		K: 	hunger	 V: 	default	
+[00:00:09]: 		K: 	hunt	 V: 	default	
+[00:00:09]: 		K: 	junkyard	 V: 	default	
+[00:00:09]: 		K: 	keep_disconnected_tiles	 V: 	true	
+[00:00:09]: 		K: 	klaus	 V: 	often	
+[00:00:09]: 		K: 	krampus	 V: 	default	
+[00:00:09]: 		K: 	layout_mode	 V: 	LinkNodesByKeys	
+[00:00:09]: 		K: 	lessdamagetaken	 V: 	none	
+[00:00:09]: 		K: 	liefs	 V: 	often	
+[00:00:09]: 		K: 	lightcrab_portalrate	 V: 	default	
+[00:00:09]: 		K: 	lightning	 V: 	default	
+[00:00:09]: 		K: 	lightninggoat	 V: 	default	
+[00:00:09]: 		K: 	loop	 V: 	default	
+[00:00:09]: 		K: 	lunarhail_frequency	 V: 	default	
+[00:00:09]: 		K: 	lureplants	 V: 	default	
+[00:00:09]: 		K: 	malbatross	 V: 	default	
+[00:00:09]: 		K: 	marshbush	 V: 	default	
+[00:00:09]: 		K: 	merm	 V: 	default	
+[00:00:09]: 		K: 	merms	 V: 	default	
+[00:00:09]: 		K: 	meteorshowers	 V: 	default	
+[00:00:09]: 		K: 	meteorspawner	 V: 	default	
+[00:00:09]: 		K: 	moles	 V: 	default	
+[00:00:09]: 		K: 	moles_setting	 V: 	default	
+[00:00:09]: 		K: 	monkeytail_portalrate	 V: 	default	
+[00:00:09]: 		K: 	moon_berrybush	 V: 	default	
+[00:00:09]: 		K: 	moon_bullkelp	 V: 	default	
+[00:00:09]: 		K: 	moon_carrot	 V: 	default	
+[00:00:09]: 		K: 	moon_fissure	 V: 	default	
+[00:00:09]: 		K: 	moon_fruitdragon	 V: 	default	
+[00:00:09]: 		K: 	moon_hotspring	 V: 	default	
+[00:00:09]: 		K: 	moon_rock	 V: 	default	
+[00:00:09]: 		K: 	moon_sapling	 V: 	default	
+[00:00:09]: 		K: 	moon_spider	 V: 	default	
+[00:00:09]: 		K: 	moon_spiders	 V: 	default	
+[00:00:09]: 		K: 	moon_starfish	 V: 	default	
+[00:00:09]: 		K: 	moon_tree	 V: 	default	
+[00:00:09]: 		K: 	moon_tree_regrowth	 V: 	default	
+[00:00:09]: 		K: 	mosquitos	 V: 	default	
+[00:00:09]: 		K: 	mushroom	 V: 	default	
+[00:00:09]: 		K: 	mutated_bearger	 V: 	default	
+[00:00:09]: 		K: 	mutated_bird_gestalt	 V: 	default	
+[00:00:09]: 		K: 	mutated_birds	 V: 	default	
+[00:00:09]: 		K: 	mutated_buzzard_gestalt	 V: 	default	
+[00:00:09]: 		K: 	mutated_deerclops	 V: 	default	
+[00:00:09]: 		K: 	mutated_hounds	 V: 	default	
+[00:00:09]: 		K: 	mutated_merm	 V: 	default	
+[00:00:09]: 		K: 	mutated_spiderqueen	 V: 	default	
+[00:00:09]: 		K: 	mutated_warg	 V: 	default	
+[00:00:09]: 		K: 	no_joining_islands	 V: 	true	
+[00:00:09]: 		K: 	no_wormholes_to_disconnected_tiles	 V: 	true	
+[00:00:09]: 		K: 	ocean_bullkelp	 V: 	default	
+[00:00:09]: 		K: 	ocean_otterdens	 V: 	default	
+[00:00:09]: 		K: 	ocean_seastack	 V: 	ocean_default	
+[00:00:09]: 		K: 	ocean_shoal	 V: 	default	
+[00:00:09]: 		K: 	ocean_waterplant	 V: 	ocean_default	
+[00:00:09]: 		K: 	ocean_wobsterden	 V: 	default	
+[00:00:09]: 		K: 	otters_setting	 V: 	default	
+[00:00:09]: 		K: 	palmcone_seed_portalrate	 V: 	default	
+[00:00:09]: 		K: 	palmconetree	 V: 	default	
+[00:00:09]: 		K: 	palmconetree_regrowth	 V: 	default	
+[00:00:09]: 		K: 	penguins	 V: 	default	
+[00:00:09]: 		K: 	penguins_moon	 V: 	default	
+[00:00:09]: 		K: 	perd	 V: 	default	
+[00:00:09]: 		K: 	petrification	 V: 	default	
+[00:00:09]: 		K: 	pigs	 V: 	default	
+[00:00:09]: 		K: 	pigs_setting	 V: 	default	
+[00:00:09]: 		K: 	pirateraids	 V: 	default	
+[00:00:09]: 		K: 	ponds	 V: 	default	
+[00:00:09]: 		K: 	portal_spawnrate	 V: 	default	
+[00:00:09]: 		K: 	portalresurection	 V: 	always	
+[00:00:09]: 		K: 	powder_monkey_portalrate	 V: 	default	
+[00:00:09]: 		K: 	prefabswaps_start	 V: 	default	
+[00:00:09]: 		K: 	rabbits	 V: 	default	
+[00:00:09]: 		K: 	rabbits_setting	 V: 	default	
+[00:00:09]: 		K: 	reeds	 V: 	default	
+[00:00:09]: 		K: 	reeds_regrowth	 V: 	default	
+[00:00:09]: 		K: 	regrowth	 V: 	default	
+[00:00:09]: 		K: 	resettime	 V: 	none	
+[00:00:09]: 		K: 	rifts_enabled	 V: 	default	
+[00:00:09]: 		K: 	rifts_frequency	 V: 	default	
+[00:00:09]: 		K: 	roads	 V: 	default	
+[00:00:09]: 		K: 	rock	 V: 	default	
+[00:00:09]: 		K: 	rock_ice	 V: 	default	
+[00:00:09]: 		K: 	saltstack_regrowth	 V: 	default	
+[00:00:09]: 		K: 	sapling	 V: 	default	
+[00:00:09]: 		K: 	season_start	 V: 	default	
+[00:00:09]: 		K: 	seasonalstartingitems	 V: 	default	
+[00:00:09]: 		K: 	shadowcreatures	 V: 	default	
+[00:00:09]: 		K: 	sharkboi	 V: 	default	
+[00:00:09]: 		K: 	sharks	 V: 	default	
+[00:00:09]: 		K: 	spawnmode	 V: 	fixed	
+[00:00:09]: 		K: 	spawnprotection	 V: 	default	
+[00:00:09]: 		K: 	specialevent	 V: 	default	
+[00:00:09]: 		K: 	spider_warriors	 V: 	default	
+[00:00:09]: 		K: 	spiderqueen	 V: 	default	
+[00:00:09]: 		K: 	spiders	 V: 	default	
+[00:00:09]: 		K: 	spiders_setting	 V: 	default	
+[00:00:09]: 		K: 	spring	 V: 	default	
+[00:00:09]: 		K: 	squid	 V: 	default	
+[00:00:09]: 		K: 	stageplays	 V: 	default	
+[00:00:09]: 		K: 	start_location	 V: 	default	
+[00:00:09]: 		K: 	summer	 V: 	default	
+[00:00:09]: 		K: 	summerhounds	 V: 	default	
+[00:00:09]: 		K: 	tallbirds	 V: 	default	
+[00:00:09]: 		K: 	task_set	 V: 	default	
+[00:00:09]: 		K: 	temperaturedamage	 V: 	default	
+[00:00:09]: 		K: 	tentacles	 V: 	default	
+[00:00:09]: 		K: 	terrariumchest	 V: 	default	
+[00:00:09]: 		K: 	touchstone	 V: 	default	
+[00:00:09]: 		K: 	trees	 V: 	default	
+[00:00:09]: 		K: 	tumbleweed	 V: 	default	
+[00:00:09]: 		K: 	twiggytrees_regrowth	 V: 	default	
+[00:00:09]: 		K: 	walrus	 V: 	default	
+[00:00:09]: 		K: 	walrus_setting	 V: 	default	
+[00:00:09]: 		K: 	wanderingtrader_enabled	 V: 	always	
+[00:00:09]: 		K: 	wasps	 V: 	default	
+[00:00:09]: 		K: 	weather	 V: 	default	
+[00:00:09]: 		K: 	wildfires	 V: 	default	
+[00:00:09]: 		K: 	winter	 V: 	default	
+[00:00:09]: 		K: 	winterhounds	 V: 	default	
+[00:00:09]: 		K: 	winters_feast	 V: 	default	
+[00:00:09]: 		K: 	wobsters	 V: 	default	
+[00:00:09]: 		K: 	world_size	 V: 	default	
+[00:00:09]: 		K: 	wormhole_prefab	 V: 	wormhole	
+[00:00:09]: 		K: 	year_of_the_beefalo	 V: 	default	
+[00:00:09]: 		K: 	year_of_the_bunnyman	 V: 	default	
+[00:00:09]: 		K: 	year_of_the_carrat	 V: 	default	
+[00:00:09]: 		K: 	year_of_the_catcoon	 V: 	default	
+[00:00:09]: 		K: 	year_of_the_dragonfly	 V: 	default	
+[00:00:09]: 		K: 	year_of_the_gobbler	 V: 	default	
+[00:00:09]: 		K: 	year_of_the_knight	 V: 	default	
+[00:00:09]: 		K: 	year_of_the_pig	 V: 	default	
+[00:00:09]: 		K: 	year_of_the_snake	 V: 	default	
+[00:00:09]: 		K: 	year_of_the_varg	 V: 	default	
+[00:00:09]: 	K: 	playstyle	 V: 	endless	
+[00:00:09]: 	K: 	random_set_pieces	 V: 	table: 0000000019EF6760	
+[00:00:09]: 		K: 	1	 V: 	Sculptures_2	
+[00:00:09]: 		K: 	2	 V: 	Sculptures_3	
+[00:00:09]: 		K: 	3	 V: 	Sculptures_4	
+[00:00:09]: 		K: 	4	 V: 	Sculptures_5	
+[00:00:09]: 		K: 	5	 V: 	Chessy_1	
+[00:00:09]: 		K: 	6	 V: 	Chessy_2	
+[00:00:09]: 		K: 	7	 V: 	Chessy_3	
+[00:00:09]: 		K: 	8	 V: 	Chessy_4	
+[00:00:09]: 		K: 	9	 V: 	Chessy_5	
+[00:00:09]: 		K: 	10	 V: 	Chessy_6	
+[00:00:09]: 		K: 	11	 V: 	Maxwell1	
+[00:00:09]: 		K: 	12	 V: 	Maxwell2	
+[00:00:09]: 		K: 	13	 V: 	Maxwell3	
+[00:00:09]: 		K: 	14	 V: 	Maxwell4	
+[00:00:09]: 		K: 	15	 V: 	Maxwell6	
+[00:00:09]: 		K: 	16	 V: 	Maxwell7	
+[00:00:09]: 		K: 	17	 V: 	Warzone_1	
+[00:00:09]: 		K: 	18	 V: 	Warzone_2	
+[00:00:09]: 		K: 	19	 V: 	Warzone_3	
+[00:00:09]: 	K: 	required_prefabs	 V: 	table: 0000000019EF6080	
+[00:00:09]: 		K: 	1	 V: 	multiplayer_portal	
+[00:00:09]: 	K: 	required_setpieces	 V: 	table: 0000000019EF5B30	
+[00:00:09]: 		K: 	1	 V: 	Sculptures_1	
+[00:00:09]: 		K: 	2	 V: 	Maxwell5	
+[00:00:09]: 	K: 	settings_desc	 V: 	永不结束的饥荒沙盒模式。
+永远可以在绚丽之门复活。	
+[00:00:09]: 	K: 	settings_id	 V: 	ENDLESS	
+[00:00:09]: 	K: 	settings_name	 V: 	无尽	
+[00:00:09]: 	K: 	substitutes	 V: 	table: 0000000019EF5BD0	
+[00:00:09]: 	K: 	version	 V: 	4	
+[00:00:09]: 	K: 	worldgen_desc	 V: 	永不结束的饥荒沙盒模式。
+永远可以在绚丽之门复活。	
+[00:00:09]: 	K: 	worldgen_id	 V: 	ENDLESS	
+[00:00:09]: 	K: 	worldgen_name	 V: 	无尽	
+[00:00:09]: Loaded and applied level data override from ../leveldataoverride.lua	
+[00:00:09]: Overwriting savedata with level data file.	
+[00:00:09]: Not applying world gen overrides.	
+[00:00:09]: Collecting garbage...
+[00:00:09]: lua_gc took 0.07 seconds
+[00:00:09]: ~ShardLuaProxy()
+[00:00:09]: ~cEventLeaderboardProxy()
+[00:00:09]: ~ItemServerLuaProxy()
+[00:00:09]: ~InventoryLuaProxy()
+[00:00:09]: ~NetworkLuaProxy()
+[00:00:09]: ~SimLuaProxy()
+[00:00:09]: lua_close took 0.07 seconds
+[00:00:09]: ReleaseAll
+[00:00:09]: ReleaseAll Finished
+[00:00:09]: cGame::StartPlaying
+[00:00:09]: AppVersion::GetArchitecture() x64
+[00:00:09]: LOADING LUA
+[00:00:09]: DoLuaFile scripts/main.lua
+[00:00:09]: DoLuaFile loading buffer scripts/main.lua
+[00:00:09]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:00:11]:   taskgrouplist:	default	联机版	
+[00:00:11]:   taskgrouplist:	classic	经典	
+[00:00:11]:   taskgrouplist:	cave_default	地下	
+[00:00:11]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:11]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:11]: Running main.lua
+	
+[00:00:11]: loaded modindex	
+[00:00:11]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:11]: SUCCESS: Loaded modoverrides.lua	
+[00:00:11]: Registering Mods:
+[00:00:11]: No mods registered
+[00:00:11]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:11]: LOADING LUA SUCCESS
+[00:00:11]: PlayerDeaths could not load morgue	
+[00:00:11]: PlayerHistory could not load player_history	
+[00:00:11]: ServerPreferences could not load server_preferences	
+[00:00:11]: ConsoleScreenSettings could not load consolescreen	
+[00:00:11]: bloom_enabled	true	
+[00:00:11]: OnFilesLoaded()	
+[00:00:11]: OnUpdatePurchaseStateComplete	
+[00:00:11]: SUCCESS: Loaded modoverrides.lua	
+[00:00:11]: Found a level data override file with these contents:	
+[00:00:11]: 	K: 	desc	 V: 	永不结束的饥荒沙盒模式。
+永远可以在绚丽之门复活。	
+[00:00:11]: 	K: 	hideminimap	 V: 	false	
+[00:00:11]: 	K: 	id	 V: 	ENDLESS	
+[00:00:11]: 	K: 	location	 V: 	forest	
+[00:00:11]: 	K: 	max_playlist_position	 V: 	999	
+[00:00:11]: 	K: 	min_playlist_position	 V: 	0	
+[00:00:11]: 	K: 	name	 V: 	无尽	
+[00:00:11]: 	K: 	numrandom_set_pieces	 V: 	4	
+[00:00:11]: 	K: 	override_level_string	 V: 	false	
+[00:00:11]: 	K: 	overrides	 V: 	table: 000000001AB108E0	
+[00:00:11]: 		K: 	alternatehunt	 V: 	default	
+[00:00:11]: 		K: 	angrybees	 V: 	default	
+[00:00:11]: 		K: 	antliontribute	 V: 	default	
+[00:00:11]: 		K: 	autumn	 V: 	default	
+[00:00:11]: 		K: 	balatro	 V: 	default	
+[00:00:11]: 		K: 	bananabush_portalrate	 V: 	default	
+[00:00:11]: 		K: 	basicresource_regrowth	 V: 	always	
+[00:00:11]: 		K: 	bats_setting	 V: 	default	
+[00:00:11]: 		K: 	bearger	 V: 	default	
+[00:00:11]: 		K: 	beefalo	 V: 	often	
+[00:00:11]: 		K: 	beefaloheat	 V: 	default	
+[00:00:11]: 		K: 	beequeen	 V: 	default	
+[00:00:11]: 		K: 	bees	 V: 	default	
+[00:00:11]: 		K: 	bees_setting	 V: 	default	
+[00:00:11]: 		K: 	berrybush	 V: 	default	
+[00:00:11]: 		K: 	birds	 V: 	default	
+[00:00:11]: 		K: 	boons	 V: 	default	
+[00:00:11]: 		K: 	branching	 V: 	default	
+[00:00:11]: 		K: 	brightmarecreatures	 V: 	default	
+[00:00:11]: 		K: 	bunnymen_setting	 V: 	default	
+[00:00:11]: 		K: 	butterfly	 V: 	default	
+[00:00:11]: 		K: 	buzzard	 V: 	default	
+[00:00:11]: 		K: 	cactus	 V: 	default	
+[00:00:11]: 		K: 	cactus_regrowth	 V: 	default	
+[00:00:11]: 		K: 	carrot	 V: 	default	
+[00:00:11]: 		K: 	carrots_regrowth	 V: 	default	
+[00:00:11]: 		K: 	catcoon	 V: 	default	
+[00:00:11]: 		K: 	catcoons	 V: 	default	
+[00:00:11]: 		K: 	chess	 V: 	default	
+[00:00:11]: 		K: 	cookiecutters	 V: 	default	
+[00:00:11]: 		K: 	crabking	 V: 	default	
+[00:00:11]: 		K: 	crow_carnival	 V: 	default	
+[00:00:11]: 		K: 	darkness	 V: 	default	
+[00:00:11]: 		K: 	day	 V: 	default	
+[00:00:11]: 		K: 	daywalker2	 V: 	default	
+[00:00:11]: 		K: 	deciduousmonster	 V: 	default	
+[00:00:11]: 		K: 	deciduoustree_regrowth	 V: 	default	
+[00:00:11]: 		K: 	deerclops	 V: 	often	
+[00:00:11]: 		K: 	dragonfly	 V: 	often	
+[00:00:11]: 		K: 	dropeverythingondespawn	 V: 	default	
+[00:00:11]: 		K: 	evergreen_regrowth	 V: 	default	
+[00:00:11]: 		K: 	extrastartingitems	 V: 	default	
+[00:00:11]: 		K: 	eyeofterror	 V: 	default	
+[00:00:11]: 		K: 	fishschools	 V: 	default	
+[00:00:11]: 		K: 	flint	 V: 	default	
+[00:00:11]: 		K: 	flowers	 V: 	default	
+[00:00:11]: 		K: 	flowers_regrowth	 V: 	default	
+[00:00:11]: 		K: 	frograin	 V: 	default	
+[00:00:11]: 		K: 	frogs	 V: 	default	
+[00:00:11]: 		K: 	fruitfly	 V: 	default	
+[00:00:11]: 		K: 	ghostenabled	 V: 	always	
+[00:00:11]: 		K: 	ghostsanitydrain	 V: 	none	
+[00:00:11]: 		K: 	gnarwail	 V: 	default	
+[00:00:11]: 		K: 	goosemoose	 V: 	default	
+[00:00:11]: 		K: 	grass	 V: 	default	
+[00:00:11]: 		K: 	grassgekkos	 V: 	default	
+[00:00:11]: 		K: 	hallowed_nights	 V: 	default	
+[00:00:11]: 		K: 	has_ocean	 V: 	true	
+[00:00:11]: 		K: 	healthpenalty	 V: 	always	
+[00:00:11]: 		K: 	hound_mounds	 V: 	default	
+[00:00:11]: 		K: 	houndmound	 V: 	default	
+[00:00:11]: 		K: 	hounds	 V: 	default	
+[00:00:11]: 		K: 	hunger	 V: 	default	
+[00:00:11]: 		K: 	hunt	 V: 	default	
+[00:00:11]: 		K: 	junkyard	 V: 	default	
+[00:00:11]: 		K: 	keep_disconnected_tiles	 V: 	true	
+[00:00:11]: 		K: 	klaus	 V: 	often	
+[00:00:11]: 		K: 	krampus	 V: 	default	
+[00:00:11]: 		K: 	layout_mode	 V: 	LinkNodesByKeys	
+[00:00:11]: 		K: 	lessdamagetaken	 V: 	none	
+[00:00:11]: 		K: 	liefs	 V: 	often	
+[00:00:11]: 		K: 	lightcrab_portalrate	 V: 	default	
+[00:00:11]: 		K: 	lightning	 V: 	default	
+[00:00:11]: 		K: 	lightninggoat	 V: 	default	
+[00:00:11]: 		K: 	loop	 V: 	default	
+[00:00:11]: 		K: 	lunarhail_frequency	 V: 	default	
+[00:00:11]: 		K: 	lureplants	 V: 	default	
+[00:00:11]: 		K: 	malbatross	 V: 	default	
+[00:00:11]: 		K: 	marshbush	 V: 	default	
+[00:00:11]: 		K: 	merm	 V: 	default	
+[00:00:11]: 		K: 	merms	 V: 	default	
+[00:00:11]: 		K: 	meteorshowers	 V: 	default	
+[00:00:11]: 		K: 	meteorspawner	 V: 	default	
+[00:00:11]: 		K: 	moles	 V: 	default	
+[00:00:11]: 		K: 	moles_setting	 V: 	default	
+[00:00:11]: 		K: 	monkeytail_portalrate	 V: 	default	
+[00:00:11]: 		K: 	moon_berrybush	 V: 	default	
+[00:00:11]: 		K: 	moon_bullkelp	 V: 	default	
+[00:00:11]: 		K: 	moon_carrot	 V: 	default	
+[00:00:11]: 		K: 	moon_fissure	 V: 	default	
+[00:00:11]: 		K: 	moon_fruitdragon	 V: 	default	
+[00:00:11]: 		K: 	moon_hotspring	 V: 	default	
+[00:00:11]: 		K: 	moon_rock	 V: 	default	
+[00:00:11]: 		K: 	moon_sapling	 V: 	default	
+[00:00:11]: 		K: 	moon_spider	 V: 	default	
+[00:00:11]: 		K: 	moon_spiders	 V: 	default	
+[00:00:11]: 		K: 	moon_starfish	 V: 	default	
+[00:00:11]: 		K: 	moon_tree	 V: 	default	
+[00:00:11]: 		K: 	moon_tree_regrowth	 V: 	default	
+[00:00:11]: 		K: 	mosquitos	 V: 	default	
+[00:00:11]: 		K: 	mushroom	 V: 	default	
+[00:00:11]: 		K: 	mutated_bearger	 V: 	default	
+[00:00:11]: 		K: 	mutated_bird_gestalt	 V: 	default	
+[00:00:11]: 		K: 	mutated_birds	 V: 	default	
+[00:00:11]: 		K: 	mutated_buzzard_gestalt	 V: 	default	
+[00:00:11]: 		K: 	mutated_deerclops	 V: 	default	
+[00:00:11]: 		K: 	mutated_hounds	 V: 	default	
+[00:00:11]: 		K: 	mutated_merm	 V: 	default	
+[00:00:11]: 		K: 	mutated_spiderqueen	 V: 	default	
+[00:00:11]: 		K: 	mutated_warg	 V: 	default	
+[00:00:11]: 		K: 	no_joining_islands	 V: 	true	
+[00:00:11]: 		K: 	no_wormholes_to_disconnected_tiles	 V: 	true	
+[00:00:11]: 		K: 	ocean_bullkelp	 V: 	default	
+[00:00:11]: 		K: 	ocean_otterdens	 V: 	default	
+[00:00:11]: 		K: 	ocean_seastack	 V: 	ocean_default	
+[00:00:11]: 		K: 	ocean_shoal	 V: 	default	
+[00:00:11]: 		K: 	ocean_waterplant	 V: 	ocean_default	
+[00:00:11]: 		K: 	ocean_wobsterden	 V: 	default	
+[00:00:11]: 		K: 	otters_setting	 V: 	default	
+[00:00:11]: 		K: 	palmcone_seed_portalrate	 V: 	default	
+[00:00:11]: 		K: 	palmconetree	 V: 	default	
+[00:00:11]: 		K: 	palmconetree_regrowth	 V: 	default	
+[00:00:11]: 		K: 	penguins	 V: 	default	
+[00:00:11]: 		K: 	penguins_moon	 V: 	default	
+[00:00:11]: 		K: 	perd	 V: 	default	
+[00:00:11]: 		K: 	petrification	 V: 	default	
+[00:00:11]: 		K: 	pigs	 V: 	default	
+[00:00:11]: 		K: 	pigs_setting	 V: 	default	
+[00:00:11]: 		K: 	pirateraids	 V: 	default	
+[00:00:11]: 		K: 	ponds	 V: 	default	
+[00:00:11]: 		K: 	portal_spawnrate	 V: 	default	
+[00:00:11]: 		K: 	portalresurection	 V: 	always	
+[00:00:11]: 		K: 	powder_monkey_portalrate	 V: 	default	
+[00:00:11]: 		K: 	prefabswaps_start	 V: 	default	
+[00:00:11]: 		K: 	rabbits	 V: 	default	
+[00:00:11]: 		K: 	rabbits_setting	 V: 	default	
+[00:00:11]: 		K: 	reeds	 V: 	default	
+[00:00:11]: 		K: 	reeds_regrowth	 V: 	default	
+[00:00:11]: 		K: 	regrowth	 V: 	default	
+[00:00:11]: 		K: 	resettime	 V: 	none	
+[00:00:11]: 		K: 	rifts_enabled	 V: 	default	
+[00:00:11]: 		K: 	rifts_frequency	 V: 	default	
+[00:00:11]: 		K: 	roads	 V: 	default	
+[00:00:11]: 		K: 	rock	 V: 	default	
+[00:00:11]: 		K: 	rock_ice	 V: 	default	
+[00:00:11]: 		K: 	saltstack_regrowth	 V: 	default	
+[00:00:11]: 		K: 	sapling	 V: 	default	
+[00:00:11]: 		K: 	season_start	 V: 	default	
+[00:00:11]: 		K: 	seasonalstartingitems	 V: 	default	
+[00:00:11]: 		K: 	shadowcreatures	 V: 	default	
+[00:00:11]: 		K: 	sharkboi	 V: 	default	
+[00:00:11]: 		K: 	sharks	 V: 	default	
+[00:00:11]: 		K: 	spawnmode	 V: 	fixed	
+[00:00:11]: 		K: 	spawnprotection	 V: 	default	
+[00:00:11]: 		K: 	specialevent	 V: 	default	
+[00:00:11]: 		K: 	spider_warriors	 V: 	default	
+[00:00:11]: 		K: 	spiderqueen	 V: 	default	
+[00:00:11]: 		K: 	spiders	 V: 	default	
+[00:00:11]: 		K: 	spiders_setting	 V: 	default	
+[00:00:11]: 		K: 	spring	 V: 	default	
+[00:00:11]: 		K: 	squid	 V: 	default	
+[00:00:11]: 		K: 	stageplays	 V: 	default	
+[00:00:11]: 		K: 	start_location	 V: 	default	
+[00:00:11]: 		K: 	summer	 V: 	default	
+[00:00:11]: 		K: 	summerhounds	 V: 	default	
+[00:00:11]: 		K: 	tallbirds	 V: 	default	
+[00:00:11]: 		K: 	task_set	 V: 	default	
+[00:00:11]: 		K: 	temperaturedamage	 V: 	default	
+[00:00:11]: 		K: 	tentacles	 V: 	default	
+[00:00:11]: 		K: 	terrariumchest	 V: 	default	
+[00:00:11]: 		K: 	touchstone	 V: 	default	
+[00:00:11]: 		K: 	trees	 V: 	default	
+[00:00:11]: 		K: 	tumbleweed	 V: 	default	
+[00:00:11]: 		K: 	twiggytrees_regrowth	 V: 	default	
+[00:00:11]: 		K: 	walrus	 V: 	default	
+[00:00:11]: 		K: 	walrus_setting	 V: 	default	
+[00:00:11]: 		K: 	wanderingtrader_enabled	 V: 	always	
+[00:00:11]: 		K: 	wasps	 V: 	default	
+[00:00:11]: 		K: 	weather	 V: 	default	
+[00:00:11]: 		K: 	wildfires	 V: 	default	
+[00:00:11]: 		K: 	winter	 V: 	default	
+[00:00:11]: 		K: 	winterhounds	 V: 	default	
+[00:00:11]: 		K: 	winters_feast	 V: 	default	
+[00:00:11]: 		K: 	wobsters	 V: 	default	
+[00:00:11]: 		K: 	world_size	 V: 	default	
+[00:00:11]: 		K: 	wormhole_prefab	 V: 	wormhole	
+[00:00:11]: 		K: 	year_of_the_beefalo	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_bunnyman	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_carrat	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_catcoon	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_dragonfly	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_gobbler	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_knight	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_pig	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_snake	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_varg	 V: 	default	
+[00:00:11]: 	K: 	playstyle	 V: 	endless	
+[00:00:11]: 	K: 	random_set_pieces	 V: 	table: 000000001AB0FDF0	
+[00:00:11]: 		K: 	1	 V: 	Sculptures_2	
+[00:00:11]: 		K: 	2	 V: 	Sculptures_3	
+[00:00:11]: 		K: 	3	 V: 	Sculptures_4	
+[00:00:11]: 		K: 	4	 V: 	Sculptures_5	
+[00:00:11]: 		K: 	5	 V: 	Chessy_1	
+[00:00:11]: 		K: 	6	 V: 	Chessy_2	
+[00:00:11]: 		K: 	7	 V: 	Chessy_3	
+[00:00:11]: 		K: 	8	 V: 	Chessy_4	
+[00:00:11]: 		K: 	9	 V: 	Chessy_5	
+[00:00:11]: 		K: 	10	 V: 	Chessy_6	
+[00:00:11]: 		K: 	11	 V: 	Maxwell1	
+[00:00:11]: 		K: 	12	 V: 	Maxwell2	
+[00:00:11]: 		K: 	13	 V: 	Maxwell3	
+[00:00:11]: 		K: 	14	 V: 	Maxwell4	
+[00:00:11]: 		K: 	15	 V: 	Maxwell6	
+[00:00:11]: 		K: 	16	 V: 	Maxwell7	
+[00:00:11]: 		K: 	17	 V: 	Warzone_1	
+[00:00:11]: 		K: 	18	 V: 	Warzone_2	
+[00:00:11]: 		K: 	19	 V: 	Warzone_3	
+[00:00:11]: 	K: 	required_prefabs	 V: 	table: 000000001AB0F620	
+[00:00:11]: 		K: 	1	 V: 	multiplayer_portal	
+[00:00:11]: 	K: 	required_setpieces	 V: 	table: 000000001AB103E0	
+[00:00:11]: 		K: 	1	 V: 	Sculptures_1	
+[00:00:11]: 		K: 	2	 V: 	Maxwell5	
+[00:00:11]: 	K: 	settings_desc	 V: 	永不结束的饥荒沙盒模式。
+永远可以在绚丽之门复活。	
+[00:00:11]: 	K: 	settings_id	 V: 	ENDLESS	
+[00:00:11]: 	K: 	settings_name	 V: 	无尽	
+[00:00:11]: 	K: 	substitutes	 V: 	table: 000000001AB0F710	
+[00:00:11]: 	K: 	version	 V: 	4	
+[00:00:11]: 	K: 	worldgen_desc	 V: 	永不结束的饥荒沙盒模式。
+永远可以在绚丽之门复活。	
+[00:00:11]: 	K: 	worldgen_id	 V: 	ENDLESS	
+[00:00:11]: 	K: 	worldgen_name	 V: 	无尽	
+[00:00:11]: Loaded and applied level data override from ../leveldataoverride.lua	
+[00:00:11]: Overwriting savedata with level data file.	
+[00:00:11]: Not applying world gen overrides.	
+[00:00:11]: [IPC] Signal 'DST_Master_WorldGen' opened  #0000000000000AB4
+[00:00:11]: [IPC] Sending signal... #0000000000000AB4
+[00:00:11]: WorldSim::SimThread::SimThread()
+[00:00:11]: ABOUT TO INSTALL STACKTRACE
+[00:00:11]: DoLuaFile scripts/stacktrace.lua
+[00:00:11]: DoLuaFile loading buffer scripts/stacktrace.lua
+[00:00:11]: INSTALLED STACKTRACE
+[00:00:11]: Engine Seed: (1771592603 + 3807939323) & 0x7FFFFFFF = 1284564630
+[00:00:11]: WorldSim::SimThread::SimThread() complete
+[00:00:11]: THREAD - started 'WorldSim' (27288)
+[00:00:11]: WorldSim::SimThread::Main()
+[00:00:11]: DoLuaFile scripts/worldgen_main.lua
+[00:00:11]: DoLuaFile loading buffer scripts/worldgen_main.lua
+[00:00:11]: Check for write access: TRUE
+[00:00:11]: Check for read access: TRUE
+[00:00:11]: Available disk space for save files: 58080 MB
+[00:00:11]: ModIndex: Load sequence finished successfully.	
+[00:00:11]: Reset() returning
+[00:00:11]: DLC enabled : 	false	
+[00:00:11]:   taskgrouplist:	default	Together	
+[00:00:11]:   taskgrouplist:	classic	Classic	
+[00:00:11]:   taskgrouplist:	cave_default	Underground	
+[00:00:11]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:11]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:11]: running worldgen_main.lua
+	
+[00:00:11]: SEED = 	1284564630	
+[00:00:11]: Generating world with these parameters:	
+[00:00:11]: level_type	SURVIVAL	
+[00:00:11]: level_data:	
+[00:00:11]: 	K: 	desc	 V: 	永不结束的饥荒沙盒模式。
+永远可以在绚丽之门复活。	
+[00:00:11]: 	K: 	hideminimap	 V: 	false	
+[00:00:11]: 	K: 	id	 V: 	ENDLESS	
+[00:00:11]: 	K: 	location	 V: 	forest	
+[00:00:11]: 	K: 	max_playlist_position	 V: 	999	
+[00:00:11]: 	K: 	min_playlist_position	 V: 	0	
+[00:00:11]: 	K: 	name	 V: 	无尽	
+[00:00:11]: 	K: 	numrandom_set_pieces	 V: 	4	
+[00:00:11]: 	K: 	override_level_string	 V: 	false	
+[00:00:11]: 	K: 	overrides	 V: 	table: 00000000122E9040	
+[00:00:11]: 		K: 	alternatehunt	 V: 	default	
+[00:00:11]: 		K: 	angrybees	 V: 	default	
+[00:00:11]: 		K: 	antliontribute	 V: 	default	
+[00:00:11]: 		K: 	autumn	 V: 	default	
+[00:00:11]: 		K: 	balatro	 V: 	default	
+[00:00:11]: 		K: 	bananabush_portalrate	 V: 	default	
+[00:00:11]: 		K: 	basicresource_regrowth	 V: 	always	
+[00:00:11]: 		K: 	bats_setting	 V: 	default	
+[00:00:11]: 		K: 	bearger	 V: 	default	
+[00:00:11]: 		K: 	beefalo	 V: 	often	
+[00:00:11]: 		K: 	beefaloheat	 V: 	default	
+[00:00:11]: 		K: 	beequeen	 V: 	default	
+[00:00:11]: 		K: 	bees	 V: 	default	
+[00:00:11]: 		K: 	bees_setting	 V: 	default	
+[00:00:11]: 		K: 	berrybush	 V: 	default	
+[00:00:11]: 		K: 	birds	 V: 	default	
+[00:00:11]: 		K: 	boons	 V: 	default	
+[00:00:11]: 		K: 	branching	 V: 	default	
+[00:00:11]: 		K: 	brightmarecreatures	 V: 	default	
+[00:00:11]: 		K: 	bunnymen_setting	 V: 	default	
+[00:00:11]: 		K: 	butterfly	 V: 	default	
+[00:00:11]: 		K: 	buzzard	 V: 	default	
+[00:00:11]: 		K: 	cactus	 V: 	default	
+[00:00:11]: 		K: 	cactus_regrowth	 V: 	default	
+[00:00:11]: 		K: 	carrot	 V: 	default	
+[00:00:11]: 		K: 	carrots_regrowth	 V: 	default	
+[00:00:11]: 		K: 	catcoon	 V: 	default	
+[00:00:11]: 		K: 	catcoons	 V: 	default	
+[00:00:11]: 		K: 	chess	 V: 	default	
+[00:00:11]: 		K: 	cookiecutters	 V: 	default	
+[00:00:11]: 		K: 	crabking	 V: 	default	
+[00:00:11]: 		K: 	crow_carnival	 V: 	default	
+[00:00:11]: 		K: 	darkness	 V: 	default	
+[00:00:11]: 		K: 	day	 V: 	default	
+[00:00:11]: 		K: 	daywalker2	 V: 	default	
+[00:00:11]: 		K: 	deciduousmonster	 V: 	default	
+[00:00:11]: 		K: 	deciduoustree_regrowth	 V: 	default	
+[00:00:11]: 		K: 	deerclops	 V: 	often	
+[00:00:11]: 		K: 	dragonfly	 V: 	often	
+[00:00:11]: 		K: 	dropeverythingondespawn	 V: 	default	
+[00:00:11]: 		K: 	evergreen_regrowth	 V: 	default	
+[00:00:11]: 		K: 	extrastartingitems	 V: 	default	
+[00:00:11]: 		K: 	eyeofterror	 V: 	default	
+[00:00:11]: 		K: 	fishschools	 V: 	default	
+[00:00:11]: 		K: 	flint	 V: 	default	
+[00:00:11]: 		K: 	flowers	 V: 	default	
+[00:00:11]: 		K: 	flowers_regrowth	 V: 	default	
+[00:00:11]: 		K: 	frograin	 V: 	default	
+[00:00:11]: 		K: 	frogs	 V: 	default	
+[00:00:11]: 		K: 	fruitfly	 V: 	default	
+[00:00:11]: 		K: 	ghostenabled	 V: 	always	
+[00:00:11]: 		K: 	ghostsanitydrain	 V: 	none	
+[00:00:11]: 		K: 	gnarwail	 V: 	default	
+[00:00:11]: 		K: 	goosemoose	 V: 	default	
+[00:00:11]: 		K: 	grass	 V: 	default	
+[00:00:11]: 		K: 	grassgekkos	 V: 	default	
+[00:00:11]: 		K: 	hallowed_nights	 V: 	default	
+[00:00:11]: 		K: 	has_ocean	 V: 	true	
+[00:00:11]: 		K: 	healthpenalty	 V: 	always	
+[00:00:11]: 		K: 	hound_mounds	 V: 	default	
+[00:00:11]: 		K: 	houndmound	 V: 	default	
+[00:00:11]: 		K: 	hounds	 V: 	default	
+[00:00:11]: 		K: 	hunger	 V: 	default	
+[00:00:11]: 		K: 	hunt	 V: 	default	
+[00:00:11]: 		K: 	junkyard	 V: 	default	
+[00:00:11]: 		K: 	keep_disconnected_tiles	 V: 	true	
+[00:00:11]: 		K: 	klaus	 V: 	often	
+[00:00:11]: 		K: 	krampus	 V: 	default	
+[00:00:11]: 		K: 	layout_mode	 V: 	LinkNodesByKeys	
+[00:00:11]: 		K: 	lessdamagetaken	 V: 	none	
+[00:00:11]: 		K: 	liefs	 V: 	often	
+[00:00:11]: 		K: 	lightcrab_portalrate	 V: 	default	
+[00:00:11]: 		K: 	lightning	 V: 	default	
+[00:00:11]: 		K: 	lightninggoat	 V: 	default	
+[00:00:11]: 		K: 	loop	 V: 	default	
+[00:00:11]: 		K: 	lunarhail_frequency	 V: 	default	
+[00:00:11]: 		K: 	lureplants	 V: 	default	
+[00:00:11]: 		K: 	malbatross	 V: 	default	
+[00:00:11]: 		K: 	marshbush	 V: 	default	
+[00:00:11]: 		K: 	merm	 V: 	default	
+[00:00:11]: 		K: 	merms	 V: 	default	
+[00:00:11]: 		K: 	meteorshowers	 V: 	default	
+[00:00:11]: 		K: 	meteorspawner	 V: 	default	
+[00:00:11]: 		K: 	moles	 V: 	default	
+[00:00:11]: 		K: 	moles_setting	 V: 	default	
+[00:00:11]: 		K: 	monkeytail_portalrate	 V: 	default	
+[00:00:11]: 		K: 	moon_berrybush	 V: 	default	
+[00:00:11]: 		K: 	moon_bullkelp	 V: 	default	
+[00:00:11]: 		K: 	moon_carrot	 V: 	default	
+[00:00:11]: 		K: 	moon_fissure	 V: 	default	
+[00:00:11]: 		K: 	moon_fruitdragon	 V: 	default	
+[00:00:11]: 		K: 	moon_hotspring	 V: 	default	
+[00:00:11]: 		K: 	moon_rock	 V: 	default	
+[00:00:11]: 		K: 	moon_sapling	 V: 	default	
+[00:00:11]: 		K: 	moon_spider	 V: 	default	
+[00:00:11]: 		K: 	moon_spiders	 V: 	default	
+[00:00:11]: 		K: 	moon_starfish	 V: 	default	
+[00:00:11]: 		K: 	moon_tree	 V: 	default	
+[00:00:11]: 		K: 	moon_tree_regrowth	 V: 	default	
+[00:00:11]: 		K: 	mosquitos	 V: 	default	
+[00:00:11]: 		K: 	mushroom	 V: 	default	
+[00:00:11]: 		K: 	mutated_bearger	 V: 	default	
+[00:00:11]: 		K: 	mutated_bird_gestalt	 V: 	default	
+[00:00:11]: 		K: 	mutated_birds	 V: 	default	
+[00:00:11]: 		K: 	mutated_buzzard_gestalt	 V: 	default	
+[00:00:11]: 		K: 	mutated_deerclops	 V: 	default	
+[00:00:11]: 		K: 	mutated_hounds	 V: 	default	
+[00:00:11]: 		K: 	mutated_merm	 V: 	default	
+[00:00:11]: 		K: 	mutated_spiderqueen	 V: 	default	
+[00:00:11]: 		K: 	mutated_warg	 V: 	default	
+[00:00:11]: 		K: 	no_joining_islands	 V: 	true	
+[00:00:11]: 		K: 	no_wormholes_to_disconnected_tiles	 V: 	true	
+[00:00:11]: 		K: 	ocean_bullkelp	 V: 	default	
+[00:00:11]: 		K: 	ocean_otterdens	 V: 	default	
+[00:00:11]: 		K: 	ocean_seastack	 V: 	ocean_default	
+[00:00:11]: 		K: 	ocean_shoal	 V: 	default	
+[00:00:11]: 		K: 	ocean_waterplant	 V: 	ocean_default	
+[00:00:11]: 		K: 	ocean_wobsterden	 V: 	default	
+[00:00:11]: 		K: 	otters_setting	 V: 	default	
+[00:00:11]: 		K: 	palmcone_seed_portalrate	 V: 	default	
+[00:00:11]: 		K: 	palmconetree	 V: 	default	
+[00:00:11]: 		K: 	palmconetree_regrowth	 V: 	default	
+[00:00:11]: 		K: 	penguins	 V: 	default	
+[00:00:11]: 		K: 	penguins_moon	 V: 	default	
+[00:00:11]: 		K: 	perd	 V: 	default	
+[00:00:11]: 		K: 	petrification	 V: 	default	
+[00:00:11]: 		K: 	pigs	 V: 	default	
+[00:00:11]: 		K: 	pigs_setting	 V: 	default	
+[00:00:11]: 		K: 	pirateraids	 V: 	default	
+[00:00:11]: 		K: 	ponds	 V: 	default	
+[00:00:11]: 		K: 	portal_spawnrate	 V: 	default	
+[00:00:11]: 		K: 	portalresurection	 V: 	always	
+[00:00:11]: 		K: 	powder_monkey_portalrate	 V: 	default	
+[00:00:11]: 		K: 	prefabswaps_start	 V: 	default	
+[00:00:11]: 		K: 	rabbits	 V: 	default	
+[00:00:11]: 		K: 	rabbits_setting	 V: 	default	
+[00:00:11]: 		K: 	reeds	 V: 	default	
+[00:00:11]: 		K: 	reeds_regrowth	 V: 	default	
+[00:00:11]: 		K: 	regrowth	 V: 	default	
+[00:00:11]: 		K: 	resettime	 V: 	none	
+[00:00:11]: 		K: 	rifts_enabled	 V: 	default	
+[00:00:11]: 		K: 	rifts_frequency	 V: 	default	
+[00:00:11]: 		K: 	roads	 V: 	default	
+[00:00:11]: 		K: 	rock	 V: 	default	
+[00:00:11]: 		K: 	rock_ice	 V: 	default	
+[00:00:11]: 		K: 	saltstack_regrowth	 V: 	default	
+[00:00:11]: 		K: 	sapling	 V: 	default	
+[00:00:11]: 		K: 	season_start	 V: 	default	
+[00:00:11]: 		K: 	seasonalstartingitems	 V: 	default	
+[00:00:11]: 		K: 	shadowcreatures	 V: 	default	
+[00:00:11]: 		K: 	sharkboi	 V: 	default	
+[00:00:11]: 		K: 	sharks	 V: 	default	
+[00:00:11]: 		K: 	spawnmode	 V: 	fixed	
+[00:00:11]: 		K: 	spawnprotection	 V: 	default	
+[00:00:11]: 		K: 	specialevent	 V: 	default	
+[00:00:11]: 		K: 	spider_warriors	 V: 	default	
+[00:00:11]: 		K: 	spiderqueen	 V: 	default	
+[00:00:11]: 		K: 	spiders	 V: 	default	
+[00:00:11]: 		K: 	spiders_setting	 V: 	default	
+[00:00:11]: 		K: 	spring	 V: 	default	
+[00:00:11]: 		K: 	squid	 V: 	default	
+[00:00:11]: 		K: 	stageplays	 V: 	default	
+[00:00:11]: 		K: 	start_location	 V: 	default	
+[00:00:11]: 		K: 	summer	 V: 	default	
+[00:00:11]: 		K: 	summerhounds	 V: 	default	
+[00:00:11]: 		K: 	tallbirds	 V: 	default	
+[00:00:11]: 		K: 	task_set	 V: 	default	
+[00:00:11]: 		K: 	temperaturedamage	 V: 	default	
+[00:00:11]: 		K: 	tentacles	 V: 	default	
+[00:00:11]: 		K: 	terrariumchest	 V: 	default	
+[00:00:11]: 		K: 	touchstone	 V: 	default	
+[00:00:11]: 		K: 	trees	 V: 	default	
+[00:00:11]: 		K: 	tumbleweed	 V: 	default	
+[00:00:11]: 		K: 	twiggytrees_regrowth	 V: 	default	
+[00:00:11]: 		K: 	walrus	 V: 	default	
+[00:00:11]: 		K: 	walrus_setting	 V: 	default	
+[00:00:11]: 		K: 	wanderingtrader_enabled	 V: 	always	
+[00:00:11]: 		K: 	wasps	 V: 	default	
+[00:00:11]: 		K: 	weather	 V: 	default	
+[00:00:11]: 		K: 	wildfires	 V: 	default	
+[00:00:11]: 		K: 	winter	 V: 	default	
+[00:00:11]: 		K: 	winterhounds	 V: 	default	
+[00:00:11]: 		K: 	winters_feast	 V: 	default	
+[00:00:11]: 		K: 	wobsters	 V: 	default	
+[00:00:11]: 		K: 	world_size	 V: 	default	
+[00:00:11]: 		K: 	wormhole_prefab	 V: 	wormhole	
+[00:00:11]: 		K: 	year_of_the_beefalo	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_bunnyman	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_carrat	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_catcoon	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_dragonfly	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_gobbler	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_knight	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_pig	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_snake	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_varg	 V: 	default	
+[00:00:11]: 	K: 	playstyle	 V: 	endless	
+[00:00:11]: 	K: 	random_set_pieces	 V: 	table: 0000000012A2B750	
+[00:00:11]: 		K: 	1	 V: 	Sculptures_2	
+[00:00:11]: 		K: 	2	 V: 	Sculptures_3	
+[00:00:11]: 		K: 	3	 V: 	Sculptures_4	
+[00:00:11]: 		K: 	4	 V: 	Sculptures_5	
+[00:00:11]: 		K: 	5	 V: 	Chessy_1	
+[00:00:11]: 		K: 	6	 V: 	Chessy_2	
+[00:00:11]: 		K: 	7	 V: 	Chessy_3	
+[00:00:11]: 		K: 	8	 V: 	Chessy_4	
+[00:00:11]: 		K: 	9	 V: 	Chessy_5	
+[00:00:11]: 		K: 	10	 V: 	Chessy_6	
+[00:00:11]: 		K: 	11	 V: 	Maxwell1	
+[00:00:11]: 		K: 	12	 V: 	Maxwell2	
+[00:00:11]: 		K: 	13	 V: 	Maxwell3	
+[00:00:11]: 		K: 	14	 V: 	Maxwell4	
+[00:00:11]: 		K: 	15	 V: 	Maxwell6	
+[00:00:11]: 		K: 	16	 V: 	Maxwell7	
+[00:00:11]: 		K: 	17	 V: 	Warzone_1	
+[00:00:11]: 		K: 	18	 V: 	Warzone_2	
+[00:00:11]: 		K: 	19	 V: 	Warzone_3	
+[00:00:11]: 	K: 	required_prefabs	 V: 	table: 0000000012A258F0	
+[00:00:11]: 		K: 	1	 V: 	multiplayer_portal	
+[00:00:11]: 	K: 	required_setpieces	 V: 	table: 0000000012A25580	
+[00:00:11]: 		K: 	1	 V: 	Sculptures_1	
+[00:00:11]: 		K: 	2	 V: 	Maxwell5	
+[00:00:11]: 	K: 	settings_desc	 V: 	永不结束的饥荒沙盒模式。
+永远可以在绚丽之门复活。	
+[00:00:11]: 	K: 	settings_id	 V: 	ENDLESS	
+[00:00:11]: 	K: 	settings_name	 V: 	无尽	
+[00:00:11]: 	K: 	substitutes	 V: 	table: 0000000012A25800	
+[00:00:11]: 	K: 	version	 V: 	4	
+[00:00:11]: 	K: 	worldgen_desc	 V: 	永不结束的饥荒沙盒模式。
+永远可以在绚丽之门复活。	
+[00:00:11]: 	K: 	worldgen_id	 V: 	ENDLESS	
+[00:00:11]: 	K: 	worldgen_name	 V: 	无尽	
+[00:00:11]: 
+#######
+#
+# Generating SURVIVAL Mode Level
+#
+#######
+	
+[00:00:11]: Prefab Swap Selection: grass gekko	
+[00:00:11]: Prefab Swap Selection: regular twigs	
+[00:00:11]: Prefab Swap Selection: regular berries	
+[00:00:11]: Sculptures_1 added to task MooseBreedingTask	
+[00:00:11]: Maxwell5 added to task Lightning Bluff	
+[00:00:11]: Warzone_3 added to task Speak to the king	
+[00:00:11]: Chessy_4 added to task Squeltch	
+[00:00:11]: Chessy_5 added to task Great Plains	
+[00:00:11]: Chessy_1 added to task The hunters	
+[00:00:11]: New size:	425	default	
+[00:00:11]: Creating story...	
+[00:00:11]: [Story Gen] Generate nodes. Starting at: 'Make a pick'	
+[00:00:11]: [Story Gen] LinkNodesByKeys	
+[00:00:11]: Finding valid start task...	
+[00:00:11]:    ...picked 	Make a pick	
+[00:00:11]: Has start node	Clearing	
+[00:00:11]: Adding Background Nodes	
+[00:00:11]: [Story Gen] Adding Cove Nodes	
+[00:00:11]: [Ocean] Processing ocean fake room content.	
+[00:00:11]: [WorldSimActual::WorldGen_InitializeNodePoints]
+[00:00:11]: [WorldSimActual::WorldGen_VoronoiPass]
+[00:00:11]: GenerateVoronoiMap [100]:
+[00:00:12]: ...Done.
+[00:00:12]: [Story Gen] Finding nodes on mainland to connect a region to.	
+[00:00:12]: [Story Gen] Generate nodes. Starting at: 'MoonIsland_IslandShards'	
+[00:00:12]: [Story Gen] RestrictNodesByKey	
+[00:00:12]: [Story Gen] Adding Cove Nodes	
+[00:00:12]: [WorldSimActual::WorldGen_AddNewPositions]
+[00:00:12]: [WorldSimActual::WorldGen_VoronoiPass]
+[00:00:12]: GenerateVoronoiMap [50]:
+[00:00:13]: ...Done.
+[00:00:13]: ... story created	
+[00:00:13]: Baking map...	425	
+[00:00:13]: [WorldSimActual::WorldGen_Commit] worldgen success.
+[00:00:13]: [WorldSimActual::ConvertToTileMap]
+[00:00:13]: [ConvertToTileMap]
+[00:00:13]: [WorldSimActual::ConvertToTileMap] complete
+[00:00:13]: [WorldSimActual::SeparateIslands]
+[00:00:13]: [SeparateIslands]
+[00:00:13]: [WorldSimActual::SeparateIslands] complete
+[00:00:13]: Map Baked!	
+[00:00:13]: [WorldSimActual::ForceConnectivity]
+[00:00:13]: [GenerateLandmasses]
+[00:00:13]: [GenerateLandmasses] islands: 18
+[00:00:13]: [MergeConnectedLandmasses] false
+[00:00:13]: [WorldSimActual::ForceConnectivity] complete
+[00:00:13]: [WorldSimActual::DrawRoads]
+[00:00:13]: [DrawRoads]
+[00:00:13]: [WorldSimActual::DrawRoads] complete
+[00:00:13]: Encoding...	
+[00:00:13]: [WorldSimActual::CreateNodeIdTileMap]
+[00:00:13]: Encoding... DONE	
+[00:00:13]: Checking Tags	
+[00:00:13]: Tag: Labyrinth	
+[00:00:13]: Tag: Maze	
+[00:00:13]: Populating voronoi...	
+[00:00:13]: Warning! Could not find a spot for Chessy_5 in node Great Plains:1:BeefalowPlain	
+[00:00:13]: Warning! Could not find a spot for LivingTree in node For a nice walk:6:DeepForest	
+[00:00:13]: [ReplaceSingleNonLandTiles] Validating...
+[00:00:13]: [ReplaceSingleNonLandTiles] Replaced 5 tiles.
+[00:00:13]: Not checking for disconnected tiles.	
+[00:00:13]: [Ocean] Placing ocean set pieces.	
+[00:00:13]: [Ocean] Placed 11 of 11 ocean set pieces.	
+[00:00:13]: [Ocean] Convert impassible to water...	
+[00:00:13]: [Ocean]  Square fill...	
+[00:00:14]: [Ocean]  Ground fill...	
+[00:00:14]: [Ocean]  Noise...	
+[00:00:14]: [Ocean]  Blend...	
+[00:00:14]: [Ocean]  Adding shoreline...	
+[00:00:14]: [Ocean] Void Outline...	
+[00:00:14]: [Ocean] Populating the ocean with lots of fun things to do...	
+[00:00:14]: [Ocean] Placing ocean set pieces.	
+[00:00:14]: [Ocean] Placed 9 of 9 ocean set pieces.	
+[00:00:14]: [Ocean] Placing ocean set pieces.	
+[00:00:14]: [Ocean] Placed 4 of 4 ocean set pieces.	
+[00:00:14]: [Ocean] Placing ocean set pieces.	
+[00:00:14]: [Ocean] Placed 3 of 3 ocean set pieces.	
+[00:00:14]: Checking Required Prefab moon_altar_rock_glass has at least 1 instances (1 found).	
+[00:00:14]: Checking Required Prefab sculpture_bishop has at least 1 instances (1 found).	
+[00:00:14]: Checking Required Prefab pigking has at least 1 instances (1 found).	
+[00:00:14]: Checking Required Prefab moon_fissure has at least 2 instances (82 found).	
+[00:00:14]: Checking Required Prefab monkeyqueen has at least 1 instances (1 found).	
+[00:00:14]: Checking Required Prefab terrariumchest has at least 1 instances (1 found).	
+[00:00:14]: Checking Required Prefab gravestone has at least 1 instances (17 found).	
+[00:00:14]: Checking Required Prefab statueglommer has at least 1 instances (1 found).	
+[00:00:14]: Checking Required Prefab waterplant has at least 1 instances (301 found).	
+[00:00:14]: Checking Required Prefab balatro_machine has at least 1 instances (1 found).	
+[00:00:14]: Checking Required Prefab sculpture_rook has at least 1 instances (1 found).	
+[00:00:14]: Checking Required Prefab hermithouse_construction1 has at least 1 instances (1 found).	
+[00:00:14]: Checking Required Prefab moon_altar_rock_seed has at least 1 instances (1 found).	
+[00:00:14]: Checking Required Prefab charlie_stage_post has at least 1 instances (1 found).	
+[00:00:14]: Checking Required Prefab statueharp_hedgespawner has at least 1 instances (1 found).	
+[00:00:14]: Checking Required Prefab crabking_spawner has at least 1 instances (1 found).	
+[00:00:14]: Checking Required Prefab moon_altar_rock_idol has at least 1 instances (1 found).	
+[00:00:14]: Checking Required Prefab junk_pile_big has at least 1 instances (1 found).	
+[00:00:14]: Checking Required Prefab sculpture_knight has at least 1 instances (1 found).	
+[00:00:14]: Checking Required Prefab oceanwhirlbigportal has at least 1 instances (1 found).	
+[00:00:14]: [ReplaceSingleNonLandTiles] Validating...
+[00:00:14]: [ReplaceSingleNonLandTiles] Replaced 0 tiles.
+[00:00:14]: Done forest map gen!	
+[00:00:14]: Checking map...	
+[00:00:14]: Generation complete, injecting world entities.	
+[00:00:14]: Injected world entities.	
+[00:00:14]: WorldSim::SimThread::Main() complete
+[00:00:15]: Serializing world: session/008D13FB888B4637/0000000002
+[00:00:15]: Klump load on boot started.	
+[00:00:15]: Klump files loaded: 	0	
+[00:00:15]: 	Unload FE	
+[00:00:15]: 	Unload FE done	
+[00:00:16]: 	LOAD BE	
+[00:00:26]: 	LOAD BE: done	
+[00:00:26]: Begin Session: 008D13FB888B4637
+[00:00:26]: saving to server_temp/server_save	
+[00:00:26]: OVERRIDE: setting	healthpenalty	to	always	
+[00:00:26]: OVERRIDE: setting	deerclops	to	often	
+[00:00:26]: OVERRIDE: setting	wanderingtrader_enabled	to	always	
+[00:00:26]: OVERRIDE: setting	lessdamagetaken	to	none	
+[00:00:26]: OVERRIDE: setting	dragonfly	to	often	
+[00:00:26]: OVERRIDE: setting	liefs	to	often	
+[00:00:26]: OVERRIDE: setting	klaus	to	often	
+[00:00:26]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
+[00:00:26]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
+[00:00:26]: Loading 19 new character(s)	
+[00:00:27]: Total 19 character(s) loaded	
+[00:00:28]: Loading Nav Grid	
+[00:00:28]: World generated on build 713564 with save version: 5.22, using seed: 1284564630	
+[00:00:28]: OVERRIDE: setting	ghostenabled	to	always	
+[00:00:28]: OVERRIDE: setting	resettime	to	none	
+[00:00:28]: OVERRIDE: setting	basicresource_regrowth	to	always	
+[00:00:28]: OVERRIDE: setting	portalresurection	to	always	
+[00:00:28]: OVERRIDE: setting	spawnmode	to	fixed	
+[00:00:28]: OVERRIDE: setting	ghostsanitydrain	to	none	
+[00:00:29]: Reconstructing topology	
+[00:00:29]: 	...Sorting points	
+[00:00:29]: 	...Sorting edges	
+[00:00:29]: 	...Connecting nodes	
+[00:00:29]: 	...Validating connections	
+[00:00:29]: 	...Housekeeping	
+[00:00:29]: 	...Done!	
+[00:00:29]: [Special Event] Setting up year_of_the_knight	
+[00:00:29]: 1 uploads added to server. From server_temp
+[00:00:29]: About to start a shard with these settings:
+[00:00:29]:   ShardName: Master
+[00:00:29]:   ShardID: 1
+[00:00:29]:   ShardRole: MASTER
+[00:00:29]:   MasterHost: (null)
+[00:00:29]:   MasterBind: 127.0.0.1
+[00:00:29]:   MasterPort: 10888
+[00:00:30]: [Shard] Starting master server
+[00:00:30]: [Warning] Could not confirm port 10888 is open in the firewall. 
+[00:00:30]: [Shard] Shard server started on port: 10888
+[00:00:30]: [IPC] Signal 'DST_Master_Ready' opened  #0000000000000BE4
+[00:00:30]: [IPC] Sending signal... #0000000000000BE4
+[00:00:30]: Telling Client our new session identifier: 008D13FB888B4637
+[00:00:30]: Skipping portal[1] (no available shard [Caves] connected)	
+[00:00:30]: Skipping portal[2] (no available shard [Caves] connected)	
+[00:00:30]: Skipping portal[3] (no available shard [Caves] connected)	
+[00:00:30]: Skipping portal[4] (no available shard [Caves] connected)	
+[00:00:30]: Skipping portal[5] (no available shard [Caves] connected)	
+[00:00:30]: Skipping portal[6] (no available shard [Caves] connected)	
+[00:00:30]: Skipping portal[7] (no available shard [Caves] connected)	
+[00:00:30]: Skipping portal[8] (no available shard [Caves] connected)	
+[00:00:30]: Skipping portal[oceanwhirlbigportal] (no available shard [Caves] connected)	
+[00:00:30]: Skipping portal[9] (no available shard [Caves] connected)	
+[00:00:30]: Skipping portal[10] (no available shard [Caves] connected)	
+[00:00:30]: Sim paused
+[00:00:34]: Server registered via geo DNS in eu-central-1
+[00:00:35]: [Shard] Secondary shard Caves(3591121910) connected: [LAN] 127.0.0.1
+[00:00:38]: [Shard] Secondary Caves(3591121910) ready!
+[00:00:38]: World 3591121910(Caves) is now connected	
+[00:00:38]: [SyncWorldSettings] Sending master world option ghostsanitydrain = none to secondary shards.	
+[00:00:38]: [SyncWorldSettings] Sending master world option darkness = default to secondary shards.	
+[00:00:38]: [SyncWorldSettings] Sending master world option resettime = none to secondary shards.	
+[00:00:38]: [SyncWorldSettings] Sending master world option hunger = default to secondary shards.	
+[00:00:38]: [SyncWorldSettings] Sending master world option healthpenalty = always to secondary shards.	
+[00:00:38]: [SyncWorldSettings] Sending master world option temperaturedamage = default to secondary shards.	
+[00:00:38]: [SyncWorldSettings] Sending master world option spawnmode = fixed to secondary shards.	
+[00:00:38]: [SyncWorldSettings] Sending master world option shadowcreatures = default to secondary shards.	
+[00:00:38]: [SyncWorldSettings] Sending master world option ghostenabled = always to secondary shards.	
+[00:00:38]: [SyncWorldSettings] Sending master world option brightmarecreatures = default to secondary shards.	
+[00:00:38]: [SyncWorldSettings] Sending master world option lessdamagetaken = none to secondary shards.	
+[00:00:38]: [SyncWorldSettings] Sending master world option portalresurection = always to secondary shards.	
+[00:00:38]: [SyncWorldSettings] Sending master world option basicresource_regrowth = always to secondary shards.	
+[00:00:38]: [SyncWorldSettings] Sending master world option krampus = default to secondary shards.	
+[00:00:38]: [SyncWorldSettings] Sending master world option dropeverythingondespawn = default to secondary shards.	
+[00:00:38]: Validating portal[1] <-> 3591121910[1] (disabled)	
+[00:00:38]: Validating portal[2] <-> 3591121910[2] (disabled)	
+[00:00:38]: Validating portal[3] <-> 3591121910[3] (disabled)	
+[00:00:38]: Validating portal[4] <-> 3591121910[4] (disabled)	
+[00:00:38]: Validating portal[5] <-> 3591121910[5] (disabled)	
+[00:00:38]: Validating portal[6] <-> 3591121910[6] (disabled)	
+[00:00:38]: Validating portal[7] <-> 3591121910[7] (disabled)	
+[00:00:38]: Validating portal[8] <-> 3591121910[8] (disabled)	
+[00:00:38]: Validating portal[oceanwhirlbigportal] <-> 3591121910[oceanwhirlbigportal] (active)	
+[00:00:38]: Validating portal[9] <-> 3591121910[9] (disabled)	
+[00:00:38]: Validating portal[10] <-> 3591121910[10] (disabled)	
+[00:00:38]: [SyncWorldSettings] Resyncing master world option ghostsanitydrain = none to secondary shards.	
+[00:00:38]: [SyncWorldSettings] Resyncing master world option darkness = default to secondary shards.	
+[00:00:38]: [SyncWorldSettings] Resyncing master world option resettime = none to secondary shards.	
+[00:00:38]: [SyncWorldSettings] Resyncing master world option hunger = default to secondary shards.	
+[00:00:38]: [SyncWorldSettings] Resyncing master world option healthpenalty = always to secondary shards.	
+[00:00:38]: [SyncWorldSettings] Resyncing master world option temperaturedamage = default to secondary shards.	
+[00:00:38]: [SyncWorldSettings] Resyncing master world option spawnmode = fixed to secondary shards.	
+[00:00:38]: [SyncWorldSettings] Resyncing master world option shadowcreatures = default to secondary shards.	
+[00:00:38]: [SyncWorldSettings] Resyncing master world option ghostenabled = always to secondary shards.	
+[00:00:38]: [SyncWorldSettings] Resyncing master world option brightmarecreatures = default to secondary shards.	
+[00:00:38]: [SyncWorldSettings] Resyncing master world option lessdamagetaken = none to secondary shards.	
+[00:00:38]: [SyncWorldSettings] Resyncing master world option portalresurection = always to secondary shards.	
+[00:00:38]: [SyncWorldSettings] Resyncing master world option basicresource_regrowth = always to secondary shards.	
+[00:00:38]: [SyncWorldSettings] Resyncing master world option krampus = default to secondary shards.	
+[00:00:38]: [SyncWorldSettings] Resyncing master world option dropeverythingondespawn = default to secondary shards.	
+[00:00:42]: New incoming connection 127.0.0.1|55333 <217888747416701040>
+[00:00:42]: Client connected from [LAN] 127.0.0.1|55333 <217888747416701040>
+[00:00:42]: ValidateGameSessionToken GUID<217888747416701040>
+[00:00:43]: Client authenticated: (KU_BgG4ffIp) nian
+[00:00:43]: [Steam] Authenticated host '76561199629215135'
+[00:00:46]: There is no active event to validate against.
+[00:00:46]: [Shard] Read save location file for (KU_BgG4ffIp)
+[00:01:06]: Resuming user: session/008D13FB888B4637/A7HEKG2AD55J
+[00:02:21]: Spawn request: wendy from nian
+[00:02:21]: Skin request: () () () () ()
+[00:02:21]: Skill Selection request: 143
+[00:02:21]: User ID	KU_BgG4ffIp	assigned ownership to entity	117562 - wendy	
+[00:02:21]: Spawning player at: [Fixed] (214.00, 0.00, 74.00)	
+[00:02:21]: Serializing user: session/008D13FB888B4637/A7HEKG2AD55J/0000000003
+[00:02:21]: Sim unpaused
+[00:02:30]: [P2P] Session request for '76561199233195616'
+[00:02:36]: [P2P] Create session: 53.178.221.191|1 '76561199233195616'
+[00:02:36]: [P2P] Received from 53.178.221.191|1 '76561199233195616'
+[00:02:36]: [P2P] Sent to 53.178.221.191|1 '76561199233195616'
+[00:02:41]: New incoming connection 53.178.221.191|1 <3793174727125857919>
+[00:02:41]: Client connected from 53.178.221.191|1 <3793174727125857919>
+[00:02:41]: ValidateGameSessionToken GUID<3793174727125857919>
+[00:02:44]: Client authenticated: (KU_u6uCmM2Y) 恰一点柠檬
+[00:02:45]: [Steam] SendUserConnectAndAuthenticate for '76561199233195616'
+[00:02:45]: [Steam] Authenticated client '76561199233195616'
+[00:02:50]: There is no active event to validate against.
+[00:02:50]: [Shard] Read save location file for (KU_u6uCmM2Y)
+[00:04:00]: Connection lost to 53.178.221.191|1 <3793174727125857919>
+[00:04:00]: [Shard] (KU_u6uCmM2Y) disconnected from Master(1)
+[00:04:00]: Server Autopaused	
+[00:04:00]: Server Unpaused	
+[00:04:03]: CURL ERROR: (lobby-v2.klei.com) [35]Unknown SSL protocol error in connection to lobby-v2.klei.com:443 
+[00:04:03]: [Http] Curl failed[0] with HTTP_0, retrying (2 times). Response: __
+[00:04:04]: [Http] Curl failed[1] with HTTP_404, retrying (1 times). Response: _{"Error":{"Code":"E_NOT_IN_DB"}}_
+[00:04:04]: [Http] Curl failed[1] with HTTP_404, retrying (0 times). Response: _{"Error":{"Code":"E_NOT_IN_DB"}}_
+[00:04:05]: [Error] Master Server Broadcast Error: E_NOT_IN_DB
+[00:04:05]: Master Server Broadcast will try to broadcast a new listing.
+[00:04:05]: Server registered via geo DNS in ap-southeast-1
+[00:04:15]: New incoming connection 53.178.221.191|1 <8884862294945165378>
+[00:04:15]: Client connected from 53.178.221.191|1 <8884862294945165378>
+[00:04:15]: ValidateGameSessionToken GUID<8884862294945165378>
+[00:04:16]: Client authenticated: (KU_u6uCmM2Y) 恰一点柠檬
+[00:04:16]: Server Autopaused	
+[00:04:17]: Server Unpaused	
+[00:04:20]: There is no active event to validate against.
+[00:04:20]: [Shard] Read save location file for (KU_u6uCmM2Y)
+[00:04:29]: [Shard] (KU_BgG4ffIp) disconnected from Master(1)
+[00:04:29]: [IPC] Received shutdown signal.
+[00:04:29]: Available disk space for save files: 58073 MB
+[00:04:29]: Serializing user: session/008D13FB888B4637/A7HEKG2AD55J/0000000003
+[00:04:30]: Serializing world: session/008D13FB888B4637/0000000003
+[00:04:30]: Removing server from lobby
+[00:04:30]: [Shard] Stopping shard mode
+[00:04:30]: Collecting garbage...
+[00:04:30]: lua_gc took 0.22 seconds
+[00:04:30]: ~ShardLuaProxy()
+[00:04:30]: ~cEventLeaderboardProxy()
+[00:04:30]: ~ItemServerLuaProxy()
+[00:04:30]: ~InventoryLuaProxy()
+[00:04:30]: ~NetworkLuaProxy()
+[00:04:30]: ~SimLuaProxy()
+[00:04:30]: Cancelling LuaQueryCallback handle [8]
+[00:04:30]: Cancelling LuaQueryCallback handle [9]
+[00:04:30]: lua_close took 0.22 seconds
+[00:04:31]: CurlRequestManager::ClientThread::Main() complete
+[00:04:31]: HttpClient2 discarded 0 callbacks.
+[00:04:31]: Shutting down
